@@ -1,44 +1,42 @@
-Back-End Developer Interview Questions
+Back-End 개발자 인터뷰 질문
 ======================================
+## 인터뷰 관련 정보
+#### Back-End 인터뷰
+- [영어](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions) by [@arialdomartini](https://github.com/arialdomartini).
+- [중국어](https://github.com/monklof/Back-End-Developer-Interview-Questions) by [@monklof](https://github.com/monklof).
 
-This page has been translated to [Chinese](https://github.com/monklof/Back-End-Developer-Interview-Questions) by [monklof](https://github.com/monklof).
+#### Front-end 인터뷰
+- [영어](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) by [@darcyclarke](https://github.com/darcyclarke)
+- [한국어](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Korean)
 
-I started writing down this list as a personal reminder of topics I had the chance to discuss with colleagues and friends, and that I wanted to deepen...
+#### 취업에 도움이 될만한 사이트
+- [Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner) by [@JBee](https://github.com/JaeYeopHan)
+- [junior-recruit-scheduler](https://github.com/jojoldu/junior-recruit-scheduler) by [@jojoldu](https://github.com/jojoldu)
+- [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) by [@kamranahmedse](https://github.com/kamranahmedse/)
 
-I'm not a big fan of asking technical questions in job interviews: I rather prefer to sit together with candidates in front of some real code, hands on the keyboard, facing a real problem, and have a full day of pair programming, hopefully rotating with all the other team members. Yet, I feel some technical questions could be a good starting point to begin an engaging and nice conversation, and this can be useful to get a deeper knowledge of each others.
-
-This repo collects a number of back end related questions that can be used when vetting potential candidates. It is by no means recommended to use every single question on the same candidate: that would take hours, and would have no sense at all, as they cover a too broad set of topics for a single developer's to possibly know. Browse the section you find more relevant for your context, and pick the questions that give you more ideas on the conversation to have.
-
-### Notice
+## 공지
 Most of the questions are open-ended, and some of them just don't have a *right* or a *wrong* answer. On the contrary, they are intended to be used as the starting point for a conversation that hopefully tells you more about the person's capabilities than a straight answer would. Personally, I would even choose the questions whose answers are not yet clear to me.
 
 Again, I stress that just asking questions is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know each others' style and approach and to let candidates know some details about their future day job.
 
-This project is admittedly inspired by [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) by [@darcyclarke](https://github.com/darcyclarke)
+이 프로젝트는 [@darcyclarke](https://github.com/darcyclarke)님이 작성하신 [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)에 영감을 받았습니다.
 
+## <a name='toc'>목차 </a>
 
-
-### Where are the answers?
-
-Sooner or later I will complete it with the relative answers. Feel free to contribute, it would be highly appreciated!
-
-
-## <a name='toc'>Table of Contents</a>
-
-  1. [Questions about Design Patterns](#patterns)
-  1. [Questions about Code Design](#design)
-  1. [Questions about languages](#languages)
-  1. [Web Questions](#web)
-  1. [Databases Questions](#databases)
-  1. [NoSQL Questions](#nosql)
-  1. [Code Versioning Questions](#codeversioning)
-  1. [Concurrency Questions](#concurrency)
-  1. [Questions about Distributed Systems](#distributed)
-  1. [Questions about Software Lifecycle and Team Management](#management)
-  1. [Questions about logic and algorithms](#algorithms)
-  1. [Questions about Software Architecture](#architecture)
-  1. [Questions about Service Oriented Architecture and Microservices](#soa)
-  1. [Questions about Security](#security)
+  1. [Design Patterns](#patterns)
+  1. [Code Design](#design)
+  1. [Languages](#languages)
+  1. [Web](#web)
+  1. [Databases](#databases)
+  1. [NoSQL](#nosql)
+  1. [Code Versioning](#codeversioning)
+  1. [Concurrency](#concurrency)
+  1. [Distributed Systems](#distributed)
+  1. [Software Lifecycle and Team Management](#management)
+  1. [logic and algorithms](#algorithms)
+  1. [Software Architecture](#architecture)
+  1. [Service Oriented Architecture and Microservices](#soa)
+  1. [Security](#security)
   1. [General Questions](#general)
   1. [Open Questions](#open)
   1. [Questions based on snippets of code](#snippets)
@@ -46,7 +44,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 
 
-### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
+### [[↑]](#toc) <a name='patterns'>Design Patterns:</a>
 
 * Why are global and static objects evil? Can you show it with a code example?
 * Tell me about Inversion of Control and how does it improve the design of code.
@@ -327,7 +325,7 @@ if (li.getClass() == lf.getClass()) // evaluates to true
 ```
 
 
-* Can you spot the memory leak?
+* 메모리 누수가 발생하는 부분을 찾을 수 있으신가요?
 ```java
 public class Stack {
     private Object[] elements;
@@ -386,7 +384,7 @@ public class Formatter {
 ```
 
 
-* Can you get rid of these `if`s and make this snippet of code more object oriented?
+* `if`문을 제거하고 보다 아래의 코드를 보다 더 객체지향적으로 바꿀 수 있나요?
 
 ```java
 public class TheService {
@@ -418,7 +416,7 @@ public class TheService {
 }
 ```
 
-* How to refactor this code?
+* 아래의 코드를 리팩토링 해보세요.
 
 ```js
 function()
@@ -458,7 +456,7 @@ function()
 }
 ```
 
-### [[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>
+### [[↑]](#toc) <a name='billgates'>빌 게이츠 스타일의 질문들:</a>
 This section collects some weird questions along the lines of the [Manhole Cover Question](https://en.wikipedia.org/wiki/Microsoft_interview#Manhole_cover_question).
 
 * What would happen if you put a mirror in a scanner?
