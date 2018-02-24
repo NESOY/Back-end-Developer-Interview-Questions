@@ -9,42 +9,42 @@ Back-End 개발자 인터뷰 질문
 - [영어](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) by [@darcyclarke](https://github.com/darcyclarke)
 - [한국어](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Korean)
 
-#### 취업에 도움이 될만한 사이트
+#### 한국 취업 정보.
 - [Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner) by [@JBee](https://github.com/JaeYeopHan)
 - [junior-recruit-scheduler](https://github.com/jojoldu/junior-recruit-scheduler) by [@jojoldu](https://github.com/jojoldu)
 - [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) by [@kamranahmedse](https://github.com/kamranahmedse/)
 
 ## 공지
-Most of the questions are open-ended, and some of them just don't have a *right* or a *wrong* answer. On the contrary, they are intended to be used as the starting point for a conversation that hopefully tells you more about the person's capabilities than a straight answer would. Personally, I would even choose the questions whose answers are not yet clear to me.
+대부분의 질문은 자유롭게 답할 수 있으며 그 중에는 *옳은 답*과 *틀린 답*이 없는 질문들이 있습니다. 반대로, 그들은 올바른 정답보단 지원자의 능력에 대해 더 많이 말해 줄 수 있기를 바라면서 대화의 시작점으로 출발하기를 바라고 있습니다. 개인적으로, 나는 명확한 답이 없는 질문들을 선택할 것입니다.
 
-Again, I stress that just asking questions is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know each others' style and approach and to let candidates know some details about their future day job.
+다시 한번 말하지만, 나는 단지 질문들을 물어보는 것만으로 충분하지 않다는 것을 강조합니다. 지원자와 짝 프로그래밍을 진행하면서 인터뷰를 본다면 완벽할 것입니다: 이런 인터뷰 방식은 서로의 스타일을 알 수 있는 최고의 방법이고 지원자는 미래에 자신의 작업에 대해 더 잘 알 수 있을 것입니다.
 
 이 프로젝트는 [@darcyclarke](https://github.com/darcyclarke)님이 작성하신 [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)에 영감을 받았습니다.
 
 ## <a name='toc'>목차 </a>
 
-  1. [Design Patterns](#patterns)
-  1. [Code Design](#design)
-  1. [Languages](#languages)
+  1. [디자인 패턴](#patterns)
+  1. [코드 디자인](#design)
+  1. [프로그래밍 언어](#languages)
   1. [Web](#web)
-  1. [Databases](#databases)
+  1. [데이터베이스](#databases)
   1. [NoSQL](#nosql)
   1. [Code Versioning](#codeversioning)
   1. [Concurrency](#concurrency)
-  1. [Distributed Systems](#distributed)
+  1. [분산 시스템](#distributed)
   1. [Software Lifecycle and Team Management](#management)
-  1. [logic and algorithms](#algorithms)
-  1. [Software Architecture](#architecture)
+  1. [알고리즘](#algorithms)
+  1. [소프트웨어 아키텍처](#architecture)
   1. [Service Oriented Architecture and Microservices](#soa)
-  1. [Security](#security)
-  1. [General Questions](#general)
+  1. [보안](#security)
+  1. [일반적인 질문](#general)
   1. [Open Questions](#open)
   1. [Questions based on snippets of code](#snippets)
-  1. [Bill Gates Style Questions](#billgates)
+  1. [빌 게이츠 스타일의 질문](#billgates)
 
 
 
-### [[↑]](#toc) <a name='patterns'>Design Patterns:</a>
+### [[↑]](#toc) <a name='patterns'>디자인 패턴:</a>
 
 * Why are global and static objects evil? Can you show it with a code example?
 * Tell me about Inversion of Control and how does it improve the design of code.
@@ -63,7 +63,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * Separation of Concerns is a design principle for separating a computer program into distinct areas, each of ones addressing a separate concern. There are a lot of different mechanisms for achieving Separation of Concerns (use of objects, functions, modules, or patterns such as MVC and the like). Would you discuss this topic?
 
 
-### [[↑]](#toc) <a name='design'>Questions about Code Design:</a>
+### [[↑]](#toc) <a name='design'>코드 디자인:</a>
 
 * It is often heard that one of the most important goals in Object-Oriented Design (and code design in general) is to have High Cohesion and Loose Coupling. What does it mean? Why is it that important and how is it achieved?
 * Why does array index start with '0' in most of languages?
@@ -80,7 +80,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * What would you do to understand if your code has a bad design?
 
 
-### [[↑]](#toc) <a name='languages'>Questions about Languages:</a>
+### [[↑]](#toc) <a name='languages'>프로그래밍 언어:</a>
 
 * Tell me the 3 worse defects of your preferred language
 * Why is there a rising interest on Functional Programming?
@@ -107,7 +107,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 
 
 
-### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
+### [[↑]](#toc) <a name='web'>Web:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
 * How would you manage Web Services API versioning?
 * From a Back End perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
@@ -116,7 +116,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * In Web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the Back End and in the Front End. What are they, and why are they advisable?
 
 
-### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
+### [[↑]](#toc) <a name='databases'>데이터 베이스:</a>
 
 * How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
 * Why databases treat null as a so special case? For example, why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
@@ -129,7 +129,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
 
 
-### [[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
+### [[↑]](#toc) <a name='nosql'>NoSQL:</a>
 
 * What is Eventual Consistency?
 * The Brewer's Theorem, most commonly known as the CAP theorem, states that in the presence of a Network Partition (the P in CAP), a system's designer has to choose between Consistency (the C in CAP) and Availability (the A in CAP). Can you think about examples of CP, AP and CA systems?
@@ -138,7 +138,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
 
 
-### [[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
+### [[↑]](#toc) <a name='codeversioning'>Code versioning:</a>
 
 * Why is branching with Mercurial or git easier than with SVN?
 * What are the pros and cons of Distributed Version Control Systems like Git over Centralized ones like SVN?
@@ -157,7 +157,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * What is a Wait Free algorithm?
 
 
-### [[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
+### [[↑]](#toc) <a name='distributed'>분산 시스템:</a>
 
 * How to test a distributed system?
 * In which case would you apply asynchronously communication between two systems?
@@ -171,7 +171,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 
 
-### [[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
+### [[↑]](#toc) <a name='management'>Software Lifecycle and Team Management:</a>
 
 * What is agility?
 * How would you deal with Legacy Code?
@@ -190,7 +190,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * Imagine your company gives you 1 month and some budget to improve your and your colleagues' daily life. What would you do?
 
 
-### [[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
+### [[↑]](#toc) <a name='algorithms'>알고리즘:</a>
 
 * Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
 * Write a snippet of code affected by a Stack Overflow
@@ -207,7 +207,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * How would you programmatically detect file duplicates?
 
 
-### [[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
+### [[↑]](#toc) <a name='architecture'>소프트웨어 아키텍처:</a>
 
 * When is a cache not useful or even dangerous?
 * Why does Event-Driven Architecture improve scalability?
@@ -234,7 +234,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 
 
 
-### [[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>
+### [[↑]](#toc) <a name='soa'>Service Oriented Architecture and Microservices:</a>
 * Why, in a SOA, long-lived transactions are discouraged and Sagas are suggested instead?
 * What are the differences between Soa and Microservices?
 * Let's talk about web services versioning, version compatibility and breaking changes.
@@ -243,7 +243,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * What are the pros and cons of MicroService architecture?
 
 
-### [[↑]](#toc) <a name='security'>Questions about Security:</a>
+### [[↑]](#toc) <a name='security'>보안:</a>
 * How do you write secure code? In your opinion, is it one of the developer's duties, or does it require a specialized role in the company? And why?
 * Why is it said that cryptography is not something you should try to invent or design yourself?
 * What is two factor authentication? How would you implement it in an existing web application?
@@ -257,7 +257,7 @@ Again, I stress that just asking questions is hardly sufficient. Complete the in
 * How can you prevent the user's session from being stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
 
 
-### [[↑]](#toc) <a name='general'>General Questions:</a>
+### [[↑]](#toc) <a name='general'>일반적인 질문:</a>
 
 * Why does Functional Programming matter? When should a functional programming language be used?
 * How do companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
@@ -456,7 +456,7 @@ function()
 }
 ```
 
-### [[↑]](#toc) <a name='billgates'>빌 게이츠 스타일의 질문들:</a>
+### [[↑]](#toc) <a name='billgates'>빌 게이츠 스타일의 질문:</a>
 This section collects some weird questions along the lines of the [Manhole Cover Question](https://en.wikipedia.org/wiki/Microsoft_interview#Manhole_cover_question).
 
 * What would happen if you put a mirror in a scanner?
