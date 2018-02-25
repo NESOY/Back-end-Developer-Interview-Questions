@@ -30,7 +30,7 @@ Back-End 개발자 인터뷰 질문
   1. [데이터베이스](#databases)
   1. [NoSQL](#nosql)
   1. [Code Versioning](#codeversioning)
-  1. [Concurrency](#concurrency)
+  1. [동시성](#concurrency)
   1. [분산 시스템](#distributed)
   1. [Software Lifecycle and Team Management](#management)
   1. [알고리즘](#algorithms)
@@ -46,8 +46,8 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='patterns'>디자인 패턴:</a>
 
-* Why are global and static objects evil? Can you show it with a code example?
-* Tell me about Inversion of Control and how does it improve the design of code.
+* 왜 global 객체와 static 객체는 나쁜 것일까요? code를 통한 예시로 설명할 수 있나요?
+* 제어의 역전(Inversion of Control)에 대한 개념과 IoC가 코드의 디자인을 어떻게 향상시키는지 설명해 주세요.
 * The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "Don't talk to strangers"). Would you write code violating this principle, show why it is a bad design and then fix it?
 * Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
 * Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one against the other?
@@ -83,7 +83,7 @@ Back-End 개발자 인터뷰 질문
 ### [[↑]](#toc) <a name='languages'>프로그래밍 언어:</a>
 
 * Tell me the 3 worse defects of your preferred language
-* Why is there a rising interest on Functional Programming?
+* 왜 함수 프로그래밍(Functional Programming)이 떠오르고 있는지 설명할 수 있나요?
 * What is a closure, and what is useful for? What's in common between closures and classes?
 * What are generics useful for?
 * What are high-order functions? What are they useful for? Write one, in your preferred language.
@@ -276,7 +276,7 @@ Back-End 개발자 인터뷰 질문
 
 
 ### [[↑]](#toc) <a name='open'>Open Questions:</a>
-* Why do people resist change?
+* 왜 사람들은 변화하는 것을 주저할까요?
 * Explain threads to your grandparents
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
 * What makes good code good?
@@ -284,7 +284,7 @@ Back-End 개발자 인터뷰 질문
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
 * What did you learn this week?
 * There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
-* List the last 5 books you read.
+* 최근 읽었던 5권을 설명해주세요.
 * How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
 * When does it make sense to reinvent the wheel?
 * Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
