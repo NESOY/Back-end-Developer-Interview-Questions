@@ -70,7 +70,7 @@ Back-End 개발자 인터뷰 질문
 * How do tests and TDD influence code design?
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, explain why is it a bad design, and fix it.
 * What's the difference between cohesion and coupling?
-* What is refactoring useful for?
+* 리팩토링(refactoring)은 언제 유용한가요?
 * Are comments in code useful? Some say they should be avoided as much as possible, and hopefully made unnecessary. Do you agree?
 * What is the difference between design and architecture?
 * Why in TDD are tests written before code?
@@ -143,13 +143,13 @@ Back-End 개발자 인터뷰 질문
 * Why is branching with Mercurial or git easier than with SVN?
 * What are the pros and cons of Distributed Version Control Systems like Git over Centralized ones like SVN?
 * Could you describe GitHub Flow and GitFlow workflows?
-* What's a rebase?
+* 리베이스(rebase)가 무엇일까요?
 * Why merges are easier with Mercurial and git than with SVN and CVS?
 
 
 ### [[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
 
-* Why do we need Concurrency, anyway? Explain.
+* 왜 우리는 병행성(Concurrency)이 필요할까요? 항상 그럴까요? 설명해보세요.
 * Why is testing multithreading / concurrent code so difficult?
 * What is a Race Condition? Code an example, using whatever language you like.
 * What is a Deadlock? Would you be able to write some code that is affected by deadlocks?
@@ -159,7 +159,7 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='distributed'>분산 시스템:</a>
 
-* How to test a distributed system?
+* 분산 시스템은 어떻게 테스트를 진행할까요?
 * In which case would you apply asynchronously communication between two systems?
 * What are the general pitfalls of Remote Procedure Call?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
@@ -174,7 +174,7 @@ Back-End 개발자 인터뷰 질문
 ### [[↑]](#toc) <a name='management'>Software Lifecycle and Team Management:</a>
 
 * What is agility?
-* How would you deal with Legacy Code?
+* 당신은 레거시 코드(Legacy Code)를 어떻게 다루실 건가요?
 * Say I'm your Project Manager, and I'm no expert in programming. Would you try explaining me what Legacy Code is and why should I care about code quality?
 * I'm the CEO of your company. Explain to me Kanban and convince me to invest in it.
 * What is the biggest difference between Agile and Waterfall?
@@ -182,7 +182,7 @@ Back-End 개발자 인터뷰 질문
 * How would you manage a very late project?
 * "*Individuals and interactions over processes and tools*" and "*Customer collaboration over contract negotiation*" comprise half of the values of the Agile Manifesto. Discuss
 * Tell me what decisions would you take if you could be the CTO of your Company.
-* Are Program Managers useful?
+* 프로그램 매니저(Program Managers)는 유용한가요?
 * Organize a development team using flexible schedules (that is, no imposed working hours) and "Take as you need" vacation policy
 * How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation? What could a Company improve to make them stay?
 * What are the top 3 qualities you look for in colleagues, beyond their code?
@@ -200,7 +200,7 @@ Back-End 개발자 인터뷰 질문
 * Write a program that builds random mazes.
 * Write a sample code that produces a memory leak
 * Generate a sequence of unique random numbers
-* Write a simple Garbage collection system
+* 간단한 Garbage collection system을 작성해보세요.
 * Write a basic message broker, using whatever language you like.
 * Write a very basic web server. Draw a road map for features to be implemented in the future.
 * How would you sort a 10GB file? How would your approach change with a 10TB one?
@@ -211,7 +211,7 @@ Back-End 개발자 인터뷰 질문
 
 * When is a cache not useful or even dangerous?
 * Why does Event-Driven Architecture improve scalability?
-* What makes code readable?
+* 어떻게 하면 코드를 읽기 쉽게 만들 수 있을까요?
 * What is the difference between emergent design and evolutionary architecture?
 * Scale out vs scale up: how are they different? When to apply one, when the other?
 * How to deal with failover and user sessions?
@@ -277,12 +277,12 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='open'>Open Questions:</a>
 * 왜 사람들은 변화하는 것을 주저할까요?
-* Explain threads to your grandparents
+* 할아버지 할머니에게 설명하는 것처럼 Thread를 설명해 보세요.
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
 * What makes good code good?
 * Explain streaming and how you would implement it.
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
-* What did you learn this week?
+* 당신은 이번 주에는 어떤 것을 배웠나요?
 * There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
 * 최근 읽었던 5권을 설명해주세요.
 * How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
@@ -461,7 +461,7 @@ This section collects some weird questions along the lines of the [Manhole Cover
 
 * What would happen if you put a mirror in a scanner?
 * Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
-* Interview me
+* 저를 인터뷰 해주세요.
 * Why are Quora's answers better than Yahoo Answers' ones?
 * Let's play a game: defend Cobol against modern languages, and try to find as many reasonable arguments as you can.
 * Where will you be in 10 years?
