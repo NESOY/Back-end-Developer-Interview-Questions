@@ -89,7 +89,7 @@ Back-End 개발자 인터뷰 질문
 * What are high-order functions? What are they useful for? Write one, in your preferred language.
 * Write a loop, then transform it into a recursive function, using only immutable structures (i.e. avoid using variables). Discuss.
 * What does it mean when a language treats functions as first-class citizens?
-* Show me an example where an Anonymous Function can be useful
+* 익명 함수(Anonymous Function) 장점이 나타나는 예제를 보여주세요.
 * There are a lot of different type systems: let's talk about static and dynamic type systems, and about strong and weak ones. You surely have an opinion and a preference about this topic. Would you like to share them, and discuss why and when would you promote one particular type system for developing an enterprise software?
 * What are namespaces useful for? Invent an alternative.
 * Talk about Interoperability between Java and C# (in alternative, choose 2 other arbitrary languages)
@@ -109,7 +109,7 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='web'>Web:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
-* How would you manage Web Services API versioning?
+* 웹 서비스 API(Web Services API) 버젼을 어떻게 관리하실 건가요?
 * From a Back End perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
 * Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
 * REST and SOAP: when would you choose one, and when the other?
@@ -150,8 +150,8 @@ Back-End 개발자 인터뷰 질문
 ### [[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
 
 * 왜 우리는 병행성(Concurrency)이 필요할까요? 항상 그럴까요? 설명해보세요.
-* Why is testing multithreading / concurrent code so difficult?
-* What is a Race Condition? Code an example, using whatever language you like.
+* Multithreading / concurrent code를 테스트한다는 건 왜 어려울까요?
+* Race Condition이란 무엇일까요? 잘하는 언어를 사용하여 코드로 예제를 보여주세요.
 * What is a Deadlock? Would you be able to write some code that is affected by deadlocks?
 * What is Process Starvation? If you need, let's review its definition.
 * What is a Wait Free algorithm?
@@ -252,7 +252,7 @@ Back-End 개발자 인터뷰 질문
 * How would it be possible to detect SQL Injection via static code analysis? I don't expect you to write an algorithm capable of doing this, as it is probably a huge topic, but let's discuss a general approach.
 * What do you know about Cross-Site Scripting? If you don't remember it, let's review online its definition and let's discuss about it.
 * What do you know about Cross-Site Forgery Attack? If you don't remember it, let's review online its definition and let's discuss about it.
-* How does HTTPS work?
+* HTTPS는 어떻게 동작하는지 아시나요?
 * What's a Man-in-the-middle Attack, and why does HTTPS help protect against it?
 * How can you prevent the user's session from being stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
 
