@@ -69,11 +69,11 @@ Back-End 개발자 인터뷰 질문
 * Why does array index start with '0' in most of languages?
 * How do tests and TDD influence code design?
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, explain why is it a bad design, and fix it.
-* What's the difference between cohesion and coupling?
+* 응집도와 결합도의 차이점은 뭘까요?
 * 리팩토링(refactoring)은 언제 유용한가요?
 * Are comments in code useful? Some say they should be avoided as much as possible, and hopefully made unnecessary. Do you agree?
-* What is the difference between design and architecture?
-* Why in TDD are tests written before code?
+* 디자인과 아키텍처의 차이점은 무엇일까요?
+* 왜 TDD에서는 코드를 작성하기 전에 테스트 코드를 작성할까요?
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]
 * Pros and cons of holding domain logic in Stored Procedures.
 * In your opinion, why have Object-Oriented Design dominated the market for so many years?
@@ -198,7 +198,7 @@ Back-End 개발자 인터뷰 질문
 * Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
 * How would you design a "defragger" utility?
 * Write a program that builds random mazes.
-* Write a sample code that produces a memory leak
+* 메모리 누수를 발생시키는 예제코드를 작성해 보세요.
 * Generate a sequence of unique random numbers
 * 간단한 Garbage collection system을 작성해보세요.
 * Write a basic message broker, using whatever language you like.
@@ -269,7 +269,7 @@ Back-End 개발자 인터뷰 질문
 * What are the pros and cons of mutable and immutable values.
 * What's the Object-Relational impedance mismatch?
 * Which principles would you apply to define the size of a cache?
-* What's the difference between TCP and HTTP?
+* TCP와 HTTP의 차이점은 무엇일까요?
 * What are the tradeoffs of client-side rendering vs. server-side rendering?
 * How could you develop a reliable communication protocol based on a non-reliable one?
 * [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
@@ -304,7 +304,7 @@ Back-End 개발자 인터뷰 질문
 
 
 ### [[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
-* What's the output of this Javascript function?
+* 이 Javascript의 함수의 출력값은 무엇일까요?
 ```javascript
 function hookupevents() {
   for (var i = 0; i < 3; i++) {
@@ -464,7 +464,7 @@ This section collects some weird questions along the lines of the [Manhole Cover
 * 저를 인터뷰 해주세요.
 * Why are Quora's answers better than Yahoo Answers' ones?
 * Let's play a game: defend Cobol against modern languages, and try to find as many reasonable arguments as you can.
-* Where will you be in 10 years?
+* 당신은 10년 후에 어떤 모습이 되어있을까요?
 * You are my boss and I'm fired. Inform me.
 * I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
 * Your boss asks you to lie to the Company. What's your reaction?
