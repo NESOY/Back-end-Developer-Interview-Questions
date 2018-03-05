@@ -110,7 +110,7 @@ Back-End 개발자 인터뷰 질문
 ### [[↑]](#toc) <a name='web'>Web:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
 * 웹 서비스 API(Web Services API) 버젼을 어떻게 관리하실 건가요?
-* From a Back End perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
+* Back-End 관점에서, Single Page Application의 단점은 무엇이 있을까요?
 * Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
 * REST and SOAP: when would you choose one, and when the other?
 * In Web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the Back End and in the Front End. What are they, and why are they advisable?
@@ -133,7 +133,7 @@ Back-End 개발자 인터뷰 질문
 
 * What is Eventual Consistency?
 * The Brewer's Theorem, most commonly known as the CAP theorem, states that in the presence of a Network Partition (the P in CAP), a system's designer has to choose between Consistency (the C in CAP) and Availability (the A in CAP). Can you think about examples of CP, AP and CA systems?
-* How would you explain the recent rise in interest for NoSQL?
+* 최근에 NoSQL의 인기가 상승하고 있는 이유에 대해 설명할 수 있나요?
 * How does NoSQL tackle scalability challenges?
 * In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
 
@@ -173,7 +173,7 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='management'>Software Lifecycle and Team Management:</a>
 
-* What is agility?
+* agility란 무엇일까요?
 * 당신은 레거시 코드(Legacy Code)를 어떻게 다루실 건가요?
 * Say I'm your Project Manager, and I'm no expert in programming. Would you try explaining me what Legacy Code is and why should I care about code quality?
 * I'm the CEO of your company. Explain to me Kanban and convince me to invest in it.
@@ -192,7 +192,7 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='algorithms'>알고리즘:</a>
 
-* Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
+* 스택(LIFO Stacks)들로 큐(FIFO Queue)를 구성해보세요. 그리고 큐(FIFO Queue)들을 사용해서 스택(LIFO Stacks)을 구성해보세요.
 * Write a snippet of code affected by a Stack Overflow
 * Write a tail-recursive version of the factorial function
 * Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
@@ -217,7 +217,7 @@ Back-End 개발자 인터뷰 질문
 * How to deal with failover and user sessions?
 * What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
 * The so called "multitier architecture" is an approach to design a client–server system aimed to keep physically and logically separated presentation, application processing, data management and other functions. The most widespread of the multitier architectures is the three-tier architecture. Would you discuss the pros and cons of such approach?
-* How would you design a software system for scalability?
+* 당신은 소프트웨어 시스템의 확장성(scalability)을 어떻게 고려해서 디자인 하나요?
 * Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?
 * How would you design a decentralized (that is, with no central server) P2P system?
 * You may recall that Common Gateway Interface (CGI) is a standard protocol for web servers to execute programs (CGI scripts) that execute as Command-line programs on a server, and that dynamically generate HTML pages when invoked by a HTTP request. Perl and PHP used to be common languages for such scripts. In CGI, a HTTP request generally causes the invocation of a new process on the server, but FastCGI, SCGI and other approaches improved the mechanism, raising the performance, with techniques such as preforking processes. Can you imagine why has't CGI eventually win, and was instead replaced with other architectural approaches?
@@ -239,7 +239,7 @@ Back-End 개발자 인터뷰 질문
 * What are the differences between Soa and Microservices?
 * Let's talk about web services versioning, version compatibility and breaking changes.
 * What's the difference between a transaction and a compensation operation in a saga, in SOA?
-* When is a Microservice too micro?
+* 언제 Microservice는 지나치게 작다고 느껴질까요?
 * What are the pros and cons of MicroService architecture?
 
 
