@@ -316,7 +316,7 @@ function hookupevents() {
 }
 ```
 
-* About Type Erasure, what's the output of this Java snippet, and why?
+* 타입을 지우게 되면 Java코드의 결과물은 어떻게 나올까요? 왜 그럴까요?
 ```java
 ArrayList<Integer> li = new ArrayList<Integer>();
 ArrayList<Float> lf = new ArrayList<Float>();
