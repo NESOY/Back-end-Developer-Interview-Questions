@@ -66,7 +66,7 @@ Back-End 개발자 인터뷰 질문
 ### [[↑]](#toc) <a name='design'>코드 디자인:</a>
 
 * It is often heard that one of the most important goals in Object-Oriented Design (and code design in general) is to have High Cohesion and Loose Coupling. What does it mean? Why is it that important and how is it achieved?
-* Why does array index start with '0' in most of languages?
+* 대부분의 언어에서 배열의 시작은 왜 0부터 일까요?
 * How do tests and TDD influence code design?
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, explain why is it a bad design, and fix it.
 * 응집도와 결합도의 차이점은 뭘까요?
@@ -84,7 +84,7 @@ Back-End 개발자 인터뷰 질문
 
 * Tell me the 3 worse defects of your preferred language
 * 왜 함수 프로그래밍(Functional Programming)이 떠오르고 있는지 설명할 수 있나요?
-* What is a closure, and what is useful for? What's in common between closures and classes?
+* 클로져란 무엇일까요? 그리고 어떤 상황에서 유용할까요? 클로져와 클래스간의 공통점은 무엇이 있을까요?
 * What are generics useful for?
 * What are high-order functions? What are they useful for? Write one, in your preferred language.
 * Write a loop, then transform it into a recursive function, using only immutable structures (i.e. avoid using variables). Discuss.
@@ -108,10 +108,10 @@ Back-End 개발자 인터뷰 질문
 
 
 ### [[↑]](#toc) <a name='web'>Web:</a>
-* Why first-party cookies and third-party cookies are treated so differently?
+* 왜 first-party 쿠키들과 third-party 쿠키들을 다르게 다룰까요?
 * 웹 서비스 API(Web Services API) 버젼을 어떻게 관리하실 건가요?
 * Back-End 관점에서, Single Page Application의 단점은 무엇이 있을까요?
-* Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
+* 왜 우리는 stateless service를 사용하기 위해 많은 노력을 할까요? stateless code가 가져다 주는 장점들과 statefullness code가 가져다 주는 단점들에 대해 설명해 주세요.
 * REST and SOAP: when would you choose one, and when the other?
 * In Web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the Back End and in the Front End. What are they, and why are they advisable?
 
@@ -122,7 +122,7 @@ Back-End 개발자 인터뷰 질문
 * Why databases treat null as a so special case? For example, why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
 * ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most of the database engines. What do you know about this topic? Would you like to elaborate?
 * How would you manage database schema migrations, that is, how would you automate the changes a database schema is affected to, as the application evolve, version after version?
-* How is Lazy Loading achieved? When is it useful? What are its pitfalls?
+* 어떻게 구현하면 Lazy Loading을 얻을 수 있을까요? 언제 유용할까요? Lazy Loading에 대해 함정은 없을까요?
 * The so called "N + 1 problem" is an issue that occurs when the code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
 * How would you find the most expensive queries in an application?
 * In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
@@ -209,7 +209,7 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='architecture'>소프트웨어 아키텍처:</a>
 
-* When is a cache not useful or even dangerous?
+* 언제 캐시전략이 유용하지 않고 심지어 위험스러운 상황까지 오게 될까요?
 * Why does Event-Driven Architecture improve scalability?
 * 어떻게 하면 코드를 읽기 쉽게 만들 수 있을까요?
 * What is the difference between emergent design and evolutionary architecture?
