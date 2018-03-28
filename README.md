@@ -53,11 +53,11 @@ Back-End 개발자 인터뷰 질문
 * Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one against the other?
 * Why it is often said that the introduction of `null` is a "Billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
 * Many state that, in Object-Oriented Programming, Composition is often a better option than Inheritance. What's you opinion?
-* What is an Anti-corruption Layer?
+* 손상 방지 레이어(Anti-corruption Layer) 패턴이란 무엇일까요?
 * Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
 * The ability to change implementation without affecting clients is called Data Abstraction. Produce and example violating this property, then fix it.
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
-* How would you deal with Dependency Hell?
+* 의존성 지옥(Dependency Hell)을 어떻게 해결하실건가요?
 * Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
 * The robustness principle is a general design guideline for software that recommends "*Be conservative in what you send, be liberal in what you accept*". It is often reworded as "*Be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
 * Separation of Concerns is a design principle for separating a computer program into distinct areas, each of ones addressing a separate concern. There are a lot of different mechanisms for achieving Separation of Concerns (use of objects, functions, modules, or patterns such as MVC and the like). Would you discuss this topic?
@@ -67,7 +67,7 @@ Back-End 개발자 인터뷰 질문
 
 * It is often heard that one of the most important goals in Object-Oriented Design (and code design in general) is to have High Cohesion and Loose Coupling. What does it mean? Why is it that important and how is it achieved?
 * 대부분의 언어에서 배열의 시작은 왜 0부터 일까요?
-* How do tests and TDD influence code design?
+* 테스트와 TDD는 코드 디자인에 어떤 영향을 주나요?
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, explain why is it a bad design, and fix it.
 * 응집도와 결합도의 차이점은 뭘까요?
 * 리팩토링(refactoring)은 언제 유용한가요?
@@ -77,7 +77,7 @@ Back-End 개발자 인터뷰 질문
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]
 * Pros and cons of holding domain logic in Stored Procedures.
 * In your opinion, why have Object-Oriented Design dominated the market for so many years?
-* What would you do to understand if your code has a bad design?
+* 당신의 코드에 나쁜 디자인이 있다면 당신은 어떻게 해결하실 건가요?
 
 
 ### [[↑]](#toc) <a name='languages'>프로그래밍 언어:</a>
@@ -164,10 +164,10 @@ Back-End 개발자 인터뷰 질문
 * What are the general pitfalls of Remote Procedure Call?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one?
-* How to deal with failures in Distributed Systems?
+* 분산시스템의 장애는 어떻게 해결하실 건가요?
 * Let's talk about the several approaches to Reconciliation after network partitions
 * What are the Fallacies of Distributed Computing?
-* When would you use Request/Reply and when Publish/Subscribe?
+* 당신은 언제 Request/Reply를 사용할 것이며 또한 어떤 상황에서 Publish/Subscribe를 사용할 것인가요?
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 
 
