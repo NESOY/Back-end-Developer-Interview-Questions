@@ -112,8 +112,8 @@ Back-End 개발자 인터뷰 질문
 * 웹 서비스 API(Web Services API) 버젼을 어떻게 관리하실 건가요?
 * Back-End 관점에서, Single Page Application의 단점은 무엇이 있을까요?
 * 왜 우리는 stateless service를 사용하기 위해 많은 노력을 할까요? stateless code가 가져다 주는 장점들과 statefullness code가 가져다 주는 단점들에 대해 설명해 주세요.
-* REST and SOAP: when would you choose one, and when the other?
-* In Web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the Back End and in the Front End. What are they, and why are they advisable?
+* REST 그리고 SOAP: 어떤 상황에서 두가지 방법 중 하나를 선택해서 사용하실 건가요?
+* Model-View-Controller 그리고 Model-View-ViewModel은 웹 개발의 백엔드와 프론트엔드 관점에서 매우 일반적입니다. 그들이 무엇인지? 그리고 그들이 왜 권장되고있는지 설명하실수 있나요?
 
 
 ### [[↑]](#toc) <a name='databases'>데이터 베이스:</a>
@@ -261,9 +261,9 @@ Back-End 개발자 인터뷰 질문
 
 * Why does Functional Programming matter? When should a functional programming language be used?
 * How do companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
-* Why does opening a TCP socket have a large overhead?
+* 왜 TCP 소켓을 여는데 많은 Overhead가 필요할까요?
 * What is Encapsulation important for?
-* What is a real-time system and how is it different from an ordinary system?
+* Real-Time 시스템은 무엇이며 일반 시스템과 어떻게 다를까요?
 * What's the relationship between real-time languages and heap memory allocation?
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How can immutability help write safer code?
 * What are the pros and cons of mutable and immutable values.
