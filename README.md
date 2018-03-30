@@ -52,11 +52,11 @@ Back-End 개발자 인터뷰 질문
 * Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
 * Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one against the other?
 * Why it is often said that the introduction of `null` is a "Billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
-* Many state that, in Object-Oriented Programming, Composition is often a better option than Inheritance. What's you opinion?
+* 많은 사람들이 객체지향프로그래밍에서 상속보다는 구성(Composition)이 더 나은 선택이라고 말합니다. 당신의 의견은 어떤가요?
 * 손상 방지 레이어(Anti-corruption Layer) 패턴이란 무엇일까요?
-* Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
+* 싱글톤은 클래스에 대해 하나의 인스턴스만 생성해서 사용하도록 제한하는 패턴입니다. Thread-Safe한 싱글톤 Singleton기법은 명확하지 않습니다. 한번 시도해보세요.
 * The ability to change implementation without affecting clients is called Data Abstraction. Produce and example violating this property, then fix it.
-* Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
+* DRY원칙(Don't Repeat Yourself)을 깨는 작은 코드를 작성해보세요. 그리고 고쳐보세요.
 * 의존성 지옥(Dependency Hell)을 어떻게 해결하실건가요?
 * Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
 * The robustness principle is a general design guideline for software that recommends "*Be conservative in what you send, be liberal in what you accept*". It is often reworded as "*Be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
@@ -68,10 +68,10 @@ Back-End 개발자 인터뷰 질문
 * It is often heard that one of the most important goals in Object-Oriented Design (and code design in general) is to have High Cohesion and Loose Coupling. What does it mean? Why is it that important and how is it achieved?
 * 대부분의 언어에서 배열의 시작은 왜 0부터 일까요?
 * 테스트와 TDD는 코드 디자인에 어떤 영향을 주나요?
-* Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, explain why is it a bad design, and fix it.
+* DRY원칙(Don't Repeat Yourself)을 깨는 작은 코드를 작성해보세요. 그리고 왜 나쁜 디자인인지 설명하고 고쳐보세요.
 * 응집도와 결합도의 차이점은 뭘까요?
 * 리팩토링(refactoring)은 언제 유용한가요?
-* Are comments in code useful? Some say they should be avoided as much as possible, and hopefully made unnecessary. Do you agree?
+* 코드에서 주석은 의미가 있을까요? 몇몇 사람들은 되도록이면 피하라고 이야기합니다. 또한 주석이 필요없기를 희망하고 있습니다. 의견에 동의하십니까?
 * 디자인과 아키텍처의 차이점은 무엇일까요?
 * 왜 TDD에서는 코드를 작성하기 전에 테스트 코드를 작성할까요?
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]
