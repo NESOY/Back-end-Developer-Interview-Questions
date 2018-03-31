@@ -124,8 +124,8 @@ Back-End 개발자 인터뷰 질문
 * How would you manage database schema migrations, that is, how would you automate the changes a database schema is affected to, as the application evolve, version after version?
 * 어떻게 구현하면 Lazy Loading을 얻을 수 있을까요? 언제 유용할까요? Lazy Loading에 대해 함정은 없을까요?
 * The so called "N + 1 problem" is an issue that occurs when the code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
-* How would you find the most expensive queries in an application?
-* In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
+* 어플리케이션에서 가장 비싼 비용의 Query를 어떻게 찾을까요?
+* 데이터베이스의 정규화가 항상 필요할까요? 언제 데이터베이스의 비정규화가 바람직할까요? 당신의 의견을 들려주세요.
 * Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
 
 
