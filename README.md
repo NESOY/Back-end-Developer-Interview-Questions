@@ -176,10 +176,10 @@ Back-End 개발자 인터뷰 질문
 * agility란 무엇일까요?
 * 당신은 레거시 코드(Legacy Code)를 어떻게 다루실 건가요?
 * Say I'm your Project Manager, and I'm no expert in programming. Would you try explaining me what Legacy Code is and why should I care about code quality?
-* I'm the CEO of your company. Explain to me Kanban and convince me to invest in it.
-* What is the biggest difference between Agile and Waterfall?
-* Being a team manager, how would you deal with the problem of having too many meetings?
-* How would you manage a very late project?
+* 저는 당신 회사의 CEO라고 가정합시다. Kanban을 설명해 주시고 그 부분을 투자하도록 설득해주세요. 
+* 애자일(Agile)과 폭포수(Waterfall)의 가장 큰 차이점은 무엇일까요?
+* 팀 매니저로서 너무 많은 미팅을 하는 문제점에 대해 당신은 어떻게 해결 할 건가요?
+* 당신은 가장 최근의 프로젝트를 어떻게 관리하셨나요?
 * "*Individuals and interactions over processes and tools*" and "*Customer collaboration over contract negotiation*" comprise half of the values of the Agile Manifesto. Discuss
 * Tell me what decisions would you take if you could be the CTO of your Company.
 * 프로그램 매니저(Program Managers)는 유용한가요?
@@ -210,7 +210,7 @@ Back-End 개발자 인터뷰 질문
 ### [[↑]](#toc) <a name='architecture'>소프트웨어 아키텍처:</a>
 
 * 언제 캐시전략이 유용하지 않고 심지어 위험스러운 상황까지 오게 될까요?
-* Why does Event-Driven Architecture improve scalability?
+* 이벤트 기반 아키텍쳐(Event-Driven Architecture)를 통해 확장성이 향상되는 이유는 무엇일까요?
 * 어떻게 하면 코드를 읽기 쉽게 만들 수 있을까요?
 * What is the difference between emergent design and evolutionary architecture?
 * Scale out vs scale up: how are they different? When to apply one, when the other?
