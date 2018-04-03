@@ -214,7 +214,7 @@ Back-End 개발자 인터뷰 질문
 * 어떻게 하면 코드를 읽기 쉽게 만들 수 있을까요?
 * What is the difference between emergent design and evolutionary architecture?
 * Scale out vs scale up: how are they different? When to apply one, when the other?
-* How to deal with failover and user sessions?
+* user 세션(sessions)의 장애를 어떻게 처리하실건가요?
 * What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
 * The so called "multitier architecture" is an approach to design a client–server system aimed to keep physically and logically separated presentation, application processing, data management and other functions. The most widespread of the multitier architectures is the three-tier architecture. Would you discuss the pros and cons of such approach?
 * 당신은 소프트웨어 시스템의 확장성(scalability)을 어떻게 고려해서 디자인 하나요?
@@ -266,7 +266,7 @@ Back-End 개발자 인터뷰 질문
 * Real-Time 시스템은 무엇이며 일반 시스템과 어떻게 다를까요?
 * What's the relationship between real-time languages and heap memory allocation?
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How can immutability help write safer code?
-* What are the pros and cons of mutable and immutable values.
+* Mutable 그리고 immutable value의 장단점들은 무엇일까요?
 * What's the Object-Relational impedance mismatch?
 * Which principles would you apply to define the size of a cache?
 * TCP와 HTTP의 차이점은 무엇일까요?
@@ -279,7 +279,7 @@ Back-End 개발자 인터뷰 질문
 * 왜 사람들은 변화하는 것을 주저할까요?
 * 할아버지 할머니에게 설명하는 것처럼 Thread를 설명해 보세요.
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
-* What makes good code good?
+* 어떠한 것이 좋은 코드를 만들까요?
 * Explain streaming and how you would implement it.
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
 * 당신은 이번 주에는 어떤 것을 배웠나요?
@@ -294,7 +294,7 @@ Back-End 개발자 인터뷰 질문
 * [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
 * What does an Operating System do when it has got no custom code to run, and therefore it looks idle? I would like to start a discussions about interrupts, daemons, background services, polling, event handling and so on.
 * Explain Unicode/Database Transactions to a 5 year old child.
-* Defend the monolithic architecture.
+* 모노리틱 아키텍쳐(Monolithic architecture)을 설명해주세요.
 * What does it mean to be a "Professional Developer"?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop?
@@ -465,7 +465,7 @@ This section collects some weird questions along the lines of the [Manhole Cover
 * Why are Quora's answers better than Yahoo Answers' ones?
 * Let's play a game: defend Cobol against modern languages, and try to find as many reasonable arguments as you can.
 * 당신은 10년 후에 어떤 모습이 되어있을까요?
-* You are my boss and I'm fired. Inform me.
+* 당신이 나의 보스이며, 나를 해고했다고 가정해봅시다. 나에게 해고 통지를 해보세요.
 * I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
 * Your boss asks you to lie to the Company. What's your reaction?
 * If you could travel back in time, which advice would you give to your younger self?
