@@ -17,7 +17,7 @@ Back-End 개발자 인터뷰 질문
 ## 공지
 대부분의 질문은 자유롭게 답할 수 있으며 그 중에는 *옳은 답*과 *틀린 답*이 없는 질문들이 있습니다. 반대로, 그들은 올바른 정답보단 지원자의 능력에 대해 더 많이 말해 줄 수 있기를 바라면서 대화의 시작점으로 출발하기를 바라고 있습니다. 개인적으로, 나는 명확한 답이 없는 질문들을 선택할 것입니다.
 
-다시 한번 말하지만, 나는 단지 질문들을 물어보는 것만으로 충분하지 않다는 것을 강조합니다. 지원자와 짝 프로그래밍을 진행하면서 인터뷰를 본다면 완벽할 것입니다: 이런 인터뷰 방식은 서로의 스타일을 알 수 있는 최고의 방법이고 지원자는 미래에 자신의 작업에 대해 더 잘 알 수 있을 것입니다.
+다시 한번 말하지만, 저는 단지 질문들을 물어보는 것만으로 충분하지 않다는 것을 강조합니다. 지원자와 짝 프로그래밍을 진행하면서 인터뷰를 본다면 완벽할 것입니다: 이런 인터뷰 방식은 서로의 스타일을 알 수 있는 최고의 방법이고 지원자는 미래에 자신의 작업에 대해 더 잘 알 수 있을 것입니다.
 
 이 프로젝트는 [@darcyclarke](https://github.com/darcyclarke)님이 작성하신 [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)에 영감을 받았습니다.
 
@@ -48,7 +48,7 @@ Back-End 개발자 인터뷰 질문
 
 * 왜 global 객체와 static 객체는 나쁜 것일까요? code를 통한 예시로 설명할 수 있나요?
 * 제어의 역전(Inversion of Control)에 대한 개념과 IoC가 코드의 디자인을 어떻게 향상시키는지 설명해 주세요.
-* The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "Don't talk to strangers"). Would you write code violating this principle, show why it is a bad design and then fix it?
+* 디미터의 법칙(Law of Demeter)을 어기는 코드를 작성해주실 수 있나요? 그리고 이 코드가 왜 나쁜 디자인인지 그리고 어떻게 고쳐야 하는지 보여주세요.
 * Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
 * Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one against the other?
 * Why it is often said that the introduction of `null` is a "Billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
