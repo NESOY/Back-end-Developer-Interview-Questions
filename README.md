@@ -96,7 +96,7 @@ Back-End 개발자 인터뷰 질문
 * Why do many software engineers not like Java?
 * What makes a good language good and a bad language bad?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
-* Whats the Stack and what's the Heap? What's a Stack Overflow?
+* 스택(Stack)과 힙(Heap)은 무엇일까요? 스택 오버플로우(Stack Overflow)는 무엇일까요?
 * Why is it important that in a language functions are first class citizens?
 * Some languages, especially the ones that promote a Functional approach, allow a technique called Pattern Matching. Do you know it? How is Pattern Matching different from Switch clauses?
 * Why do some languages have no exceptions by design? What are the pros and cons?
@@ -131,7 +131,7 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='nosql'>NoSQL:</a>
 
-* What is Eventual Consistency?
+* Eventual Consistency이란 무엇일까요?
 * The Brewer's Theorem, most commonly known as the CAP theorem, states that in the presence of a Network Partition (the P in CAP), a system's designer has to choose between Consistency (the C in CAP) and Availability (the A in CAP). Can you think about examples of CP, AP and CA systems?
 * 최근에 NoSQL의 인기가 상승하고 있는 이유에 대해 설명할 수 있나요?
 * How does NoSQL tackle scalability challenges?
@@ -213,7 +213,7 @@ Back-End 개발자 인터뷰 질문
 * 이벤트 기반 아키텍쳐(Event-Driven Architecture)를 통해 확장성이 향상되는 이유는 무엇일까요?
 * 어떻게 하면 코드를 읽기 쉽게 만들 수 있을까요?
 * What is the difference between emergent design and evolutionary architecture?
-* Scale out vs scale up: how are they different? When to apply one, when the other?
+* Scale out과 scale up의 차이점을 알고 계신가요? 어떤 상황에 적용해야할까요?
 * user 세션(sessions)의 장애를 어떻게 처리하실건가요?
 * What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
 * The so called "multitier architecture" is an approach to design a client–server system aimed to keep physically and logically separated presentation, application processing, data management and other functions. The most widespread of the multitier architectures is the three-tier architecture. Would you discuss the pros and cons of such approach?
@@ -222,7 +222,7 @@ Back-End 개발자 인터뷰 질문
 * How would you design a decentralized (that is, with no central server) P2P system?
 * You may recall that Common Gateway Interface (CGI) is a standard protocol for web servers to execute programs (CGI scripts) that execute as Command-line programs on a server, and that dynamically generate HTML pages when invoked by a HTTP request. Perl and PHP used to be common languages for such scripts. In CGI, a HTTP request generally causes the invocation of a new process on the server, but FastCGI, SCGI and other approaches improved the mechanism, raising the performance, with techniques such as preforking processes. Can you imagine why has't CGI eventually win, and was instead replaced with other architectural approaches?
 * How would you defend the design of your systems against Vendor Lock-in?
-* What are the disadvantages of the Publish-Subscribe pattern at scale?
+* 규모에 따른 Publish-Subscribe 패턴의 단점들은 무엇일까요?
 * What's new in CPUs since the 80s, and how does it affect programming?
 * In which part of the lifecycle of a software performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
@@ -236,11 +236,11 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='soa'>Service Oriented Architecture and Microservices:</a>
 * Why, in a SOA, long-lived transactions are discouraged and Sagas are suggested instead?
-* What are the differences between Soa and Microservices?
+* Soa와 Microservices는 어떤 차이점을 가지고 있나요?
 * Let's talk about web services versioning, version compatibility and breaking changes.
 * What's the difference between a transaction and a compensation operation in a saga, in SOA?
 * 언제 Microservice는 지나치게 작다고 느껴질까요?
-* What are the pros and cons of MicroService architecture?
+* MicroService architecture의 장단점에 대해 설명해주세요.
 
 
 ### [[↑]](#toc) <a name='security'>보안:</a>
