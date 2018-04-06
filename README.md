@@ -82,10 +82,10 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='languages'>프로그래밍 언어:</a>
 
-* Tell me the 3 worse defects of your preferred language
+* 선호하는 언어의 단점 3가지만 말해주세요.
 * 왜 함수 프로그래밍(Functional Programming)이 떠오르고 있는지 설명할 수 있나요?
 * 클로져란 무엇일까요? 그리고 어떤 상황에서 유용할까요? 클로져와 클래스간의 공통점은 무엇이 있을까요?
-* What are generics useful for?
+* 어떤 상황에서 Generics이 유용할까요?
 * What are high-order functions? What are they useful for? Write one, in your preferred language.
 * Write a loop, then transform it into a recursive function, using only immutable structures (i.e. avoid using variables). Discuss.
 * What does it mean when a language treats functions as first-class citizens?
@@ -93,13 +93,13 @@ Back-End 개발자 인터뷰 질문
 * There are a lot of different type systems: let's talk about static and dynamic type systems, and about strong and weak ones. You surely have an opinion and a preference about this topic. Would you like to share them, and discuss why and when would you promote one particular type system for developing an enterprise software?
 * What are namespaces useful for? Invent an alternative.
 * Talk about Interoperability between Java and C# (in alternative, choose 2 other arbitrary languages)
-* Why do many software engineers not like Java?
+* 왜 많은 소프트웨어 개발자들은 자바를 좋아하지 않을까요?
 * What makes a good language good and a bad language bad?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
 * 스택(Stack)과 힙(Heap)은 무엇일까요? 스택 오버플로우(Stack Overflow)는 무엇일까요?
-* Why is it important that in a language functions are first class citizens?
+* 프로그래밍 언어에서 왜 first class citizens은 함수에서 중요할까요?
 * Some languages, especially the ones that promote a Functional approach, allow a technique called Pattern Matching. Do you know it? How is Pattern Matching different from Switch clauses?
-* Why do some languages have no exceptions by design? What are the pros and cons?
+* 일부 언어에서는 예외처리가 없게 디자인이 되었을까요? 이런 디자인에 대해 장단점을 설명해주세요.
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
 * Why in Java, C# and many other languages constructors are not part of the interface?
 * In the last years there has been a lot of hype on Node. What's your opinion on the use in the back end of a language that was initially conceived to run in the browser?
@@ -193,7 +193,7 @@ Back-End 개발자 인터뷰 질문
 ### [[↑]](#toc) <a name='algorithms'>알고리즘:</a>
 
 * 스택(LIFO Stacks)들로 큐(FIFO Queue)를 구성해보세요. 그리고 큐(FIFO Queue)들을 사용해서 스택(LIFO Stacks)을 구성해보세요.
-* Write a snippet of code affected by a Stack Overflow
+* Stack Overflow의 영향을 받는 코드를 작성해보세요.
 * Write a tail-recursive version of the factorial function
 * Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
 * How would you design a "defragger" utility?
