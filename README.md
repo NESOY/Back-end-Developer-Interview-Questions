@@ -268,7 +268,7 @@ Back-End 개발자 인터뷰 질문
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How can immutability help write safer code?
 * Mutable 그리고 immutable value의 장단점들은 무엇일까요?
 * What's the Object-Relational impedance mismatch?
-* Which principles would you apply to define the size of a cache?
+* 캐시크기를 결정하기 위해 적용하는 원칙은 무엇일까요?
 * TCP와 HTTP의 차이점은 무엇일까요?
 * What are the tradeoffs of client-side rendering vs. server-side rendering?
 * How could you develop a reliable communication protocol based on a non-reliable one?
