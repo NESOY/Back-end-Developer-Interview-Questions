@@ -65,7 +65,7 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='design'>코드 디자인:</a>
 
-* It is often heard that one of the most important goals in Object-Oriented Design (and code design in general) is to have High Cohesion and Loose Coupling. What does it mean? Why is it that important and how is it achieved?
+* 우리가 평소에 자주 듣던 객체지향 디자인(Object-Oriented Design)은 높은 응집도와 낮은 결합도를 가장 중요한 목표로 가지고 있습니다. 이 목표가 무엇을 의미하는지? 왜 그렇게 중요한지? 무엇을 얻을 수 있는지 설명해주세요.
 * 대부분의 언어에서 배열의 시작은 왜 0부터 일까요?
 * 테스트와 TDD는 코드 디자인에 어떤 영향을 주나요?
 * DRY원칙(Don't Repeat Yourself)을 깨는 작은 코드를 작성해보세요. 그리고 왜 나쁜 디자인인지 설명하고 고쳐보세요.
@@ -142,7 +142,7 @@ Back-End 개발자 인터뷰 질문
 
 * Why is branching with Mercurial or git easier than with SVN?
 * What are the pros and cons of Distributed Version Control Systems like Git over Centralized ones like SVN?
-* Could you describe GitHub Flow and GitFlow workflows?
+* GitHub Flow와 GitFlow workflows에 대해 설명해주세요.
 * 리베이스(rebase)가 무엇일까요?
 * Why merges are easier with Mercurial and git than with SVN and CVS?
 
@@ -161,7 +161,7 @@ Back-End 개발자 인터뷰 질문
 
 * 분산 시스템은 어떻게 테스트를 진행할까요?
 * In which case would you apply asynchronously communication between two systems?
-* What are the general pitfalls of Remote Procedure Call?
+* 원격 프로시저 호출(Remote Procedure Call)의 일반적인 문제점은 무엇일까요?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one?
 * 분산시스템의 장애는 어떻게 해결하실 건가요?
@@ -226,7 +226,7 @@ Back-End 개발자 인터뷰 질문
 * What's new in CPUs since the 80s, and how does it affect programming?
 * In which part of the lifecycle of a software performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
-* What’s the relationship between Performance and Scalability?
+* 성능(Performance)과 확장성(Scalability)의 관계는 어떠할까요?
 * When is it OK (if ever) to use tight coupling?
 * What characteristic should a system have to be Cloud Ready?
 * Does unity of design imply an aristocracy of architects? Putting it simple: can good design emerge from a collective effort of all developers?
