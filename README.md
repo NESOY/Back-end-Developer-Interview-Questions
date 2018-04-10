@@ -49,9 +49,9 @@ Back-End 개발자 인터뷰 질문
 * 왜 global 객체와 static 객체는 나쁜 것일까요? code를 통한 예시로 설명할 수 있나요?
 * 제어의 역전(Inversion of Control)에 대한 개념과 IoC가 코드의 디자인을 어떻게 향상시키는지 설명해 주세요.
 * 디미터의 법칙(Law of Demeter)을 어기는 코드를 작성해주실 수 있나요? 그리고 이 코드가 왜 나쁜 디자인인지 그리고 어떻게 고쳐야 하는지 보여주세요.
-* Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
+* Active-Record는 CRUD기능을 포함하고 데이터베이스 테이블의 기초 컬럼들을 포함하고 있는 디자인 패턴입니다. 이러한 패턴의 한계점과 단점을 이야기해주세요.
 * Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one against the other?
-* Why it is often said that the introduction of `null` is a "Billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
+* `null`은 왜 10억 달러의 실수라고 말할까요? Null Object Pattern이나 Option 타입과 같은 `null`을 피할 수 있는 기술들에 대해 설명해주세요.
 * 많은 사람들이 객체지향프로그래밍에서 상속보다는 구성(Composition)이 더 나은 선택이라고 말합니다. 당신의 의견은 어떤가요?
 * 손상 방지 레이어(Anti-corruption Layer) 패턴이란 무엇일까요?
 * 싱글톤은 클래스에 대해 하나의 인스턴스만 생성해서 사용하도록 제한하는 패턴입니다. Thread-Safe한 싱글톤 Singleton기법은 명확하지 않습니다. 한번 시도해보세요.
