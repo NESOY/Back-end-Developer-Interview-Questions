@@ -295,7 +295,7 @@ Back-End 개발자 인터뷰 질문
 * What does an Operating System do when it has got no custom code to run, and therefore it looks idle? I would like to start a discussions about interrupts, daemons, background services, polling, event handling and so on.
 * Explain Unicode/Database Transactions to a 5 year old child.
 * 모노리틱 아키텍쳐(Monolithic architecture)을 설명해주세요.
-* What does it mean to be a "Professional Developer"?
+* 전문적인 개발자라는 사람은 어떤 의미일까요?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop?
 * Why are corporations slower than startups in innovating?
