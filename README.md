@@ -55,7 +55,7 @@ Back-End 개발자 인터뷰 질문
 * 많은 사람들이 객체지향프로그래밍에서 상속보다는 구성(Composition)이 더 나은 선택이라고 말합니다. 당신의 의견은 어떤가요?
 * 손상 방지 레이어(Anti-corruption Layer) 패턴이란 무엇일까요?
 * 싱글톤은 클래스에 대해 하나의 인스턴스만 생성해서 사용하도록 제한하는 패턴입니다. Thread-Safe한 싱글톤 Singleton기법은 명확하지 않습니다. 한번 시도해보세요.
-* The ability to change implementation without affecting clients is called Data Abstraction. Produce and example violating this property, then fix it.
+* 클라이언트에게 영향을 미치지 않고 바꾸는 기능을 데이터 추상화(Data Abstraction)라고 합니다. 이 속성을 위반하는 것으로 나타나는 제품과 예를 들고 고쳐보세요.
 * DRY원칙(Don't Repeat Yourself)을 깨는 작은 코드를 작성해보세요. 그리고 고쳐보세요.
 * 의존성 지옥(Dependency Hell)을 어떻게 해결하실건가요?
 * Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
@@ -75,7 +75,7 @@ Back-End 개발자 인터뷰 질문
 * 디자인과 아키텍처의 차이점은 무엇일까요?
 * 왜 TDD에서는 코드를 작성하기 전에 테스트 코드를 작성할까요?
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]
-* Pros and cons of holding domain logic in Stored Procedures.
+* 저장하는 절차를 도메인 로직에 유지하는 것에 대해 장단점을 설명해주세요.
 * In your opinion, why have Object-Oriented Design dominated the market for so many years?
 * 당신의 코드에 나쁜 디자인이 있다면 당신은 어떻게 해결하실 건가요?
 
