@@ -74,7 +74,7 @@ Back-End 개발자 인터뷰 질문
 * 코드에서 주석은 의미가 있을까요? 몇몇 사람들은 되도록이면 피하라고 이야기합니다. 또한 주석이 필요없기를 희망하고 있습니다. 의견에 동의하십니까?
 * 디자인과 아키텍처의 차이점은 무엇일까요?
 * 왜 TDD에서는 코드를 작성하기 전에 테스트 코드를 작성할까요?
-* C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]
+* C++은 다중 상속을 제공합니다. 또한 자바도 다중 인터페이스를 허용합니다. 이러한 기능들을 사용함으로써 개발의 직교성(orthogonality)에 대해 어떤 영향을 줄까요? 다중 상속과 다중 인터페이스의 차이점이 있을까요? 위임과 상속에 대해 차이점이 있을까요?
 * 저장하는 절차를 도메인 로직에 유지하는 것에 대해 장단점을 설명해주세요.
 * In your opinion, why have Object-Oriented Design dominated the market for so many years?
 * 당신의 코드에 나쁜 디자인이 있다면 당신은 어떻게 해결하실 건가요?
