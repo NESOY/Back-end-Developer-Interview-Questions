@@ -76,7 +76,7 @@ Back-End 개발자 인터뷰 질문
 * 왜 TDD에서는 코드를 작성하기 전에 테스트 코드를 작성할까요?
 * C++은 다중 상속을 제공합니다. 또한 자바도 다중 인터페이스를 허용합니다. 이러한 기능들을 사용함으로써 개발의 직교성(orthogonality)에 대해 어떤 영향을 줄까요? 다중 상속과 다중 인터페이스의 차이점이 있을까요? 위임과 상속에 대해 차이점이 있을까요?
 * 저장하는 절차를 도메인 로직에 유지하는 것에 대해 장단점을 설명해주세요.
-* In your opinion, why have Object-Oriented Design dominated the market for so many years?
+* 왜 객체 지향 디자인(Object-Oriented Design)은 오랜 기간동안 시장을 지배할 수 있었을까요?
 * 당신의 코드에 나쁜 디자인이 있다면 당신은 어떻게 해결하실 건가요?
 
 
@@ -259,10 +259,10 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='general'>일반적인 질문:</a>
 
-* Why does Functional Programming matter? When should a functional programming language be used?
-* How do companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
+* 왜 함수형 프로그래밍(Functional programming)이 중요해졌을까요? 언제 함수형 프로그래밍을 사용하는게 좋을까요?
+* Microsoft, Google, Opera 그리고 Mozilla와 같은 회사들은 무엇을 얻기 위해 그들의 브라우저를 만들었을까요?
 * 왜 TCP 소켓을 여는데 많은 Overhead가 필요할까요?
-* What is Encapsulation important for?
+* 캡슐화는 무엇을 얻기 위해 중요할까요?
 * Real-Time 시스템은 무엇이며 일반 시스템과 어떻게 다를까요?
 * What's the relationship between real-time languages and heap memory allocation?
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How can immutability help write safer code?
@@ -401,7 +401,7 @@ public class TheService {
         final String rewrittenUrl = fileHandler.getXmlFileFromFileName(file);
         final String executionId = fileHandler.getExecutionIdFromFileName(file);
 
-        if ((executionId == "") || (rewrittenUrl == "")) {
+        if ((executionId.equals("")) || (rewrittenUrl.equals(""))) {
             return "";
         }
 
