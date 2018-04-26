@@ -50,7 +50,7 @@ Back-End 개발자 인터뷰 질문
 * 제어의 역전(Inversion of Control)에 대한 개념과 IoC가 코드의 디자인을 어떻게 향상시키는지 설명해 주세요.
 * 디미터의 법칙(Law of Demeter)을 어기는 코드를 작성해주실 수 있나요? 그리고 이 코드가 왜 나쁜 디자인인지 그리고 어떻게 고쳐야 하는지 보여주세요.
 * Active-Record는 CRUD기능을 포함하고 데이터베이스 테이블의 기초 컬럼들을 포함하고 있는 디자인 패턴입니다. 이러한 패턴의 한계점과 단점을 이야기해주세요.
-* Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one against the other?
+* Data Mapper는 객체와 데이터베이스 사이에 데이터를 독립적으로 유지하면서 객체와 데이터베이스 사이에 데이터를 Mapping하는 Mapper Layer를 사용한 설계 패턴입니다. 반면 Active-Recorde객체에는 데이터베이스에 유지하기 위한 작업과 기본 데이터베이스 테이블에 해당하는 속성이 직접 통합되어 있습니다. 위 패턴에 대해 어떻게 생각하세요? 어떤 상황에서 어떤 패턴을 사용하는게 적절할까요?
 * `null`은 왜 10억 달러의 실수라고 말할까요? Null Object Pattern이나 Option 타입과 같은 `null`을 피할 수 있는 기술들에 대해 설명해주세요.
 * 많은 사람들이 객체지향프로그래밍에서 상속보다는 구성(Composition)이 더 나은 선택이라고 말합니다. 당신의 의견은 어떤가요?
 * 손상 방지 레이어(Anti-corruption Layer) 패턴이란 무엇일까요?
@@ -94,7 +94,7 @@ Back-End 개발자 인터뷰 질문
 * What are namespaces useful for? Invent an alternative.
 * Talk about Interoperability between Java and C# (in alternative, choose 2 other arbitrary languages)
 * 왜 많은 소프트웨어 개발자들은 자바를 좋아하지 않을까요?
-* What makes a good language good and a bad language bad?
+* 어떠한 점이 좋은 언어와 나쁜 언어를 만들까요?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
 * 스택(Stack)과 힙(Heap)은 무엇일까요? 스택 오버플로우(Stack Overflow)는 무엇일까요?
 * 프로그래밍 언어에서 왜 first class citizens은 함수에서 중요할까요?
@@ -102,7 +102,7 @@ Back-End 개발자 인터뷰 질문
 * 일부 언어에서는 예외처리가 없게 디자인이 되었을까요? 이런 디자인에 대해 장단점을 설명해주세요.
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
 * Why in Java, C# and many other languages constructors are not part of the interface?
-* In the last years there has been a lot of hype on Node. What's your opinion on the use in the back end of a language that was initially conceived to run in the browser?
+* 지난 몇년 동안 Node에 대한 광고가 많았습니다. 처음에 브라우저에서 실행되도록 고안된 언어 사용에 대해 어떻게 생각하시나요?
 * Pretend you have a time machine and pretend that you have the opportunity to go to a particular point in time during Java's (or C#, Python, Go or whatever) history, and talk with some of the JDK architects. What would you try to convince them of? Removing checked exceptions? Adding unsigned primitives? Adding multiple-inheritance?
 
 
@@ -134,7 +134,7 @@ Back-End 개발자 인터뷰 질문
 * Eventual Consistency이란 무엇일까요?
 * The Brewer's Theorem, most commonly known as the CAP theorem, states that in the presence of a Network Partition (the P in CAP), a system's designer has to choose between Consistency (the C in CAP) and Availability (the A in CAP). Can you think about examples of CP, AP and CA systems?
 * 최근에 NoSQL의 인기가 상승하고 있는 이유에 대해 설명할 수 있나요?
-* How does NoSQL tackle scalability challenges?
+* NoSQL은 확장 문제를 어떻게 해결할까요?
 * In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
 
 
