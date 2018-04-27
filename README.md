@@ -39,7 +39,7 @@ Back-End 개발자 인터뷰 질문
   1. [보안](#security)
   1. [일반적인 질문](#general)
   1. [Open Questions](#open)
-  1. [Questions based on snippets of code](#snippets)
+  1. [작은 코드 질문](#snippets)
   1. [빌 게이츠 스타일의 질문](#billgates)
 
 
@@ -135,8 +135,7 @@ Back-End 개발자 인터뷰 질문
 * The Brewer's Theorem, most commonly known as the CAP theorem, states that in the presence of a Network Partition (the P in CAP), a system's designer has to choose between Consistency (the C in CAP) and Availability (the A in CAP). Can you think about examples of CP, AP and CA systems?
 * 최근에 NoSQL의 인기가 상승하고 있는 이유에 대해 설명할 수 있나요?
 * NoSQL은 확장 문제를 어떻게 해결할까요?
-* In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
-
+* 어떤 상황에서 MySQL이나 PostgreSQL와 같은 Relational Database보다 MongoDB와 CouchBase와 같은 Document Database를 사용하는게 좋을까요?
 
 ### [[↑]](#toc) <a name='codeversioning'>Code versioning:</a>
 
@@ -227,7 +226,7 @@ Back-End 개발자 인터뷰 질문
 * In which part of the lifecycle of a software performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
 * 성능(Performance)과 확장성(Scalability)의 관계는 어떠할까요?
-* When is it OK (if ever) to use tight coupling?
+* 어떤 상황에 높은 결합도가 괜찮을까요?
 * What characteristic should a system have to be Cloud Ready?
 * Does unity of design imply an aristocracy of architects? Putting it simple: can good design emerge from a collective effort of all developers?
 * What's the difference between design, architecture, functionality and aesthetic? Discuss.
