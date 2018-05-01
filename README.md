@@ -118,10 +118,10 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='databases'>데이터 베이스:</a>
 
-* How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
-* Why databases treat null as a so special case? For example, why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
-* ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most of the database engines. What do you know about this topic? Would you like to elaborate?
-* How would you manage database schema migrations, that is, how would you automate the changes a database schema is affected to, as the application evolve, version after version?
+* 예를 들어 MySQL에서 PostgreSQL로 어떻게 다른 Database로 Migrate 할까요? 또한 만약에 당신이 해당 프로젝트를 관리하고 있다면 어떤 문제를 직면하게 될까요?
+* 왜 데이터 베이스는 null을 특별한 Case로 관리할까요? 예를 들어 ```SELECT * FROM table WHERE field = null```은 ``field``가 null과 Matching이 되지 않을까요?
+* ACID는 대표적으로 Atomicity, Consistency, Isolation 그리고 Durability가 있습니다. 데이터베이스의 트랜잭션은 앞서 언급한 4가지 특성을 보장합니다. 위 주제에 얼마나 알고 계신가요? 조금 더 자세히 설명해주실 수 있나요?
+* Version차이와 Application발전으로 인해 데이터 베이스 스키마 변화가 생깁니다. 그러면 데이터 베이스 스키마 Migration 자동화 방법에 대해 어떻게 관리할까요?
 * 어떻게 구현하면 Lazy Loading을 얻을 수 있을까요? 언제 유용할까요? Lazy Loading에 대해 함정은 없을까요?
 * The so called "N + 1 problem" is an issue that occurs when the code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
 * 어플리케이션에서 가장 비싼 비용의 Query를 어떻게 찾을까요?
