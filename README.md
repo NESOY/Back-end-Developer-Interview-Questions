@@ -86,12 +86,12 @@ Back-End 개발자 인터뷰 질문
 * 왜 함수 프로그래밍(Functional Programming)이 떠오르고 있는지 설명할 수 있나요?
 * 클로져란 무엇일까요? 그리고 어떤 상황에서 유용할까요? 클로져와 클래스간의 공통점은 무엇이 있을까요?
 * 어떤 상황에서 Generics이 유용할까요?
-* What are high-order functions? What are they useful for? Write one, in your preferred language.
+* 고차 함수(High-order functions)란 무엇일까요? 어떤 상황에 유용할까요? 당신의 선호하는 언어로 예를 들어주세요.
 * Write a loop, then transform it into a recursive function, using only immutable structures (i.e. avoid using variables). Discuss.
 * What does it mean when a language treats functions as first-class citizens?
 * 익명 함수(Anonymous Function) 장점이 나타나는 예제를 보여주세요.
 * There are a lot of different type systems: let's talk about static and dynamic type systems, and about strong and weak ones. You surely have an opinion and a preference about this topic. Would you like to share them, and discuss why and when would you promote one particular type system for developing an enterprise software?
-* What are namespaces useful for? Invent an alternative.
+* NameSpace는 어떤 상황에 유용할까요? 대안은 없을까요?
 * Talk about Interoperability between Java and C# (in alternative, choose 2 other arbitrary languages)
 * 왜 많은 소프트웨어 개발자들은 자바를 좋아하지 않을까요?
 * 어떠한 점이 좋은 언어와 나쁜 언어를 만들까요?
@@ -165,7 +165,7 @@ Back-End 개발자 인터뷰 질문
 * How to manage Fault Tolerance in a Web application? And in a Desktop one?
 * 분산시스템의 장애는 어떻게 해결하실 건가요?
 * Let's talk about the several approaches to Reconciliation after network partitions
-* What are the Fallacies of Distributed Computing?
+* 분산 컴퓨팅의 단점은 무엇일까요?
 * 당신은 언제 Request/Reply를 사용할 것이며 또한 어떤 상황에서 Publish/Subscribe를 사용할 것인가요?
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 
