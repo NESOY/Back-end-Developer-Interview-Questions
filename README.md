@@ -214,7 +214,7 @@ Back-End 개발자 인터뷰 질문
 * What is the difference between emergent design and evolutionary architecture?
 * Scale out과 scale up의 차이점을 알고 계신가요? 어떤 상황에 적용해야할까요?
 * user 세션(sessions)의 장애를 어떻게 처리하실건가요?
-* What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
+* CQRS (Command Query Responsibility Segregation)이란 무엇일까요? 기존의 Command-Query Separation 원리랑 어떤 차이를 가질까요?
 * The so called "multitier architecture" is an approach to design a client–server system aimed to keep physically and logically separated presentation, application processing, data management and other functions. The most widespread of the multitier architectures is the three-tier architecture. Would you discuss the pros and cons of such approach?
 * 당신은 소프트웨어 시스템의 확장성(scalability)을 어떻게 고려해서 디자인 하나요?
 * Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?
