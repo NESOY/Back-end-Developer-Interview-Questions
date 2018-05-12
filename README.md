@@ -166,7 +166,7 @@ Back-End 개발자 인터뷰 질문
 ### [[↑]](#toc) <a name='distributed'>분산 시스템:</a>
 
 * 분산 시스템은 어떻게 테스트를 진행할까요?
-* In which case would you apply asynchronously communication between two systems?
+* 어떤 상황에서 두 시스템 간의 비동기 커뮤니케이션(asynchronously communication)을 적용할 것인가요?
 * 원격 프로시저 호출(Remote Procedure Call)의 일반적인 문제점은 무엇일까요?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one?
