@@ -146,11 +146,11 @@ Back-End 개발자 인터뷰 질문
 
 ### [[↑]](#toc) <a name='codeversioning'>Code versioning:</a>
 
-* Why is branching with Mercurial or git easier than with SVN?
-* What are the pros and cons of Distributed Version Control Systems like Git over Centralized ones like SVN?
+* Mercurial과 git에서의 branching이 SVN과 CVS에서의 branching보다 쉬운 이유는 무엇일까요
+* SVN과 같은 중앙 집중형 시스템과 비교하여 Git과 같은 분산 버전 관리 시스템(Distributed Version Control Systems)의 장점과 단점은 무엇인가요?
 * GitHub Flow와 GitFlow workflows에 대해 설명해주세요.
 * 리베이스(rebase)가 무엇일까요?
-* Why merges are easier with Mercurial and git than with SVN and CVS?
+* Mercurial과 git에서의 merge가 SVN과 CVS에서의 merge보다 쉬운 이유는 무엇일까요?
 
 
 ### [[↑]](#toc) <a name='concurrency'>동시성:</a>
