@@ -7,19 +7,26 @@ Back-End 개발자 인터뷰 질문
 
 #### Front-end 인터뷰
 - [영어](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) by [@darcyclarke](https://github.com/darcyclarke)
-- [한국어](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Korean)
+- [한국어](https://github.com/h5bp/Front-end-Developer-Interview-Questions/tree/master/Translations/Korean)🇰🇷
 
-#### 한국 취업 정보.
+#### 한국🇰🇷 취업 정보.
 - [Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner) by [@JBee](https://github.com/JaeYeopHan)
 - [junior-recruit-scheduler](https://github.com/jojoldu/junior-recruit-scheduler) by [@jojoldu](https://github.com/jojoldu)
+
+#### Developer 로드 맵
 - [developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) by [@kamranahmedse](https://github.com/kamranahmedse/)
 
+
 ## 공지
+[![HitCount](http://hits.dwyl.io/nesoy/Back-end-Developer-Interview-Questions.svg)](http://hits.dwyl.io/nesoy/Back-end-Developer-Interview-Questions)
+
 대부분의 질문은 자유롭게 답할 수 있으며 그 중에는 *옳은 답*과 *틀린 답*이 없는 질문들이 있습니다. 반대로, 그들은 올바른 정답보단 지원자의 능력에 대해 더 많이 말해 줄 수 있기를 바라면서 대화의 시작점으로 출발하기를 바라고 있습니다. 개인적으로, 나는 명확한 답이 없는 질문들을 선택할 것입니다.
 
 다시 한번 말하지만, 저는 단지 질문들을 물어보는 것만으로 충분하지 않다는 것을 강조합니다. 지원자와 짝 프로그래밍을 진행하면서 인터뷰를 본다면 완벽할 것입니다: 이런 인터뷰 방식은 서로의 스타일을 알 수 있는 최고의 방법이고 지원자는 미래에 자신의 작업에 대해 더 잘 알 수 있을 것입니다.
 
 이 프로젝트는 [@darcyclarke](https://github.com/darcyclarke)님이 작성하신 [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)에 영감을 받았습니다.
+
+🙏 Help Me With the Translation
 
 ## <a name='toc'>목차 </a>
 
@@ -88,7 +95,7 @@ Back-End 개발자 인터뷰 질문
 * 어떤 상황에서 Generics이 유용할까요?
 * What are high-order functions? What are they useful for? Write one, in your preferred language.
 * Write a loop, then transform it into a recursive function, using only immutable structures (i.e. avoid using variables). Discuss.
-* What does it mean when a language treats functions as first-class citizens?
+* 언어에서 함수(Function)을 일급 시민(First-Class citizens)으로 다룬다는 것은 무슨 의미일까요?
 * 익명 함수(Anonymous Function) 장점이 나타나는 예제를 보여주세요.
 * There are a lot of different type systems: let's talk about static and dynamic type systems, and about strong and weak ones. You surely have an opinion and a preference about this topic. Would you like to share them, and discuss why and when would you promote one particular type system for developing an enterprise software?
 * What are namespaces useful for? Invent an alternative.
