@@ -229,7 +229,7 @@ Back-End 개발자 인터뷰 질문
 * You may recall that Common Gateway Interface (CGI) is a standard protocol for web servers to execute programs (CGI scripts) that execute as Command-line programs on a server, and that dynamically generate HTML pages when invoked by a HTTP request. Perl and PHP used to be common languages for such scripts. In CGI, a HTTP request generally causes the invocation of a new process on the server, but FastCGI, SCGI and other approaches improved the mechanism, raising the performance, with techniques such as preforking processes. Can you imagine why has't CGI eventually win, and was instead replaced with other architectural approaches?
 * How would you defend the design of your systems against Vendor Lock-in?
 * 규모에 따른 Publish-Subscribe 패턴의 단점들은 무엇일까요?
-* What's new in CPUs since the 80s, and how does it affect programming?
+* 80년대 이후 CPU에 나타난 새로운 특징은 무엇이며, 이는 프로그래밍에 어떠한 영향을 줬나요?
 * In which part of the lifecycle of a software performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
 * 성능(Performance)과 확장성(Scalability)의 관계는 어떠할까요?
