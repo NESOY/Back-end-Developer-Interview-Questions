@@ -284,28 +284,28 @@ Back-End 개발자 인터뷰 질문
 ### [[↑]](#toc) <a name='open'>Open Questions:</a>
 * 왜 사람들은 변화하는 것을 주저할까요?
 * 할아버지 할머니에게 설명하는 것처럼 Thread를 설명해 보세요.
-* As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
+* 당신은 소프트웨어 공학자로서 변화와 예측 가능성을 동시에 얻고자 합니다. 어떻게 하나의 전략으로 이 두 가지 토끼를 모두 잡을 수 있을까요?
 * 어떠한 것이 좋은 코드를 만들까요?
-* Explain streaming and how you would implement it.
+* 스트리밍에 대해서 설명하고, 어떻게 구현하는지에 대해서 말해보세요.
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
 * 당신은 이번 주에는 어떤 것을 배웠나요?
-* There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
+* 모든 디자인에 어울리는 미적으로 아름다운 요소가 있다고 생각해보세요. 이 요소는 당신에게 득이될까요 해가될까요?(is this aesthetic element your friend or your enemy?)
 * 최근 읽었던 5권을 설명해주세요.
 * How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
 * When does it make sense to reinvent the wheel?
 * Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
 * What's the next thing you would automate in your current workflow?
-* Why is writing software difficult? What makes maintaining software hard?
+* 왜 소프트웨어를 작성(개발)하는 것은 어려울까요? 무엇이 소프트웨어의 유지보수를 어렵게 만들까요?
 * Would you prefer working on Green Field or Brown Field projects? Why?
-* [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
+* [브라우저에 google.com을 입력하면 어떤 일이 벌어질까요?](https://github.com/alex/what-happens-when)
 * What does an Operating System do when it has got no custom code to run, and therefore it looks idle? I would like to start a discussions about interrupts, daemons, background services, polling, event handling and so on.
 * Explain Unicode/Database Transactions to a 5 year old child.
 * 모노리틱 아키텍쳐(Monolithic architecture)을 설명해주세요.
 * 전문적인 개발자라는 사람은 어떤 의미일까요?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
-* "People who like this also like... ". How would you implement this feature in an e-commerce shop?
+* "이 상품을 좋아하는 사람들은 이런 상품도 좋아했습니다"와 같은 기능을 소셜 커머스 샵에서 어떻게 구현할 수 있을까요?
 * Why are corporations slower than startups in innovating?
-* What have you achieved recently that you are proud of?
+* 최근에 이룬 일 중 가장 자랑스러웠던 일이 무엇인가요?
 
 
 
