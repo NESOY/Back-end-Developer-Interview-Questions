@@ -276,8 +276,8 @@ Back-End 개발자 인터뷰 질문
 * What's the Object-Relational impedance mismatch?
 * 캐시크기를 결정하기 위해 적용하는 원칙은 무엇일까요?
 * TCP와 HTTP의 차이점은 무엇일까요?
-* What are the tradeoffs of client-side rendering vs. server-side rendering?
-* How could you develop a reliable communication protocol based on a non-reliable one?
+* 클라이언트 기반 렌더링과 서버 기반 렌더링의 차이점은 무엇인가요?
+* 비안정적인 커뮤니케이션 프로토콜에 기반한 안정적인 커뮤니케이션 프로토콜을 만들려면 어떻게 해야할까요?
 * [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
 
 
