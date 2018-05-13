@@ -259,7 +259,7 @@ Back-End 개발자 인터뷰 질문
 * 크로스 사이트 스크립팅 공격법에 대해서 무엇을 알고 있나요? 기억이 나지 않는다면 온라인으로 정의를 확인하고 얘기해보도록 하죠.
 * What do you know about Cross-Site Forgery Attack? If you don't remember it, let's review online its definition and let's discuss about it.
 * HTTPS는 어떻게 동작하는지 아시나요?
-* 중간자 공격이 무엇이며, 왜 HTTPS가 이를 막아주는지 설명해줄 수 있나요?
+* 중간자 공격(Man-in-the-middle attack)이 무엇이며, 왜 HTTPS가 이를 막아주는지 설명해줄 수 있나요?
 * How can you prevent the user's session from being stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
 
 
