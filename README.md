@@ -229,7 +229,7 @@ Back-End 개발자 인터뷰 질문
 * You may recall that Common Gateway Interface (CGI) is a standard protocol for web servers to execute programs (CGI scripts) that execute as Command-line programs on a server, and that dynamically generate HTML pages when invoked by a HTTP request. Perl and PHP used to be common languages for such scripts. In CGI, a HTTP request generally causes the invocation of a new process on the server, but FastCGI, SCGI and other approaches improved the mechanism, raising the performance, with techniques such as preforking processes. Can you imagine why has't CGI eventually win, and was instead replaced with other architectural approaches?
 * How would you defend the design of your systems against Vendor Lock-in?
 * 규모에 따른 Publish-Subscribe 패턴의 단점들은 무엇일까요?
-* What's new in CPUs since the 80s, and how does it affect programming?
+* 80년대 이후 CPU에 나타난 새로운 특징은 무엇이며, 이는 프로그래밍에 어떠한 영향을 줬나요?
 * In which part of the lifecycle of a software performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
 * 성능(Performance)과 확장성(Scalability)의 관계는 어떠할까요?
@@ -256,10 +256,10 @@ Back-End 개발자 인터뷰 질문
 * If not carefully handled, there is always a risk of logs containing sensitive information, such as passwords. How would you deal with this?
 * Write down a snippet of code affected by SQL Injection and fix it.
 * How would it be possible to detect SQL Injection via static code analysis? I don't expect you to write an algorithm capable of doing this, as it is probably a huge topic, but let's discuss a general approach.
-* What do you know about Cross-Site Scripting? If you don't remember it, let's review online its definition and let's discuss about it.
+* 크로스 사이트 스크립팅 공격법에 대해서 무엇을 알고 있나요? 기억이 나지 않는다면 온라인으로 정의를 확인하고 얘기해보도록 하죠.
 * What do you know about Cross-Site Forgery Attack? If you don't remember it, let's review online its definition and let's discuss about it.
 * HTTPS는 어떻게 동작하는지 아시나요?
-* What's a Man-in-the-middle Attack, and why does HTTPS help protect against it?
+* 중간자 공격(Man-in-the-middle attack)이 무엇이며, 왜 HTTPS가 이를 막아주는지 설명해줄 수 있나요?
 * How can you prevent the user's session from being stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
 
 
@@ -276,36 +276,36 @@ Back-End 개발자 인터뷰 질문
 * What's the Object-Relational impedance mismatch?
 * 캐시크기를 결정하기 위해 적용하는 원칙은 무엇일까요?
 * TCP와 HTTP의 차이점은 무엇일까요?
-* What are the tradeoffs of client-side rendering vs. server-side rendering?
-* How could you develop a reliable communication protocol based on a non-reliable one?
+* 클라이언트 기반 렌더링과 서버 기반 렌더링의 차이점은 무엇인가요?
+* 비안정적인 커뮤니케이션 프로토콜에 기반한 안정적인 커뮤니케이션 프로토콜을 만들려면 어떻게 해야할까요?
 * [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
 
 
 ### [[↑]](#toc) <a name='open'>Open Questions:</a>
 * 왜 사람들은 변화하는 것을 주저할까요?
 * 할아버지 할머니에게 설명하는 것처럼 Thread를 설명해 보세요.
-* As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
+* 당신은 소프트웨어 공학자로서 변화와 예측 가능성을 동시에 얻고자 합니다. 어떻게 하나의 전략으로 이 두 가지 토끼를 모두 잡을 수 있을까요?
 * 어떠한 것이 좋은 코드를 만들까요?
-* Explain streaming and how you would implement it.
+* 스트리밍에 대해서 설명하고, 어떻게 구현하는지에 대해서 말해보세요.
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
 * 당신은 이번 주에는 어떤 것을 배웠나요?
-* There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
+* 모든 디자인에 어울리는 미적으로 아름다운 요소가 있다고 생각해보세요. 이 요소는 당신에게 득이될까요 해가될까요?(is this aesthetic element your friend or your enemy?)
 * 최근 읽었던 5권을 설명해주세요.
 * How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
 * When does it make sense to reinvent the wheel?
 * Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
 * What's the next thing you would automate in your current workflow?
-* Why is writing software difficult? What makes maintaining software hard?
+* 왜 소프트웨어를 작성(개발)하는 것은 어려울까요? 무엇이 소프트웨어의 유지보수를 어렵게 만들까요?
 * Would you prefer working on Green Field or Brown Field projects? Why?
-* [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
+* [브라우저에 google.com을 입력하면 어떤 일이 벌어질까요?](https://github.com/alex/what-happens-when)
 * What does an Operating System do when it has got no custom code to run, and therefore it looks idle? I would like to start a discussions about interrupts, daemons, background services, polling, event handling and so on.
 * Explain Unicode/Database Transactions to a 5 year old child.
 * 모노리틱 아키텍쳐(Monolithic architecture)을 설명해주세요.
 * 전문적인 개발자라는 사람은 어떤 의미일까요?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
-* "People who like this also like... ". How would you implement this feature in an e-commerce shop?
+* "이 상품을 좋아하는 사람들은 이런 상품도 좋아했습니다"와 같은 기능을 소셜 커머스 샵에서 어떻게 구현할 수 있을까요?
 * Why are corporations slower than startups in innovating?
-* What have you achieved recently that you are proud of?
+* 최근에 이룬 일 중 가장 자랑스러웠던 일이 무엇인가요?
 
 
 
