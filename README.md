@@ -208,7 +208,7 @@ Back-End 개발자 인터뷰 질문
 * Generate a sequence of unique random numbers
 * 간단한 Garbage collection system을 작성해보세요.
 * 당신이 좋아하는 언어를 사용해서 기초적인 메세지 브로커를 작성해보세요.
-* Write a very basic web server. Draw a road map for features to be implemented in the future.
+* 기초적인 Web Server를 작성해주세요. 그리고 앞으로의 Web Server가 필요한 기능들에 대한 Road Map을 그려주세요.
 * 10GB 크기의 파일을 어떻게 정렬 하실 건가요? 10TB의 크기로 변경된다면 당신은 문제 해결 방법을 어떻게 접근하실건가요?
 * How would you programmatically detect file duplicates?
 
