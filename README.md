@@ -304,7 +304,7 @@ Back-End 개발자 인터뷰 질문
 * 전문적인 개발자라는 사람은 어떤 의미일까요?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "이 상품을 좋아하는 사람들은 이런 상품도 좋아했습니다"와 같은 기능을 소셜 커머스 샵에서 어떻게 구현할 수 있을까요?
-* Why are corporations slower than startups in innovating?
+* 왜 대기업들은 스타트업보다 혁신하는 속도가 느릴까요?
 * 최근에 이룬 일 중 가장 자랑스러웠던 일이 무엇인가요?
 
 
@@ -364,7 +364,7 @@ public class Stack {
 }
 ```
 
-* `if`s and in general conditional statements lead to procedural and imperative programming. Can you get rid of this `switch` and make this snippet more object oriented?
+* `if`문은 일반적으로 절차적이고 명령적인 프로그래밍으로 진행되게 만듭니다. `switch`를 제거하고 보다 객체지향적인 코드로 만들 수 있나요?
 
 ```java
 public class Formatter {
