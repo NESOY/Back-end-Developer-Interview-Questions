@@ -36,7 +36,7 @@ Back-End 개발자 인터뷰 질문
     - [빌 게이츠 스타일의 질문](/General/README.md#billgates)
 - [작은 코드 질문](/Code/README.md#snippets)  
 
-## 인터뷰 관련 정보💼
+## 💼인터뷰 관련 정보
 #### Back-End 인터뷰
 - [영어](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions) by [@arialdomartini](https://github.com/arialdomartini).
 - [중국어](https://github.com/monklof/Back-End-Developer-Interview-Questions) by [@monklof](https://github.com/monklof).
