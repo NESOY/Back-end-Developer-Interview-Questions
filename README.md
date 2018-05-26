@@ -23,7 +23,7 @@ Back-End 개발자 인터뷰 질문
     - [데이터베이스](/Database/README.md#databases)
     - [NoSQL](/Database/README.md#nosql)
 - [소프트웨어 공학](/SoftwareEngineering/README.md)
-    - [Code Versioning](/SoftwareEngineering/README.md#codeversioning)
+    - [Git](/SoftwareEngineering/README.md#git)
     - [Software Lifecycle and Team Management](/SoftwareEngineering/README.md#management)
 - [운영체제](/OS/README.md)
     - [동시성](/OS/README.md#concurrency)

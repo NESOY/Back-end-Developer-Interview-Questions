@@ -17,9 +17,8 @@
 * Imagine your company gives you 1 month and some budget to improve your and your colleagues' daily life. What would you do?
 
 
-### [[↑]](#toc) <a name='codeversioning'>Code versioning:</a>
-* Mercurial과 git에서의 branching이 SVN과 CVS에서의 branching보다 쉬운 이유는 무엇일까요
-* SVN과 같은 중앙 집중형 시스템과 비교하여 Git과 같은 분산 버전 관리 시스템(Distributed Version Control Systems)의 장점과 단점은 무엇인가요?
+### [[↑]](#toc) <a name='git'>Git:</a>
 * GitHub Flow와 GitFlow workflows에 대해 설명해주세요.
 * 리베이스(rebase)가 무엇일까요?
-* Mercurial과 git에서의 merge가 SVN과 CVS에서의 merge보다 쉬운 이유는 무엇일까요?
+* Git을 통해 팀원들이랑 어떻게 협업을 진행할까요? Pull Request란 무엇일까요?
+* Pull을 받아 Merge를 하는 과정에서 충돌이나면 어떻게 해결해야할까요?
