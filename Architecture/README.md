@@ -23,7 +23,7 @@
 * Does unity of design imply an aristocracy of architects? Putting it simple: can good design emerge from a collective effort of all developers?
 * What's the difference between design, architecture, functionality and aesthetic? Discuss.
 
-### [[↑]](#toc) <a name='soa'>Service Oriented Architecture and Microservices:</a>
+### [[↑]](#toc) <a name='microservice'>Microservices:</a>
 
 * Why, in a SOA, long-lived transactions are discouraged and Sagas are suggested instead?
 * Soa와 Microservices는 어떤 차이점을 가지고 있나요?
@@ -32,6 +32,7 @@
 * 언제 Microservice는 지나치게 작다고 느껴질까요?
 * MicroService architecture의 장단점에 대해 설명해주세요.
 * 모노리틱 아키텍쳐(Monolithic architecture)을 설명해주세요.
+* Circuit Breaker Pattern이란 무엇일까요? 이 패턴이 왜 필요할까요?
 
 
 ### [[↑]](#toc) <a name='distributed'>분산 시스템:</a>
@@ -46,3 +47,5 @@
 * 분산 컴퓨팅의 단점은 무엇일까요?
 * 당신은 언제 Request/Reply를 사용할 것이며 또한 어떤 상황에서 Publish/Subscribe를 사용할 것인가요?
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
+
+

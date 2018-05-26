@@ -5,3 +5,16 @@
 * 왜 우리는 stateless service를 사용하기 위해 많은 노력을 할까요? stateless code가 가져다 주는 장점들과 statefullness code가 가져다 주는 단점들에 대해 설명해 주세요.
 * REST 그리고 SOAP: 어떤 상황에서 두가지 방법 중 하나를 선택해서 사용하실 건가요?
 * Model-View-Controller 그리고 Model-View-ViewModel은 웹 개발의 백엔드와 프론트엔드 관점에서 매우 일반적입니다. 그들이 무엇인지? 그리고 그들이 왜 권장되고있는지 설명하실수 있나요?
+
+
+
+
+### [[↑]](#toc) <a name='spring'>Spring:</a>
+
+* Bean이란 무엇일까요?
+
+
+
+### [[↑]](#toc) <a name='django'>Django:</a>
+
+* 
