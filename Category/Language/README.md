@@ -17,11 +17,7 @@
 * 프로그래밍 언어에서 왜 first class citizens은 함수에서 중요할까요?
 * Some languages, especially the ones that promote a Functional approach, allow a technique called Pattern Matching. Do you know it? How is Pattern Matching different from Switch clauses?
 * 일부 언어에서는 예외처리가 없게 디자인이 되었을까요? 이런 디자인에 대해 장단점을 설명해주세요.
-* If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
+* 만약 `Cat`이 `Animal`이라면, `TakeCare<Cat>`라고 쓰는게 맞을까요 아니면 `TakeCare<Animal>`라고 쓰는게 맞을까요?
 * Why in Java, C# and many other languages constructors are not part of the interface?
 * 지난 몇년 동안 Node에 대한 광고가 많았습니다. 처음에 브라우저에서 실행되도록 고안된 언어 사용에 대해 어떻게 생각하시나요?
 * Pretend you have a time machine and pretend that you have the opportunity to go to a particular point in time during Java's (or C#, Python, Go or whatever) history, and talk with some of the JDK architects. What would you try to convince them of? Removing checked exceptions? Adding unsigned primitives? Adding multiple-inheritance?
-
-
-
-
