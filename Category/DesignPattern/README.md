@@ -12,9 +12,9 @@
 * 클라이언트에게 영향을 미치지 않고 바꾸는 기능을 데이터 추상화(Data Abstraction)라고 합니다. 이 속성을 위반하는 것으로 나타나는 제품과 예를 들고 고쳐보세요.
 * DRY원칙(Don't Repeat Yourself)을 깨는 작은 코드를 작성해보세요. 그리고 고쳐보세요.
 * 의존성 지옥(Dependency Hell)을 어떻게 해결하실건가요?
-* Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
-* The robustness principle is a general design guideline for software that recommends "*Be conservative in what you send, be liberal in what you accept*". It is often reworded as "*Be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
-* Separation of Concerns is a design principle for separating a computer program into distinct areas, each of ones addressing a separate concern. There are a lot of different mechanisms for achieving Separation of Concerns (use of objects, functions, modules, or patterns such as MVC and the like). Would you discuss this topic?
+* goto는 나쁜가요? 아마 당신은 goto를 비판하고, 구조적인 프로그래밍을 옹호하는, Edsger Dijkstra의 유명한 논문인 "Go To Statement Considered Harmful"에 대해서 들어봤을 것입니다. goto에 대한 사용은 항상 논란이 되어왔습니다. 심지어, Dijkstra의 의견을 비판한 "'GOTO Considered Harmful' Considered Harmful"이라는 글까지 있으니까요. goto에 대한 당신의 생각은 어떤가요?
+* 견고함의 원칙(The robustness principle)은 "당신이 하는 일은 엄하게, 남의 것을 받아들일 때는 너그럽게"라고 일컬어지는 일반적인 소프트웨어 설계 가이드라인입니다. 이는, "관대한 독자, 신중한 작가가 되어라"라는 말로써 표현되기도 하죠. 이런 법칙이 합리적인지에 대해서 얘기를 나누어볼 수 있을까요?
+* 관심의 분리(Separation of Concerns)는 컴퓨터 프로그램을 각자의 관심사에 따라 나누어 구분지어 개발한다는 설계 원칙입니다. 관심의 분리를 달성하기 위해서는 다양한 메커니즘을 활용할 수 있죠(MVC와 같은 설계에 기반한 객체, 함수, 모듈, 패턴 등을 사용하는 것). 이 주제에 대하여 얘기를 나누어 볼까요?
 
 
 ### [[↑]](#toc) <a name='design'>코드 디자인:</a>
