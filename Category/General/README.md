@@ -4,7 +4,7 @@
 * Microsoft, Google, Opera 그리고 Mozilla와 같은 회사들은 무엇을 얻기 위해 그들의 브라우저를 만들었을까요?
 * 캡슐화는 무엇을 얻기 위해 중요할까요?
 * Real-Time 시스템은 무엇이며 일반 시스템과 어떻게 다를까요?
-* What's the relationship between real-time languages and heap memory allocation?
+* 실시간 언어와 힙 메모리 할당에는 어떤 관계가 있나요?
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How can immutability help write safer code?
 * Mutable 그리고 immutable value의 장단점들은 무엇일까요?
 * What's the Object-Relational impedance mismatch?
@@ -31,7 +31,7 @@
 * 왜 소프트웨어를 작성(개발)하는 것은 어려울까요? 무엇이 소프트웨어의 유지보수를 어렵게 만들까요?
 * Would you prefer working on Green Field or Brown Field projects? Why?
 * What does an Operating System do when it has got no custom code to run, and therefore it looks idle? I would like to start a discussions about interrupts, daemons, background services, polling, event handling and so on.
-* Explain Unicode/Database Transactions to a 5 year old child.
+* 5살 아이에게 Unicode와 Database Transactions에 대하여 설명해보세요.
 * 전문적인 개발자라는 사람은 어떤 의미일까요?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "이 상품을 좋아하는 사람들은 이런 상품도 좋아했습니다"와 같은 기능을 소셜 커머스 샵에서 어떻게 구현할 수 있을까요?
@@ -42,13 +42,13 @@
 ### [[↑]](#toc) <a name='billgates'>빌 게이츠 스타일의 질문:</a>
 This section collects some weird questions along the lines of the [Manhole Cover Question](https://en.wikipedia.org/wiki/Microsoft_interview#Manhole_cover_question).
 
-* What would happen if you put a mirror in a scanner?
-* Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
+* 스캐너에 거울 스캔하면 무슨 일이 벌어질까요?
+* 당신과 완벽히 똑같은 복제인간(clone)이 있다고 칩시다. 그리고 그 복제인간은 당신의 상사입니다. 당신은 그 사람과 같이 일할 것인가요?
 * 저를 인터뷰 해주세요.
-* Why are Quora's answers better than Yahoo Answers' ones?
+* Quora의 답변이 Yahoo의 답변보다 좋은 이유는 무엇일까요?
 * Let's play a game: defend Cobol against modern languages, and try to find as many reasonable arguments as you can.
 * 당신은 10년 후에 어떤 모습이 되어있을까요?
 * 당신이 나의 보스이며, 나를 해고했다고 가정해봅시다. 나에게 해고 통지를 해보세요.
 * I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
-* Your boss asks you to lie to the Company. What's your reaction?
-* If you could travel back in time, which advice would you give to your younger self?
+* 당신의 상사가 당신에게 회사를 상대로 거짓말을 하라고 말했습니다. 당신은 어떻게 반응할 것인가요?
+* 과거로 시간 여행을 할 수 있다면, 당신의 어린 시절에게 무슨 말을 해주고 싶은가요?
