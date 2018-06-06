@@ -3,14 +3,14 @@
 * 언제 캐시전략이 유용하지 않고 심지어 위험스러운 상황까지 오게 될까요?
 * 이벤트 기반 아키텍쳐(Event-Driven Architecture)를 통해 확장성이 향상되는 이유는 무엇일까요?
 * 어떻게 하면 코드를 읽기 쉽게 만들 수 있을까요?
-* What is the difference between emergent design and evolutionary architecture?
+* emergent design과 evolutionary architecture의 차이점은 무엇일까요?
 * Scale out과 scale up의 차이점을 알고 계신가요? 어떤 상황에 적용해야할까요?
 * user 세션(sessions)의 장애를 어떻게 처리하실건가요?
 * CQRS (Command Query Responsibility Segregation)이란 무엇일까요? 기존의 Command-Query Separation 원리랑 어떤 차이를 가질까요?
 * The so called "multitier architecture" is an approach to design a client–server system aimed to keep physically and logically separated presentation, application processing, data management and other functions. The most widespread of the multitier architectures is the three-tier architecture. Would you discuss the pros and cons of such approach?
 * 당신은 소프트웨어 시스템의 확장성(scalability)을 어떻게 고려해서 디자인 하나요?
 * Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?
-* How would you design a decentralized (that is, with no central server) P2P system?
+* 분산화된 P2P System을 어떻게 디자인 하실 건가요?
 * You may recall that Common Gateway Interface (CGI) is a standard protocol for web servers to execute programs (CGI scripts) that execute as Command-line programs on a server, and that dynamically generate HTML pages when invoked by a HTTP request. Perl and PHP used to be common languages for such scripts. In CGI, a HTTP request generally causes the invocation of a new process on the server, but FastCGI, SCGI and other approaches improved the mechanism, raising the performance, with techniques such as preforking processes. Can you imagine why has't CGI eventually win, and was instead replaced with other architectural approaches?
 * How would you defend the design of your systems against Vendor Lock-in?
 * 규모에 따른 Publish-Subscribe 패턴의 단점들은 무엇일까요?

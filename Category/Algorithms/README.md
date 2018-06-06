@@ -13,3 +13,4 @@
 * Write a very basic web server. Draw a road map for features to be implemented in the future.
 * 10GB 크기의 파일을 어떻게 정렬 하실 건가요? 10TB의 크기로 변경된다면 당신은 문제 해결 방법을 어떻게 접근하실건가요?
 * 파일 중복을 어떻게 프로그래밍으로 감지할 수 있을까요?
+* HashTable은 어떻게 동작하나요? 충돌 발생시 해결 방법은 어떤 것들이 있을까요?
