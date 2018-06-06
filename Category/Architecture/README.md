@@ -28,7 +28,7 @@
 * Why, in a SOA, long-lived transactions are discouraged and Sagas are suggested instead?
 * Soa와 Microservices는 어떤 차이점을 가지고 있나요?
 * Let's talk about web services versioning, version compatibility and breaking changes.
-* What's the difference between a transaction and a compensation operation in a saga, in SOA?
+* SOA에서 transaction과 compensation operation의 차이점이 무엇일까요?
 * 언제 Microservice는 지나치게 작다고 느껴질까요?
 * MicroService architecture의 장단점에 대해 설명해주세요.
 * 모노리틱 아키텍쳐(Monolithic architecture)을 설명해주세요.
