@@ -25,9 +25,9 @@
 
 ### [[↑]](#toc) <a name='microservice'>Microservices:</a>
 
-* Why, in a SOA, long-lived transactions are discouraged and Sagas are suggested instead?
+* SOA 관점에서 Long-Lived 트랜잭션은 되도록 사용하지 않고. 대신하여 Saga 패턴이 제안될까요?
 * Soa와 Microservices는 어떤 차이점을 가지고 있나요?
-* Let's talk about web services versioning, version compatibility and breaking changes.
+* 웹 서비스 버젼 관리, 버젼 호환성 및 변경 사항을 어떻게 관리할까요?
 * SOA에서 transaction과 compensation operation의 차이점이 무엇일까요?
 * 언제 Microservice는 지나치게 작다고 느껴질까요?
 * MicroService architecture의 장단점에 대해 설명해주세요.
@@ -41,7 +41,7 @@
 * 어떤 상황에서 두 시스템 간의 비동기 커뮤니케이션(asynchronously communication)을 적용할 것인가요?
 * 원격 프로시저 호출(Remote Procedure Call)의 일반적인 문제점은 무엇일까요?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
-* How to manage Fault Tolerance in a Web application? And in a Desktop one?
+* 웹 어플리케이션은 장애를 어떻게 관리하고 견뎌낼까요?
 * 분산시스템의 장애는 어떻게 해결하실 건가요?
 * Let's talk about the several approaches to Reconciliation after network partitions
 * 분산 컴퓨팅의 단점은 무엇일까요?
