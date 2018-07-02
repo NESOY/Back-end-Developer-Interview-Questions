@@ -11,7 +11,7 @@
 
 ### [[↑]](#toc) <a name='spring'>Spring:</a>
 
-* Bean이란 무엇일까요?
+* Bean
 
 
 

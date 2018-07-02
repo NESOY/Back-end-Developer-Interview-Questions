@@ -1,7 +1,7 @@
 Back-End 개발자 인터뷰 질문
 ======================================
 ## 📌공지
-[![HitCount](http://hits.dwyl.io/nesoy/Back-end-Developer-Interview-Questions.svg)](http://hits.dwyl.io/nesoy/Back-end-Developer-Interview-Questions)
+[![Nesoy](https://img.shields.io/badge/Author-Nesoy-blue.svg)](http://nesoy.github.io/about) [![HitCount](http://hits.dwyl.io/nesoy/Back-end-Developer-Interview-Questions.svg)](http://hits.dwyl.io/nesoy/Back-end-Developer-Interview-Questions)
 
 대부분의 질문은 자유롭게 답할 수 있으며 그 중에는 *옳은 답*과 *틀린 답*이 없는 질문들이 있습니다. 반대로, 그들은 올바른 정답보단 지원자의 능력에 대해 더 많이 말해 줄 수 있기를 바라면서 대화의 시작점으로 출발하기를 바라고 있습니다. 개인적으로, 나는 명확한 답이 없는 질문들을 선택할 것입니다.
 
@@ -12,9 +12,9 @@ Back-End 개발자 인터뷰 질문
 > Star나 Watching을 해주시면 감사하겠습니다.🙏
 
 ## 🔍<a name='toc'>목차 </a>
-- [Web](/Category/Web/README.md#web)
-    - [Spring](/Category/Web/README.md#spring)
-    - [Django](/Category/Web/README.md#django)
+- [WebFramework](/Category/WebFramework/README.md#web)
+    - [Spring](/Category/WebFramework/README.md#spring)
+    - [Django](/Category/WebFramework/README.md#django)
 - [데이터베이스](/Category/Database/README.md)
     - [데이터베이스](/Category/Database/README.md#databases)
     - [NoSQL](/Category/Database/README.md#nosql)
@@ -29,8 +29,6 @@ Back-End 개발자 인터뷰 질문
     - [동시성](/Category/OS/README.md#concurrency)
 - [알고리즘](/Category/Algorithms/README.md#algorithms)
 - [디자인 패턴](/Category/DesignPattern/README.md)
-    - [디자인 패턴](/Category/DesignPattern/README.md#patterns)
-    - [코드 디자인](/Category/DesignPattern/README.md#design)
 - [아키텍쳐](/Category/Architecture/README.md)
     - [분산 시스템](/Category/Architecture/README.md#distributed)
     - [소프트웨어 아키텍처](/Category/Architecture/README.md#architecture)
