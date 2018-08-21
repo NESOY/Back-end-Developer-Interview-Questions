@@ -1,11 +1,11 @@
 ## Design Pattern
 ### Index
 - [SOLID](#SOLID)
-    - [단일 책임 원칙 (Single responsibility principle)](#SRP)
-    - [개방-폐쇄 원칙 (Open/closed principle)](#OCP)
-    - [리스코프 치환 원칙 (Liskov substitution principle)](#LSP)
-    - [인터페이스 분리 원칙 (Interface segregation principle)](#ISP)
-    - [의존관계 역전 원칙 (Dependency inversion principle)](#DIP)
+    - [단일 책임 원칙 (Single responsibility principle)](#srp)
+    - [개방-폐쇄 원칙 (Open/closed principle)](#ocp)
+    - [리스코프 치환 원칙 (Liskov substitution principle)](#lsp)
+    - [인터페이스 분리 원칙 (Interface segregation principle)](#isp)
+    - [의존관계 역전 원칙 (Dependency inversion principle)](#dip)
 - 설계와 개발 원칙
     - DRY(Do not Repeat YourSelf)
     - KISS(Keep it small and simple)
