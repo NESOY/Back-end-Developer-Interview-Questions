@@ -6,9 +6,12 @@ Back-End 개발자 인터뷰 질문
 > Star나 Watching을 해주시면 감사하겠습니다.🙏
 
 ## 🔍목차
-- [Java](/Category/Language/Java.md)
+- Language
+    - [Java](/Category/Language/Java.md)
 - [Web](/Category/Web/README.md)
 - [DesignPattern](/Category/DesignPattern/README.md)
+- [Database](/Category/Database/README.md)
+- [Algorithm](/Category/Algorithm/README.md)
 
 ## 💼인터뷰 관련 정보
 #### Back-End 인터뷰
