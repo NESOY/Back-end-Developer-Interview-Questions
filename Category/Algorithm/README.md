@@ -5,7 +5,7 @@
 - [Tree](#Tree)
     - [Binary Search Tree](#BinarySearchTree)
     - [Red-Black Tree](#RedBlackTree)
-
+- [Graph](#Graph)
 --------
 
 ### Map
@@ -14,3 +14,5 @@
 ### Tree
 #### BinarySearchTree
 #### RedBlackTree
+
+### Graph

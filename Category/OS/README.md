@@ -1,9 +1,9 @@
 ## OS
 ### Index
-- [Process](#Process)
-- [Thread](#Thread)
+- [Process, Thread의 차이](#Process-Thread)
 - [Swapping](#Swapping)
+- [Thread-safe](#Thread-safe)
 --------
-### Process
-### Thread
+### Process-Thread
 ### Swapping
+### Thread-safe
