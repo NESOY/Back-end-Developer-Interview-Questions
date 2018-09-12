@@ -1,26 +1,26 @@
-Back-End Developer Interview Questions
-======================================
+백엔드 개발자 면접 질문
+==================
 
-This page has been translated to [Chinese](https://github.com/monklof/Back-End-Developer-Interview-Questions) by [monklof](https://github.com/monklof).
+중국어 번역본 [클릭](https://github.com/monklof/Back-End-Developer-Interview-Questions) by [monklof](https://github.com/monklof).
 
-I started writing down this list as a personal reminder of topics I had the chance to discuss with colleagues and friends, and that I wanted to deepen...
+처음에는 친구나 동료들과 기술토론을 하기 위한 질문 목록을 준비하기 위해 시작했습니다. 하지만 그보다 뭔가 더 해보고 싶어졌습니다...
 
-I'm not a big fan of asking technical questions in job interviews: I rather prefer to sit together with candidates in front of some real code, hands on the keyboard, facing a real problem, and have a full day of pair programming, hopefully rotating with all the other team members. Yet, I feel some technical questions could be a good starting point to begin an engaging and nice conversation, and this can be useful to get a deeper knowledge of each others.
+저는 사실 면접장에서 기술적인 질문을 하기 보다는, 후보자와 실제 코드를 앞에 두고 같이 앉아서 키보드 위에 손을 올리고 실질적인 문제들로 하루 종일 짝코딩 하는 편을 선호합니다. 가능하다면 회사 동료들과 돌아가면서요. 하지만 기술적인 질문으로 멋진 토론을 유도할 수도 있고, 서로의 지식을 공유하는 좋은 방법이기도 한 것 같습니다.
 
-This repo collects a number of back end related questions that can be used when vetting potential candidates. It is by no means recommended to use every single question on the same candidate: that would take hours, and would have no sense at all, as they cover a too broad set of topics for a single developer's to possibly know. Browse the section you find more relevant for your context, and pick the questions that give you more ideas on the conversation to have.
+이 백엔드 개발자용 질문 목록은 후보자에 대해 면밀히 알고자 할 때 쓸만한 질문을 모았습니다. 단, 한 후보에게 모든 질문을 하지는 마세요. 몇 시간이 걸릴지 모르고, 의미도 없습니다. 그리고 한 사람이 알기에는 너무 광범위한 지식을 다루고 있습니다. JD와 유관한 질문을 추려서 기술적인 토론이 더 의미있도록 해 보세요.
 
-### Notice
-Most of the questions are open-ended, and some of them just don't have a *right* or a *wrong* answer. On the contrary, they are intended to be used as the starting point for a conversation that hopefully tells you more about the person's capabilities than a straight answer would. Personally, I would even choose the questions whose answers are not yet clear to me.
+### 알림
+모든 질문은 기본적으로 열린 질문입니다. 일부는 정답이 없기도 합니다. 질문은 대화의 시발점으로 쓰려는 의도로 작성되었습니다. 아마 정답을 말할 수 있는 질문보다 후보자의 역량을 더 알 수 있을 겁니다. 개인적으로 저는 제가 아직 제대로 알지 못하는 분야의 질문을 선택하기도 합니다.
 
-Again, I stress that just asking questions is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know each others' style and approach and to let candidates know some details about their future day job.
+다시 한번 강조하지만, 질문만으로는 충분하지 않습니다. 후보자와 오랫동안 짝코딩을 하세요. 후보자의 개발 스타일, 문제 접근 방식을 알 수 있고, 후보자 편에서는 지원 회사의 업무 방식에 대해 구체적으로 알 수 있는 기회니까요.
 
-This project is admittedly inspired by [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) by [@darcyclarke](https://github.com/darcyclarke)
+이 프로젝트는 [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) by [@darcyclarke](https://github.com/darcyclarke) 의 영향으로 시작되었습니다.
 
 
 
-### Where are the answers?
+### 정답은 어디있나요?
 
-Sooner or later I will complete it with the relative answers. Feel free to contribute, it would be highly appreciated!
+조만간 완성할 것 같습니다. Contribute해 주신다면 대단히 감사하겠습니다!
 
 
 ## <a name='toc'>목차</a>
@@ -97,25 +97,25 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * 자바와 C#의 상호운용성에 대해 이야기 해 봅시다. (다른 임의의 2개의 언어도 가능)
 * 많은 개발자가 자바를 좋아하지 않는 이유는 무엇인가요?
 * 무엇이 좋은 언어와 나쁜 언어를 만드나요?
-* Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
-* Whats the Stack and what's the Heap? What's a Stack Overflow?
-* Why is it important that in a language functions are first class citizens?
-* Some languages, especially the ones that promote a Functional approach, allow a technique called Pattern Matching. Do you know it? How is Pattern Matching different from Switch clauses?
-* Why do some languages have no exceptions by design? What are the pros and cons?
-* If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
-* Why in Java, C# and many other languages constructors are not part of the interface?
-* In the last years there has been a lot of hype on Node. What's your opinion on the use in the back end of a language that was initially conceived to run in the browser?
-* Pretend you have a time machine and pretend that you have the opportunity to go to a particular point in time during Java's (or C#, Python, Go or whatever) history, and talk with some of the JDK architects. What would you try to convince them of? Removing checked exceptions? Adding unsigned primitives? Adding multiple-inheritance?
+* 참조(Referentially) 투명 함수(순수 함수)와 참조 불투명 함수를 각각 하나씩 작성하세요. (토론)
+* Stack과 Heap은 무엇인가요? Stack Overflow는 무엇인가요?
+* 언어에서 함수가 일등시민인지 여부가 왜 중요한가요?
+* 일부 언어, 특히 함수형 언어는 패턴 매칭을 허용합니다. 이 사실을 알고 있나요? 그리고 패턴 매칭과 Switch 절이 어떻게 다른가요?
+* 어떤 언어는 설계상 예외를 허용하지 않는데요, 그 이유와 장단점은 무엇일까요?
+* `Cat` 객체가 `Animal` 객체이면, `TakeCare<Cat>` 객체는 `TakeCare<Animal>` 객체일까요?
+* Java나 C# 등 많은 언어에서 인터페이스에 생성자가 없는 이유가 무엇인가요?
+* 최근 몇 년간 Node가 많이 과장된 것 같습니다. 브라우저에서 실행되도록 고안된 언어를 백엔드에서 사용하는 부분에 대해 어떻게 생각하시나요?
+* 만약 과거로 돌아가서 Java(C#, Python, Go 등 주력언어) 설계자와 대화할 수 있다면 어떤 부분을 바꿔야 한다고 설득하겠습니까? 명시적인 예외(checked exception)를 없애달라고 할까요? 부호 없는 기본 자료형을 추가해달라고 할까요? 다중 상속을 추가해 달라고 할까요?
 
 
 
 ### [[↑]](#toc) <a name='web'>Web:</a>
-* Why first-party cookies and third-party cookies are treated so differently?
-* How would you manage Web Services API versioning?
-* From a Back End perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
-* Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefulness is bad?
-* REST and SOAP: when would you choose one, and when the other?
-* In Web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the Back End and in the Front End. What are they, and why are they advisable?
+* first-party(도메인 의존) 쿠키와 third-party(범 도메인) 쿠키를 다르게 취급하는 이유는 무엇인가요?
+* 웹서비스 API의 버전관리는 어떻게 하시나요?
+* 백엔드 관점에서 SPA는 어떤 단점이나 문제점이 있을까요?
+* 상태 정보가 없는(stateless) 서비스를 만들기 위해 노력하는 이유는 보통 무엇일까요? 상태 정보가 없는 코드가 왜 좋으며 상태정보를 보관하는 방식(stateful)이 왜 나쁜가요?
+* REST 와 SOAP: 각각 언제 선택해야 하나요?
+* 웹개발에서 백엔드와 프론트엔드 모두 MVC나 MVVM이 매우 일반적입니다. 각각이 어떤 의미이고, 왜 적합한가요?
 
 
 ### [[↑]](#toc) <a name='databases'>DB:</a>
