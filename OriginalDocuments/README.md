@@ -108,7 +108,6 @@
 * 만약 과거로 돌아가서 Java(C#, Python, Go 등 주력언어) 설계자와 대화할 수 있다면 어떤 부분을 바꿔야 한다고 설득하겠습니까? 명시적인 예외(checked exception)를 없애달라고 할까요? 부호 없는 기본 자료형을 추가해달라고 할까요? 다중 상속을 추가해 달라고 할까요?
 
 
-
 ### [[↑]](#toc) <a name='web'>Web:</a>
 * first-party(도메인 귀속) 쿠키와 third-party(도메인 독립) 쿠키를 다르게 취급하는 이유는 무엇인가요?
 * 웹 API의 버전관리는 어떻게 하시나요?
@@ -127,8 +126,8 @@
 * Lazy Loading을 어떻게 만들어 낼까요? 언제 유용하고, 이 설계방식의 함정은 무엇인가요?
 * "N + 1 문제"는 lazy-loading이 활성화된 부모-자식 관계로 설정된 ORM객체가 하나의 쿼리로 각각의 자식을 읽어올 때 발생하는 문제입니다. 이 문제를 어떻게 수정하시겠습니까?
 * 프로그램에서 가장 비싼 쿼리를 어떻게 찾으시겠습니까?
-* In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
-* Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
+* 항상 DB를 정규화해야 한다고 생각하시나요? 언제 DB를 정규화하지 않고 쓸 수 있나요?
+* Blue-Green Deployment 개발이라 불리우는 CI 기술은 동일한 두 개의 프로덕션 환경에서 한 쪽이 작동중일 때 다른 쪽에 배포하고 간단한 테스트 후 다른 쪽 환경으로 안전하게 트래픽을 전환하는 기술입니다. 이 기술은 배포시 DB 구조나 내용이 변경될 때 더욱 복잡해집니다. 이 주제에 대해 토론해 봅시다.
 
 
 ### [[↑]](#toc) <a name='nosql'>NoSQL:</a>
