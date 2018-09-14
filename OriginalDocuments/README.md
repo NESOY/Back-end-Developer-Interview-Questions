@@ -120,13 +120,13 @@
 
 ### [[↑]](#toc) <a name='databases'>DB:</a>
 
-* How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
-* Why databases treat null as a so special case? For example, why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
-* ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most of the database engines. What do you know about this topic? Would you like to elaborate?
-* How would you manage database schema migrations, that is, how would you automate the changes a database schema is affected to, as the application evolve, version after version?
-* How is Lazy Loading achieved? When is it useful? What are its pitfalls?
-* The so called "N + 1 problem" is an issue that occurs when the code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
-* How would you find the most expensive queries in an application?
+* 서로 다른 DB간 마이그레이션을 어떻게 진행하시나요?(예: MySQL에서 PostgreSQL로) 마이그레이션 프로젝트의 관리자라면 어떤 이슈가 예상되나요?
+* DB가 null을 특수 케이스로 보는 이유가 무엇인가요? 예를 들면, 다음 SQL문 ```SELECT * FROM table WHERE field = null```이 널을 포함하는 ``field``를 가져오지 못하는 이유가 무엇인가요?
+* ACID는 대부분의 DB가 지원하는 트랜잭션이 보장하는 원자성(Atomicity), 일관성(Consistency), 고립성(Isolation), 지속성(Durability)의 네 가지 속성을 말하는 약자입니다. 이 ACID에 대해 알고 계시나요? 구체적으로 얘기해 봅시다.
+* DB 스키마를 어떻게 마이그레이션 하시나요? 다시말해, 응용프로그램의 버전이 올라감에 따라 변경된 DB 스키마를 자동화하여 적용하는 방법은 무엇인가요?
+* Lazy Loading을 어떻게 만들어 낼까요? 언제 유용하고, 이 설계방식의 함정은 무엇인가요?
+* "N + 1 문제"는 lazy-loading이 활성화된 부모-자식 관계로 설정된 ORM객체가 하나의 쿼리로 각각의 자식을 읽어올 때 발생하는 문제입니다. 이 문제를 어떻게 수정하시겠습니까?
+* 프로그램에서 가장 비싼 쿼리를 어떻게 찾으시겠습니까?
 * In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
 * Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
 
