@@ -127,35 +127,35 @@
 * "N + 1 문제"는 lazy-loading이 활성화된 부모-자식 관계로 설정된 ORM객체가 하나의 쿼리로 각각의 자식을 읽어올 때 발생하는 문제입니다. 이 문제를 어떻게 수정하시겠습니까?
 * 프로그램에서 가장 비싼 쿼리를 어떻게 찾으시겠습니까?
 * 항상 DB를 정규화해야 한다고 생각하시나요? 언제 DB를 정규화하지 않고 쓸 수 있나요?
-* Blue-Green Deployment 개발이라 불리우는 CI 기술은 동일한 두 개의 프로덕션 환경에서 한 쪽이 작동중일 때 다른 쪽에 배포하고 간단한 테스트 후 다른 쪽 환경으로 안전하게 트래픽을 전환하는 기술입니다. 이 기술은 배포시 DB 구조나 내용이 변경될 때 더욱 복잡해집니다. 이 주제에 대해 토론해 봅시다.
+* Blue-Green Deployment라 불리우는 CI 기술은 동일한 두 개의 프로덕션 환경에서 한 쪽이 작동중일 때 다른 쪽에 배포하고 간단한 테스트 후 다른 쪽 환경으로 안전하게 트래픽을 전환하는 기술입니다. 이 기술은 배포시 DB 구조나 내용이 변경될 때 더욱 복잡해집니다. 이 주제에 대해 토론해 봅시다.
 
 
 ### [[↑]](#toc) <a name='nosql'>NoSQL:</a>
 
-* What is Eventual Consistency?
-* The Brewer's Theorem, most commonly known as the CAP theorem, states that in the presence of a Network Partition (the P in CAP), a system's designer has to choose between Consistency (the C in CAP) and Availability (the A in CAP). Can you think about examples of CP, AP and CA systems?
-* How would you explain the recent rise in interest for NoSQL?
-* How does NoSQL tackle scalability challenges?
-* In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
+* 최종 일관성(Eventual Consistency)은 무엇인가요?
+* 보통 CAP 정리라고 알려져 있는 브루어(Brewer)의 정리는 시스템 설계자가 네트워크 파티션(Partition, P)에서 일관성(Consistency, C)과 가용성(Availability, A) 사이에서 하나를 선택해야 한다는 정리입니다. CP, AP, CA 시스템을 각각 예를 들어 설명해 주세요.
+* 최근 NoSQL에 대한 관심이 부상하는 현상을 어떻게 설명하시겠습니까?
+* NoSQL은 확장성 문제를 어떻게 해소하나요?
+* 어떤 경우에 MySQL이나 PostgreSQL 같은 RDB 대신 MongoDB 같은 document DB를 사용하시겠습니까?
 
 
 ### [[↑]](#toc) <a name='codeversioning'>버전관리:</a>
 
-* Why is branching with Mercurial or git easier than with SVN?
-* What are the pros and cons of Distributed Version Control Systems like Git over Centralized ones like SVN?
-* Could you describe GitHub Flow and GitFlow workflows?
-* What's a rebase?
-* Why merges are easier with Mercurial and git than with SVN and CVS?
+* Mercurial이나 git이 SVN 보다 branch 따기 쉬운 이유가 무엇인가요?
+* SVN 같은 중앙 집중형 버전 관리 시스템과 비교하여 Git 같은 분산형 버전 관리 시스템이 갖는 장단점은 무엇인가요?
+* GitHub Flow와 GitFlow의 업무 흐름을 설명해주세요.
+* Rebase란 무엇인가요?
+* Mercurial과 git이 SVN이나 CVS보다 merge가 쉬운 이유는 무엇인가요?
 
 
 ### [[↑]](#toc) <a name='concurrency'>동시성(Concurrency):</a>
 
-* Why do we need Concurrency, anyway? Explain.
-* Why is testing multithreading / concurrent code so difficult?
-* What is a Race Condition? Code an example, using whatever language you like.
-* What is a Deadlock? Would you be able to write some code that is affected by deadlocks?
-* What is Process Starvation? If you need, let's review its definition.
-* What is a Wait Free algorithm?
+* 동시성(Concurrency)이 필요한 이유를 설명해 주세요.
+* 멀티쓰레딩 / 동시 코드의 테스트가 어려운 이유는 무엇인가요?
+* 경쟁 상태(Race Condition)란 무엇인가요? 선호하는 언어로 예제 코드를 작성해 주세요.
+* Deadlock이 무엇인가요? Deadlock이 걸리는 코드를 작성해 보시겠습니까?
+* 프로세스 기아상태(Starvation)-livelock, 역자주-란 무엇인가요? 정의를 확인하고 이야기 하셔도 좋습니다.
+* Wait Free 알고리즘이 무엇인가요?
 
 
 ### [[↑]](#toc) <a name='distributed'>분산 시스템:</a>
