@@ -15,7 +15,7 @@ Back-End 개발자 인터뷰 질문
 - [OS](/Category/OS/README.md)
 - [Security](/Category/Security/README.md)
 - [Database](/Category/Database/README.md)
-- [Algorithm](/Category/Algorithm/README.md)
+- [Algorithm & Data structure](/Category/Algorithm/README.md)
 - [Testing](/Category/Testing/README.md)
 - [Architecture](/Category/Architecture/README.md)
 

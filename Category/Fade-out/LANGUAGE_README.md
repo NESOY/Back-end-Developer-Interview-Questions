@@ -1,6 +1,6 @@
 ### [[↑]](#toc) <a name='languages'>프로그래밍 언어:</a>
 * 선호하는 언어의 단점 3가지만 말해주세요.
-* 왜 함수 프로그래밍(Functional Programming)이 떠오르고 있는지 설명할 수 있나요?
+* ~~왜 함수 프로그래밍(Functional Programming)이 떠오르고 있는지 설명할 수 있나요?~~
 * 클로져란 무엇일까요? 그리고 어떤 상황에서 유용할까요? 클로져와 클래스간의 공통점은 무엇이 있을까요?
 * 어떤 상황에서 Generics이 유용할까요?
 * 고차 함수(High-order functions)란 무엇일까요? 어떤 상황에 유용할까요? 당신의 선호하는 언어로 예를 들어주세요.
@@ -10,7 +10,7 @@
 * There are a lot of different type systems: let's talk about static and dynamic type systems, and about strong and weak ones. You surely have an opinion and a preference about this topic. Would you like to share them, and discuss why and when would you promote one particular type system for developing an enterprise software?
 * NameSpace는 어떤 상황에 유용할까요? 대안은 없을까요?
 * Talk about Interoperability between Java and C# (in alternative, choose 2 other arbitrary languages)
-* 왜 많은 소프트웨어 개발자들은 자바를 좋아하지 않을까요?
+* ~~왜 많은 소프트웨어 개발자들은 자바를 좋아하지 않을까요?~~
 * 어떠한 점이 좋은 언어와 나쁜 언어를 만들까요?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
 * 스택(Stack)과 힙(Heap)은 무엇일까요? 스택 오버플로우(Stack Overflow)는 무엇일까요?

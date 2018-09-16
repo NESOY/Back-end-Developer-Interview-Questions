@@ -1,7 +1,7 @@
 ### [[↑]](#toc) <a name='architecture'>소프트웨어 아키텍처:</a>
 
 * 언제 캐시전략이 유용하지 않고 심지어 위험스러운 상황까지 오게 될까요?
-* 이벤트 기반 아키텍쳐(Event-Driven Architecture)를 통해 확장성이 향상되는 이유는 무엇일까요?
+* ~~이벤트 기반 아키텍쳐(Event-Driven Architecture)를 통해 확장성이 향상되는 이유는 무엇일까요?~~
 * 어떻게 하면 코드를 읽기 쉽게 만들 수 있을까요?
 * emergent design과 evolutionary architecture의 차이점은 무엇일까요?
 * Scale out과 scale up의 차이점을 알고 계신가요? 어떤 상황에 적용해야할까요?
@@ -31,7 +31,7 @@
 * SOA에서 transaction과 compensation operation의 차이점이 무엇일까요?
 * 언제 Microservice는 지나치게 작다고 느껴질까요?
 * MicroService architecture의 장단점에 대해 설명해주세요.
-* 모노리틱 아키텍쳐(Monolithic architecture)을 설명해주세요.
+* ~~모노리틱 아키텍쳐(Monolithic architecture)을 설명해주세요.~~
 * Circuit Breaker Pattern이란 무엇일까요? 이 패턴이 왜 필요할까요?
 
 

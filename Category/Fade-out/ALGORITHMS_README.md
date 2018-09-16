@@ -1,8 +1,8 @@
 ### [[↑]](#toc) <a name='algorithms'>알고리즘:</a>
 
-* 스택(LIFO Stacks)들로 큐(FIFO Queue)를 구성해보세요. 그리고 큐(FIFO Queue)들을 사용해서 스택(LIFO Stacks)을 구성해보세요.
+* ~~스택(LIFO Stacks)들로 큐(FIFO Queue)를 구성해보세요. 그리고 큐(FIFO Queue)들을 사용해서 스택(LIFO Stacks)을 구성해보세요.~~
 * Stack Overflow의 영향을 받는 코드를 작성해보세요.
-* Write a tail-recursive version of the factorial function
+* ~~Write a tail-recursive version of the factorial function~~
 * Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
 * 디스크 조각 모음[defragger] 유틸리티를 어떻게 디자인 하실 건가요?
 * Write a program that builds random mazes.

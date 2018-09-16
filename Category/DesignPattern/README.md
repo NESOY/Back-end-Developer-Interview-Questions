@@ -1,14 +1,14 @@
 ## Design Pattern
 ### Index
+- 객체 지향 프로그래밍(Object Oriented Programming)
+- 함수형 프로그래밍(Functional Programming)
 - [SOLID](#SOLID)
     - [단일 책임 원칙 (Single responsibility principle)](#srp)
     - [개방-폐쇄 원칙 (Open/closed principle)](#ocp)
     - [리스코프 치환 원칙 (Liskov substitution principle)](#lsp)
     - [인터페이스 분리 원칙 (Interface segregation principle)](#isp)
     - [의존관계 역전 원칙 (Dependency inversion principle)](#dip)
-- 설계와 개발 원칙
-    - DRY(Do not Repeat YourSelf)
-    - KISS(Keep it small and simple)
+- 디미터의 법칙(Law of Demeter)
 - 디자인 패턴
     - 팩토리 메서드 패턴 (Factory method Pattern)
     - 전략 패턴 (Strategy Pattern)
@@ -24,7 +24,7 @@
     - MVC 패턴 (Model-view-controller pattern)
     - 블랙보드 패턴 (Blackboard- pattern)
     - 인터프리터 패턴 (Interpreter pattern)
-
+- Publish-Subscribe 패턴
 --------
 ### SOLID
 #### SRP

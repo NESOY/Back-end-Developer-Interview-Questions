@@ -1,6 +1,6 @@
 ### [[↑]](#toc) <a name='general'>일반적인 질문:</a>
 
-* 왜 함수형 프로그래밍(Functional programming)이 중요해졌을까요? 언제 함수형 프로그래밍을 사용하는게 좋을까요?
+* ~~왜 함수형 프로그래밍(Functional programming)이 중요해졌을까요? 언제 함수형 프로그래밍을 사용하는게 좋을까요?~~
 * Microsoft, Google, Opera 그리고 Mozilla와 같은 회사들은 무엇을 얻기 위해 그들의 브라우저를 만들었을까요?
 * 캡슐화는 무엇을 얻기 위해 중요할까요?
 * Real-Time 시스템은 무엇이며 일반 시스템과 어떻게 다를까요?

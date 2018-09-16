@@ -13,7 +13,7 @@
 
 ### [[↑]](#toc) <a name='nosql'>NoSQL:</a>
 
-* Eventual Consistency이란 무엇일까요?
+* ~~Eventual Consistency이란 무엇일까요?~~
 * The Brewer's Theorem, most commonly known as the CAP theorem, states that in the presence of a Network Partition (the P in CAP), a system's designer has to choose between Consistency (the C in CAP) and Availability (the A in CAP). Can you think about examples of CP, AP and CA systems?
 * 최근에 NoSQL의 인기가 상승하고 있는 이유에 대해 설명할 수 있나요?
 * NoSQL은 확장 문제를 어떻게 해결할까요?
