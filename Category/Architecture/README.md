@@ -1,8 +1,8 @@
 ## Architecture
 ### Index
-- [MicroService](#MicroService)
-- [Monolithic Architecture](#Monolithic-architecture)
-- [Event-Driven Architecture](#Event-Driven-Architecture)
+- [MicroService](#microservice)
+- [Monolithic Architecture](#monolithic-architecture)
+- [Event-Driven Architecture](#event-driven-architecture)
 
 --------
 

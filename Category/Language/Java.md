@@ -1,15 +1,13 @@
 ## Java
 ### Index
-- [Keyword](#Keyword)
-    - [transient](#transient)
-    - [volatile](#volatile)
-    - [final](#final)
+- [transient](#transient)
+- [volatile](#volatile)
+- [final](#final)
 - [Reflection](#reflection)
 --------
-### Keyword
-#### transient
-#### volatile
-#### final
+### transient
+### volatile
+### final
 ### Reflection
 
 

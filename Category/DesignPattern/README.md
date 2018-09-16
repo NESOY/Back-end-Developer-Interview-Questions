@@ -2,7 +2,7 @@
 ### Index
 - 객체 지향 프로그래밍(Object Oriented Programming)
 - 함수형 프로그래밍(Functional Programming)
-- [SOLID](#SOLID)
+- [SOLID](#solid)
     - [단일 책임 원칙 (Single responsibility principle)](#srp)
     - [개방-폐쇄 원칙 (Open/closed principle)](#ocp)
     - [리스코프 치환 원칙 (Liskov substitution principle)](#lsp)

@@ -1,7 +1,7 @@
 ## BuildTool
 ### Index
-- [Maven](#Maven)
-- [Gradle](#Gradle)
+- [Maven](#maven)
+- [Gradle](#gradle)
 
 --------
 

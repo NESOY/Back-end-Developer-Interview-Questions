@@ -1,10 +1,10 @@
 ## OS
 ### Index
-- [Process, Thread의 차이](#Process-Thread)
-- [Swapping](#Swapping)
-- [Thread-safe](#Thread-safe)
-- [DeadLock](#Deadlock)
-- [Race Condition](#Race-Condition)
+- [Process, Thread의 차이](#process-thread)
+- [Swapping](#swapping)
+- [Thread-safe](#thread-safe)
+- [DeadLock](#deadlock)
+- [Race Condition](#race-condition)
 --------
 ### Process-Thread
 ### Swapping

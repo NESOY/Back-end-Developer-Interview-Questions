@@ -1,9 +1,9 @@
 ## Security
 ### Index
-- [XSS](#XSS)
-- [CSRF](#CSRF)
-- [SQL Injection](#SQL-Injection)
-- [Man-in-the-middle attack](#Man-in-the-middle-attack)
+- [XSS](#xss)
+- [CSRF](#csrf)
+- [SQL Injection](#sql-injection)
+- [Man-in-the-middle attack](#man-in-the-middle-attack)
 --------
 ### XSS
 ### CSRF

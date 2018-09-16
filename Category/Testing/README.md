@@ -1,11 +1,11 @@
 ## Testing
 ### Index
-- [Unit-Testing](#Unit-Testing)
-- [Integration-Testing](#Integration-Testing)
-- [Java](#Java)
-    - [JUnit](#JUnit)
-    - [Mockito](#Mockito)
-    - [Spock](http://spockframework.org/)
+- [Unit-Testing](#unit-testing)
+- [Integration-Testing](#integration-testing)
+- [Java](#java)
+    - [JUnit](#junit)
+    - [Mockito](#mockito)
+    - [Spock](#spock)
 --------
 ### Unit-Testing
 ### Integration-Testing
