@@ -168,7 +168,15 @@
 * 분산 시스템의 장애를 어떻게 다루어야 할까요?
 * 네트워크 재설정 이후 후처리 방법에 대해 이야기해 봅시다.
 * 분산 시스템의 맹점은 무엇인가요?
-* Request/Reply와 Publish/Subscribe를 각각 언제 사용하시겠습니까?
+*How to test a distributed system?
+* In which case would you apply asynchronously communication between two systems?
+* What are the general pitfalls of Remote Procedure Call?
+* If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
+* How to manage Fault Tolerance in a Web application? And in a Desktop one?
+* How to deal with failures in Distributed Systems?
+* Let's talk about the several approaches to Reconciliation after network partitions
+* What are the Fallacies of Distributed Computing?
+* When would you use Request/Reply와 and when Publish/Subscribe를 각각 언제 사용하시겠습니까?
 * 트랜잭션을 지원하지 않는 시스템에서 작업한다고 가정해 봅시다. 어떤식으로 접근해야 할까요?
 
 
@@ -181,6 +189,18 @@
 * 애자일과 폭포수 방법론의 가장 큰 차이는 무엇인가요?
 * 회의가 너무 많은 문제를 관리자로서 어떻게 해결하시겠습니까?
 * 너무 늦어버린 프로젝트를 어떻게 관리하시겠습니까?
+* Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
+
+
+### [[↑]](#toc) <a name='management'>소프트웨어 생명주기와 팀 관리:</a>
+
+* What is agility?
+* How would you deal with Legacy Code?
+* Say I'm your Project Manager, and I'm no expert in programming. Would you try explaining me what Legacy Code is and why should I care about code quality?
+* I'm the CEO of your company. Explain to me Kanban and convince me to invest in it.
+* What is the biggest difference between Agile and Waterfall?
+* Being a team manager, how would you deal with the problem of having too many meetings?
+* How would you manage a very late project?
 * "*Individuals and interactions over processes and tools*" and "*Customer collaboration over contract negotiation*" comprise half of the values of the Agile Manifesto. Discuss
 * Tell me what decisions would you take if you could be the CTO of your Company.
 * Are Program Managers useful?
@@ -470,3 +490,6 @@ This section collects some weird questions along the lines of the [Manhole Cover
 * I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
 * Your boss asks you to lie to the Company. What's your reaction?
 * If you could travel back in time, which advice would you give to your younger self?
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTk1OTMyMDQwOV19
+-->
