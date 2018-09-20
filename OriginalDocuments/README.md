@@ -210,29 +210,28 @@
 
 ### [[↑]](#toc) <a name='architecture'>소프트웨어 아키텍처:</a>
 
-* When is a cache not useful or even dangerous?
-* Why does Event-Driven Architecture improve scalability?
-* What makes code readable?
-* What is the difference between emergent design and evolutionary architecture?
-* Scale out vs scale up: how are they different? When to apply one, when the other?
-* How to deal with failover and user sessions?
-* What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
-* The so called "multitier architecture" is an approach to design a client–server system aimed to keep physically and logically separated presentation, application processing, data management and other functions. The most widespread of the multitier architectures is the three-tier architecture. Would you discuss the pros and cons of such approach?
-* How would you design a software system for scalability?
-* Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?
-* How would you design a decentralized (that is, with no central server) P2P system?
-* You may recall that Common Gateway Interface (CGI) is a standard protocol for web servers to execute programs (CGI scripts) that execute as Command-line programs on a server, and that dynamically generate HTML pages when invoked by a HTTP request. Perl and PHP used to be common languages for such scripts. In CGI, a HTTP request generally causes the invocation of a new process on the server, but FastCGI, SCGI and other approaches improved the mechanism, raising the performance, with techniques such as preforking processes. Can you imagine why has't CGI eventually win, and was instead replaced with other architectural approaches?
-* How would you defend the design of your systems against Vendor Lock-in?
-* What are the disadvantages of the Publish-Subscribe pattern at scale?
-* What's new in CPUs since the 80s, and how does it affect programming?
-* In which part of the lifecycle of a software performance should be taken in consideration, and how?
-* How could a Denial of Service arise not maliciously but for a design or architectural problem?
-* What’s the relationship between Performance and Scalability?
-* When is it OK (if ever) to use tight coupling?
-* What characteristic should a system have to be Cloud Ready?
-* Does unity of design imply an aristocracy of architects? Putting it simple: can good design emerge from a collective effort of all developers?
-* What's the difference between design, architecture, functionality and aesthetic? Discuss.
-
+* 언제 캐시가 필요 없거나 심지어 위험한가요?
+* Event-Driven 아키텍처가 왜 확장성을 높히나요?
+* 코드를 읽을 수 있게 만드는 것은 무엇입니까?
+* 즉각적인 설계 수정과 진화형 아키텍처의 차이점은 무엇인가요?
+* Scale out과 scale up의 차이점은 무엇이고 각각 어떤 경우에 적용하나요?
+* Failover(대체 시스템, 부하분산 등)와 사용자 세션은 어떻게 다루나요?
+* CQRS(Command Query Responsibility Segregation, 도메인 모델 설계시 CUD와 R을 분리)란 무엇이고, CQS 원칙과 어떻게 다른가요?
+* 소위 말하는 "다중 계층 아키텍처"는 클라이언트-서버 시스템을 물리적/논리적인 구분, 애플리케이션 처리, 데이터 관리와 기타 다른 기능으로 각각 유지할 수 있도록 설계하는 접근방법입니다. 그중 3계층 아키텍처가 가장 널리 알려져 있습니다. 이러한 접근방식의 장단점에 대해 토론해 봅시다.
+* 소프트웨어 시스템이 확장성을 갖기 위해 어떻게 설계하시겠습니까?
+* 누군가 한번에 만 개가 넘는 동시 접속을 처리하기 위한 네트워크 소켓의 최적화 문제에 "The "C10k problem"이라는 이름을 붙였습니다. 만 개의 동시접속을 처리하는 문제와 만 개의 클라이언트를 처리하는 문제는 같지는 않지만 문맥상 비슷합니다. 어쨌든 대단한 도전인데, 아무도 이 문제를 풀기 위한 모든 세부 사항을 알지 못합니다. 이 문제를 해결하기 위한 귀하의 전략이 궁금한데요, 한번 도전해 보시겠습니까?
+* 어떻게 분산형(중앙 서버가 없는) P2P 시스템을 설계하시겠습니까?
+* CGI(Common Gateway Interface)란 서버에서 CLI 프로그램으로 실행하고, HTTP 요청에 의해 동적으로 HTML 페이지를 생성하는 웹서버를 위한 표준 프로토콜(CGI scripts)입니다. Perl이나 PHP가 이에 해당하는 대표적인 script 언어입니다. CGI에서는 일반적으로 HTTP 요청에 의해 서버에서 새로운 프로세스가 생성되지만, FastCGI, SCGI 등에서는 사전 프로세스 로딩(preforking process) 같은 기술로 메커니즘을 개선하여 퍼포먼스를 향상시킵니다. 결국 CGI가 왜 성공하지 못하고 이런 다른 아키텍처로 대체되었을까요?
+* Vendor Lock-in 문제(플랫폼에 종속되어 발생하는 호환성 문제)에 대응하기 위해서 어떻게 설계해야 할까요?
+* 대형화된 발행-구독(Publish-Subscribe) 모델의 단점은 무엇인가요?
+* 80년대 이후 CPU의 새로운 기능은 무엇이며 프로그래밍에 어떤 영향을 주나요?
+* 소프트웨어 성능의 생명주기에서 어느 부분을 고려하는 것이 좋을까요? 그리고 어떻게 하나요?
+* 누군가의 악의가 아니라 설계나 아키텍처의 문제에 의한 서비스 거부 현상이 어떻게 일어날 수 있을까요?
+* 성능과 확장성의 관계에 대해 이야기해 보세요.
+* 강한 결합도(tight coupling)를 언제까지 쓸 수 있을까요?
+* 시스템을 클라우드에 올리려면 어떤 특성을 갖춰야 하나요?
+* 설계 통합이 최고의 아키텍트일까요? 간단히 말해서, 모든 개발자의 공동 노력으로 좋은 설계를 만들어낼 수 있을까요?
+* 설계와 아키텍처, 기능성, 미학의 차이점은 무엇일까요? 토론해 봅시다.
 
 
 ### [[↑]](#toc) <a name='soa'>SOA & MSA:</a>
@@ -469,11 +468,4 @@ This section collects some weird questions along the lines of the [Manhole Cover
 * You are my boss and I'm fired. Inform me.
 * I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
 * Your boss asks you to lie to the Company. What's your reaction?
-<<<<<<< HEAD
 * If you could travel back in time, which advice would you give to your younger self?
-=======
-* If you could travel back in time, which advice would you give to your younger self?
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTMyMDQwOV19
--->
->>>>>>> ed875bb17552d8ce7e51cfeb7d170f89c8db42c3
