@@ -185,7 +185,7 @@
 * Tell me what decisions would you take if you could be the CTO of your Company.
 * Are Program Managers useful?
 * Organize a development team using flexible schedules (that is, no imposed working hours) and "Take as you need" vacation policy
-* How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation? What could a Company improve to make them stay?
+* 이직이 잦은 팀을 어떻게 관리하고 임금인상 말고 어떤 방법으로 개발자가 떠나지 않도록 설득하시겠습니까? 회사 차원에서는 개발자가 떠나지 않도록 어떻게 해야 할까요?
 * 동료에게 바라는 가장 중요한 세 가지는 무엇인가요? 코드는 빼고요.
 * 비개발자가 코딩에 대해 알았으면 하는 점 세 가지는 무엇인가요?
 * 회사에서 당신과 동료들의 삶의 질을 높히기 위해 한 달의 시간과 예산을 줬다면 무엇을 하시겠습니까?
@@ -193,19 +193,19 @@
 
 ### [[↑]](#toc) <a name='algorithms'>알고리즘:</a>
 
-* Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
-* Write a snippet of code affected by a Stack Overflow
-* Write a tail-recursive version of the factorial function
-* Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
-* How would you design a "defragger" utility?
-* Write a program that builds random mazes.
-* Write a sample code that produces a memory leak
-* Generate a sequence of unique random numbers
-* Write a simple Garbage collection system
-* Write a basic message broker, using whatever language you like.
-* Write a very basic web server. Draw a road map for features to be implemented in the future.
-* How would you sort a 10GB file? How would your approach change with a 10TB one?
-* How would you programmatically detect file duplicates?
+* LIFO 스택만 써서 FIFO 큐를 작성하세요. 다음으로 FIFO 큐만 써서 LIFO 스택을 만드세요.
+* Stack Overflow를 유발하는 코드를 작성하세요.
+* 재귀를 사용하여 팩토리얼 함수를 작성하세요.
+* 원하시는 언어로 입력값을 그대로 출력하는 REPL을 작성하세요. 그리고 후위표기법(RPN)에 의한 계산기능을 추가하세요.
+* 조각모음 프로그램을 설계해보세요.
+* 미로를 랜덤으로 생성하는 프로그램을 작성하세요.
+* 메모리 누수를 유발하는 예제코드를 작성해 보세요.
+* 유니크한 난수열을 발생시키세요.
+* 간단한 GC(Garbage Collection) 시스템을 작성하세요.
+* 원하는 언어로 기본 메시지 브로커를 작성하세요.
+* 아주 기본적인 웹서버를 작성해 보세요. 그리고 추후 구현할 기능들에 대해 방향성을 제시해 보세요.
+* 10GB 짜리 파일을 어떻게 정렬하시겠습니까? 10TB 짜리는 어떻게 접근방식을 바꿔야 할까요?
+* 중복된 파일을 프로그램적으로 어떻게 감지해 날까요?
 
 
 ### [[↑]](#toc) <a name='architecture'>소프트웨어 아키텍처:</a>
