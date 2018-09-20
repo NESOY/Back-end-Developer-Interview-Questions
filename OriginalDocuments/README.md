@@ -182,9 +182,9 @@
 * 회의가 너무 많은 문제를 관리자로서 어떻게 해결하시겠습니까?
 * 너무 늦어버린 프로젝트를 어떻게 관리하시겠습니까?
 * "*프로세스와 도구의 사유화 및 상호작용*"과 "*지속적 협상을 통한 고객 협업*"은 애자일 선언문의 절반을 차지합니다. 이에 대해 이야기 해 봅시다.
-* Tell me what decisions would you take if you could be the CTO of your Company.
-* Are Program Managers useful?
-* Organize a development team using flexible schedules (that is, no imposed working hours) and "Take as you need" vacation policy
+* CTO가 된다면 어떤식으로 회사를 꾸리시겠습니까?
+* 프로그램 매니저(역자주: 사실상 프로젝트의 슈퍼맨)가 필요하다고 생각하나요?
+* 휴가를 마음대로 쓸 수 있는 완전한 탄력적 근무 상황에서 개발팀을 조직해 보세요.
 * How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation? What could a Company improve to make them stay?
 * What are the top 3 qualities you look for in colleagues, beyond their code?
 * What are the top 3 things you wish non-technical people knew about code?
@@ -470,6 +470,3 @@ This section collects some weird questions along the lines of the [Manhole Cover
 * I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
 * Your boss asks you to lie to the Company. What's your reaction?
 * If you could travel back in time, which advice would you give to your younger self?
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTMyMDQwOV19
--->
