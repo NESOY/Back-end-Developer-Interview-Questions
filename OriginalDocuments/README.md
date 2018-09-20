@@ -186,9 +186,9 @@
 * Are Program Managers useful?
 * Organize a development team using flexible schedules (that is, no imposed working hours) and "Take as you need" vacation policy
 * How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation? What could a Company improve to make them stay?
-* What are the top 3 qualities you look for in colleagues, beyond their code?
-* What are the top 3 things you wish non-technical people knew about code?
-* Imagine your company gives you 1 month and some budget to improve your and your colleagues' daily life. What would you do?
+* 동료에게 바라는 가장 중요한 세 가지는 무엇인가요? 코드는 빼고요.
+* 비개발자가 코딩에 대해 알았으면 하는 점 세 가지는 무엇인가요?
+* 회사에서 당신과 동료들의 삶의 질을 높히기 위해 한 달의 시간과 예산을 줬다면 무엇을 하시겠습니까?
 
 
 ### [[↑]](#toc) <a name='algorithms'>알고리즘:</a>
