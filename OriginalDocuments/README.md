@@ -182,130 +182,129 @@
 * 회의가 너무 많은 문제를 관리자로서 어떻게 해결하시겠습니까?
 * 너무 늦어버린 프로젝트를 어떻게 관리하시겠습니까?
 * "*프로세스와 도구의 사유화 및 상호작용*"과 "*지속적 협상을 통한 고객 협업*"은 애자일 선언문의 절반을 차지합니다. 이에 대해 이야기 해 봅시다.
-* Tell me what decisions would you take if you could be the CTO of your Company.
-* Are Program Managers useful?
-* Organize a development team using flexible schedules (that is, no imposed working hours) and "Take as you need" vacation policy
-* How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation? What could a Company improve to make them stay?
-* What are the top 3 qualities you look for in colleagues, beyond their code?
-* What are the top 3 things you wish non-technical people knew about code?
-* Imagine your company gives you 1 month and some budget to improve your and your colleagues' daily life. What would you do?
+* CTO가 된다면 어떤식으로 회사를 꾸리시겠습니까?
+* 프로그램 매니저(역자주: 사실상 프로젝트의 슈퍼맨)가 필요하다고 생각하나요?
+* 휴가를 마음대로 쓸 수 있는 완전한 탄력적 근무 상황에서 개발팀을 조직해 보세요.
+* 이직이 잦은 팀을 어떻게 관리하고 임금인상 말고 어떤 방법으로 개발자가 떠나지 않도록 설득하시겠습니까? 회사 차원에서는 개발자가 떠나지 않도록 어떻게 해야 할까요?
+* 동료에게 바라는 가장 중요한 세 가지는 무엇인가요? 코드는 빼고요.
+* 비개발자가 코딩에 대해 알았으면 하는 점 세 가지는 무엇인가요?
+* 회사에서 당신과 동료들의 삶의 질을 높히기 위해 한 달의 시간과 예산을 줬다면 무엇을 하시겠습니까?
 
 
 ### [[↑]](#toc) <a name='algorithms'>알고리즘:</a>
 
-* Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
-* Write a snippet of code affected by a Stack Overflow
-* Write a tail-recursive version of the factorial function
-* Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
-* How would you design a "defragger" utility?
-* Write a program that builds random mazes.
-* Write a sample code that produces a memory leak
-* Generate a sequence of unique random numbers
-* Write a simple Garbage collection system
-* Write a basic message broker, using whatever language you like.
-* Write a very basic web server. Draw a road map for features to be implemented in the future.
-* How would you sort a 10GB file? How would your approach change with a 10TB one?
-* How would you programmatically detect file duplicates?
+* LIFO 스택만 써서 FIFO 큐를 작성하세요. 다음으로 FIFO 큐만 써서 LIFO 스택을 만드세요.
+* Stack Overflow를 유발하는 코드를 작성하세요.
+* 재귀를 사용하여 팩토리얼 함수를 작성하세요.
+* 원하시는 언어로 입력값을 그대로 출력하는 REPL을 작성하세요. 그리고 후위표기법(RPN)에 의한 계산기능을 추가하세요.
+* 조각모음 프로그램을 설계해보세요.
+* 미로를 랜덤으로 생성하는 프로그램을 작성하세요.
+* 메모리 누수를 유발하는 예제코드를 작성해 보세요.
+* 유니크한 난수열을 발생시키세요.
+* 간단한 GC(Garbage Collection) 시스템을 작성하세요.
+* 원하는 언어로 기본 메시지 브로커를 작성하세요.
+* 아주 기본적인 웹서버를 작성해 보세요. 그리고 추후 구현할 기능들에 대해 방향성을 제시해 보세요.
+* 10GB 짜리 파일을 어떻게 정렬하시겠습니까? 10TB 짜리는 어떻게 접근방식을 바꿔야 할까요?
+* 중복된 파일을 프로그램적으로 어떻게 감지해 날까요?
 
 
 ### [[↑]](#toc) <a name='architecture'>소프트웨어 아키텍처:</a>
 
-* When is a cache not useful or even dangerous?
-* Why does Event-Driven Architecture improve scalability?
-* What makes code readable?
-* What is the difference between emergent design and evolutionary architecture?
-* Scale out vs scale up: how are they different? When to apply one, when the other?
-* How to deal with failover and user sessions?
-* What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
-* The so called "multitier architecture" is an approach to design a client–server system aimed to keep physically and logically separated presentation, application processing, data management and other functions. The most widespread of the multitier architectures is the three-tier architecture. Would you discuss the pros and cons of such approach?
-* How would you design a software system for scalability?
-* Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?
-* How would you design a decentralized (that is, with no central server) P2P system?
-* You may recall that Common Gateway Interface (CGI) is a standard protocol for web servers to execute programs (CGI scripts) that execute as Command-line programs on a server, and that dynamically generate HTML pages when invoked by a HTTP request. Perl and PHP used to be common languages for such scripts. In CGI, a HTTP request generally causes the invocation of a new process on the server, but FastCGI, SCGI and other approaches improved the mechanism, raising the performance, with techniques such as preforking processes. Can you imagine why has't CGI eventually win, and was instead replaced with other architectural approaches?
-* How would you defend the design of your systems against Vendor Lock-in?
-* What are the disadvantages of the Publish-Subscribe pattern at scale?
-* What's new in CPUs since the 80s, and how does it affect programming?
-* In which part of the lifecycle of a software performance should be taken in consideration, and how?
-* How could a Denial of Service arise not maliciously but for a design or architectural problem?
-* What’s the relationship between Performance and Scalability?
-* When is it OK (if ever) to use tight coupling?
-* What characteristic should a system have to be Cloud Ready?
-* Does unity of design imply an aristocracy of architects? Putting it simple: can good design emerge from a collective effort of all developers?
-* What's the difference between design, architecture, functionality and aesthetic? Discuss.
-
+* 언제 캐시가 필요 없거나 심지어 위험한가요?
+* Event-Driven 아키텍처가 왜 확장성을 높히나요?
+* 코드를 읽을 수 있게 만드는 것은 무엇입니까?
+* 즉각적인 설계 수정과 진화형 아키텍처의 차이점은 무엇인가요?
+* Scale out과 scale up의 차이점은 무엇이고 각각 어떤 경우에 적용하나요?
+* Failover(대체 시스템, 부하분산 등)와 사용자 세션은 어떻게 다루나요?
+* CQRS(Command Query Responsibility Segregation, 도메인 모델 설계시 CUD와 R을 분리)란 무엇이고, CQS 원칙과 어떻게 다른가요?
+* 소위 말하는 "다중 계층 아키텍처"는 클라이언트-서버 시스템을 물리적/논리적인 구분, 애플리케이션 처리, 데이터 관리와 기타 다른 기능으로 각각 유지할 수 있도록 설계하는 접근방법입니다. 그중 3계층 아키텍처가 가장 널리 알려져 있습니다. 이러한 접근방식의 장단점에 대해 토론해 봅시다.
+* 소프트웨어 시스템이 확장성을 갖기 위해 어떻게 설계하시겠습니까?
+* 누군가 한번에 만 개가 넘는 동시 접속을 처리하기 위한 네트워크 소켓의 최적화 문제에 "The "C10k problem"이라는 이름을 붙였습니다. 만 개의 동시접속을 처리하는 문제와 만 개의 클라이언트를 처리하는 문제는 같지는 않지만 문맥상 비슷합니다. 어쨌든 대단한 도전인데, 아무도 이 문제를 풀기 위한 모든 세부 사항을 알지 못합니다. 이 문제를 해결하기 위한 귀하의 전략이 궁금한데요, 한번 도전해 보시겠습니까?
+* 어떻게 분산형(중앙 서버가 없는) P2P 시스템을 설계하시겠습니까?
+* CGI(Common Gateway Interface)란 서버에서 CLI 프로그램으로 실행하고, HTTP 요청에 의해 동적으로 HTML 페이지를 생성하는 웹서버를 위한 표준 프로토콜(CGI scripts)입니다. Perl이나 PHP가 이에 해당하는 대표적인 script 언어입니다. CGI에서는 일반적으로 HTTP 요청에 의해 서버에서 새로운 프로세스가 생성되지만, FastCGI, SCGI 등에서는 사전 프로세스 로딩(preforking process) 같은 기술로 메커니즘을 개선하여 퍼포먼스를 향상시킵니다. 결국 CGI가 왜 성공하지 못하고 이런 다른 아키텍처로 대체되었을까요?
+* Vendor Lock-in 문제(플랫폼에 종속되어 발생하는 호환성 문제)에 대응하기 위해서 어떻게 설계해야 할까요?
+* 대형화된 발행-구독(Publish-Subscribe) 모델의 단점은 무엇인가요?
+* 80년대 이후 CPU의 새로운 기능은 무엇이며 프로그래밍에 어떤 영향을 주나요?
+* 소프트웨어 성능의 생명주기에서 어느 부분을 고려하는 것이 좋을까요? 그리고 어떻게 하나요?
+* 누군가의 악의가 아니라 설계나 아키텍처의 문제에 의한 서비스 거부 현상이 어떻게 일어날 수 있을까요?
+* 성능과 확장성의 관계에 대해 이야기해 보세요.
+* 강한 결합도(tight coupling)를 언제까지 쓸 수 있을까요?
+* 시스템을 클라우드에 올리려면 어떤 특성을 갖춰야 하나요?
+* 설계 통합이 최고의 아키텍트일까요? 간단히 말해서, 모든 개발자의 공동 노력으로 좋은 설계를 만들어낼 수 있을까요?
+* 설계와 아키텍처, 기능성, 미학의 차이점은 무엇일까요? 토론해 봅시다.
 
 
 ### [[↑]](#toc) <a name='soa'>SOA & MSA:</a>
-* Why, in a SOA, long-lived transactions are discouraged and Sagas are suggested instead?
-* What are the differences between Soa and Microservices?
-* Let's talk about web services versioning, version compatibility and breaking changes.
-* What's the difference between a transaction and a compensation operation in a saga, in SOA?
-* When is a Microservice too micro?
-* What are the pros and cons of MicroService architecture?
+* SOA에서 긴 트랜잭션보다 saga 패턴이 권장되는 이유는 무엇인가요?
+* SOA와 MSA 간의 차이는 무엇인가요?
+* 웹 서비스의 버전 관리, 버전간 호환성, 변경에 의한 잠재적 오류에 대해 이야기 해 봅시다.
+* SOA에서 트랜잭션과 saga 내의 보정 작업 간의 차이는 무엇인가요?
+* 언제 MSA가 너무 작은가요?
+* MSA의 장단점은 무엇인가요?
 
 
 ### [[↑]](#toc) <a name='security'>보안:</a>
-* How do you write secure code? In your opinion, is it one of the developer's duties, or does it require a specialized role in the company? And why?
-* Why is it said that cryptography is not something you should try to invent or design yourself?
-* What is two factor authentication? How would you implement it in an existing web application?
-* If not carefully handled, there is always a risk of logs containing sensitive information, such as passwords. How would you deal with this?
-* Write down a snippet of code affected by SQL Injection and fix it.
-* How would it be possible to detect SQL Injection via static code analysis? I don't expect you to write an algorithm capable of doing this, as it is probably a huge topic, but let's discuss a general approach.
-* What do you know about Cross-Site Scripting? If you don't remember it, let's review online its definition and let's discuss about it.
-* What do you know about Cross-Site Forgery Attack? If you don't remember it, let's review online its definition and let's discuss about it.
-* How does HTTPS work?
-* What's a Man-in-the-middle Attack, and why does HTTPS help protect against it?
-* How can you prevent the user's session from being stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
+* 어떻게 secure code를 작성하시겠습니까? 개발자의 임무인가요, 보안 전문가의 역할인가요? 그리고 왜 그렇게 생각하나요?
+* 왜 암호화 자체를 개발하거나 설계할 필요가 없다고 하나요?
+* 인증의 두 요소는 무엇인가요? 이미 서비스중인 웹앱에서 어떤 방식으로 구현하시겠습니까?
+* 조심하지 않으면 언제든지 비밀번호 같은 민감정보가 로그에 기록될 수 있습니다. 이런 문제를 어떻게 하시겠습니까?
+* SQL Injection에 취약한 코드를 작성하고 수정하세요.
+* 정적 코드 분석기로 어떻게 SQL Injection을 탐지할 수 있나요? 이에 대한 알고리즘 작성까지 바라는 건 아니지만, 좀 거대한 주제이긴 해도 일반적인 접근방식에 대해 토론해 봅시다.
+* Cross-Site Scripting에 대해 알고 있나요? 모른다면 인터넷에서 정의를 확인해 보고 이에 대해 토론해 봅시다.
+* 사이트 위조 공격(Cross-Site Forgery Attack)에 대해 알고 있나요? 모른다면 인터넷에서 정의를 확인해 보고 이에 대해 토론해 봅시다.
+* HTTPS는 어떤 방식으로 작동하나요?
+* 중간자 공격(Man-in-the-middle Attack, MITM)이 무엇이고, HTTPS가 어떻게 중간자 공격을 막나요?
+* 사용자 세션의 도난은 어떻게 막아야 하나요? 세션/쿠키 도용에 대해 기억나지 않는다면 위키 페이지를 읽어봅시다.
 
 
 ### [[↑]](#toc) <a name='general'>일반:</a>
 
-* Why does Functional Programming matter? When should a functional programming language be used?
-* How do companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
-* Why does opening a TCP socket have a large overhead?
-* What is Encapsulation important for?
-* What is a real-time system and how is it different from an ordinary system?
-* What's the relationship between real-time languages and heap memory allocation?
-* Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How can immutability help write safer code?
-* What are the pros and cons of mutable and immutable values.
-* What's the Object-Relational impedance mismatch?
-* Which principles would you apply to define the size of a cache?
-* What's the difference between TCP and HTTP?
-* What are the tradeoffs of client-side rendering vs. server-side rendering?
-* How could you develop a reliable communication protocol based on a non-reliable one?
-* [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
+* 함수형 프로그래밍이 왜 중요한가요? 언제 함수형 프로그래밍 언어를 써야 할까요?
+* Microsoft, Google, Opera, Mozilla 같은 회사는 어떻게 브라우저로 수익을 낼까요?
+* TCP 소켓을 열 때 오버헤드가 발생하는 이유는 무엇인가요?
+* 캡슐화는 어디에 중요한가요?
+* 실시간 시스템은 무엇이며, 일반적인 시스템과 어떻게 다른가요?
+* 실시간 언어와 힙 메모리 할당 간의 관계에 대해 이야기 해 주세요.
+* 불가역성(Immutability)이란 생성시점에 값을 한 번 할당한 후 이후로는 값을 변경하지 않는다는 뜻입니다. 더 안전한 코드를 작성하는데 불가역성이 어떻게 도움을 줄 수 있나요?
+* 가변 변수와 불변 변수의 장단점에 대해 이야기 해 보세요.
+* 객체-관계의 임피던스 부정합(Object-Relational impedance mismatch)은 무엇인가요?
+* 캐시의 크기를 정의할 때 어떤 원칙을 적용해야 할까요?
+* TCP와 HTTP의 차이점은 무엇인가요?
+* 클라이언트 사이드 랜더링과 서버 사이드 랜더링의 절충안은 무엇인가요?
+* 연속성을 보장할 수 없는 통신 프로토콜로 어떻게 연속적인 통신 프로토콜을 개발할 수 있을까요?
+* Null 참조를 개발한 [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) 는 "*셀 수 없는 수많은 에러, 취약성, 시스템 충돌을 초래하는 지난 40년 간의 백만불짜리 고통과 상처*"라며 "*저는 null 참조를 백만불짜리 실수라고 부릅니다*"라고 말했습니다. 귀하의 주 언어에서 null 참조를 없앤다면, 어떻게 해야 할까요? 또 그 결과는 어떨까요?
 
 
 ### [[↑]](#toc) <a name='open'>열린 질문:</a>
-* Why do people resist change?
-* Explain threads to your grandparents
-* As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
-* What makes good code good?
-* Explain streaming and how you would implement it.
-* Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
-* What did you learn this week?
-* There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
-* List the last 5 books you read.
-* How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
-* When does it make sense to reinvent the wheel?
-* Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
-* What's the next thing you would automate in your current workflow?
-* Why is writing software difficult? What makes maintaining software hard?
-* Would you prefer working on Green Field or Brown Field projects? Why?
-* [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
-* What does an Operating System do when it has got no custom code to run, and therefore it looks idle? I would like to start a discussions about interrupts, daemons, background services, polling, event handling and so on.
-* Explain Unicode/Database Transactions to a 5 year old child.
-* Defend the monolithic architecture.
-* What does it mean to be a "Professional Developer"?
-* Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
-* "People who like this also like... ". How would you implement this feature in an e-commerce shop?
-* Why are corporations slower than startups in innovating?
-* What have you achieved recently that you are proud of?
+* 사람들이 변화에 저항하는 이유가 뭘까요?
+* 조부모님께 쓰레드에 대해 설명해 보세요.
+* 소프트웨어 엔지니어는 혁신적이면서 예측가능해야 합니다. 동일한 전략에서 어떻게 이 두 목표가 공존할 수 있나요?
+* 좋은 코드를 좋은 코드답게 만드는 건 무엇일까요?
+* 스트리밍이 무엇인지와 스트리밍을 어떻게 구현할지에 대해 설명해 보세요.
+* 회사에서 당신과 동료들의 삶의 질을 높히기 위해 일주일을 줬다면 어떻게 하시겠습니까?
+* 이번 주에 뭘 배우셨나요?
+* 모든 설계에는 미적 요소가 있습니다. 질문 드리자면, 이 미적 요소가 당신의 친구입니까, 적입니까?
+* 최근 읽은 5 권의 책을 말해주세요.
+* 비즈니스의 규모와 복잡성 때문에 폭포수 방법론에서 지속적 배포(Continuous Delivery) 방식으로 변경하기 어려운 성공적인 대형 회사에서 지속적 배포에 대해 어떻게 소개하시겠습니까?
+* 언제 바퀴를 다시 발명해도 말이 되나요?
+* "*바퀴 다시 발명하기(Reinventing the wheel)*", "*여기서 발명 안했음 신드롬(Not Invented Here Syndrome)*", "*니꺼 먹어라(Eating Your Own Food)*" 연습에 대해 이야기 해 봅시다.
+* 현재 당신의 업무에서 다음 자동화 대상은 무엇인가요?
+* 소프트웨어 개발이 어려운 이유는 무엇인가요? 소프트웨어 유지보수가 어려운 이유는 무엇인가요?
+* 신규 도메인 개발과 구현된 적이 있는 도메인 중 어느 쪽을 선호하나요? 이유는 무엇인가요?
+* [브라우저에 google.com이라고 입력하고 엔터를 누르면 무슨 일이 일어나나요?(What happens when you type google.com into your browser and press enter?)](https://github.com/alex/what-happens-when)
+* 실행할 사용자 지정 코드가 없어서 idle 상태처럼 보일 때 OS는 무엇을 하나요? 인터럽트, 데몬, 백그라운드 서비스, 폴링, 이벤트 핸들링 등에 대해 이야기해 봅시다.
+* 유니코드/DB 트랜잭션을 5살 짜리 아이에게 설명해 보세요.
+* Monolithic architecture를 변호해 보세요.
+* 프로패셔널 개발자가 되는 것은 무슨 의미입니까?
+* 소프트웨어 개발이 예술이나 장인정신, 혹은 공학적인 무언가일까요? 당신의 의견을 말해보세요.
+* 쇼핑몰에서 연관상품 광고를 어떻게 구현하시겠습니까?
+* 일반 기업이 스타트업보다 혁신이 느린 이유는 무엇인가요?
+* 최근에 달성한 자랑거리 하나 소개해 주세요.
 
 
 
 ### [[↑]](#toc) <a name='snippets'>코드 제시형:</a>
-* What's the output of this Javascript function?
+* 이 자바스크립트 함수의 출력 결과는?
 ```javascript
 function hookupevents() {
   for (var i = 0; i < 3; i++) {
@@ -317,7 +316,7 @@ function hookupevents() {
 }
 ```
 
-* About Type Erasure, what's the output of this Java snippet, and why?
+* 자바 제너릭의 타입 Erasure와 관련해서, 다음 자바 코드의 출력 결과는 무엇이고 그렇게 출력되는 이유는 무엇인가요?
 ```java
 ArrayList<Integer> li = new ArrayList<Integer>();
 ArrayList<Float> lf = new ArrayList<Float>();
@@ -326,7 +325,7 @@ if (li.getClass() == lf.getClass()) // evaluates to true
 ```
 
 
-* Can you spot the memory leak?
+* 메모리 누수가 일어나는 지점을 짚어보세요.
 ```java
 public class Stack {
     private Object[] elements;
@@ -349,8 +348,8 @@ public class Stack {
     }
 
     /**
-     * Ensure space for at least one more element, roughly
-     * doubling the capacity each time the array needs to grow.
+     * 최소 하나 이상의 element를 위한 공간을 확보하세요.
+     * 배열이 커지면 용량이 거의 두 배가 됩니다.
      */
     private void ensureCapacity() {
         if (elements.length == size)
@@ -359,7 +358,7 @@ public class Stack {
 }
 ```
 
-* `if`s and in general conditional statements lead to procedural and imperative programming. Can you get rid of this `switch` and make this snippet more object oriented?
+* `if`문이나 일반적인 조건문은 프로그램을 절차지향적으로 만듭니다. 다음 코드에서 `switch`문을 제거하고 코드를 좀 더 객체지향적으로 만들어 주시겠어요?
 
 ```java
 public class Formatter {
@@ -385,7 +384,7 @@ public class Formatter {
 ```
 
 
-* Can you get rid of these `if`s and make this snippet of code more object oriented?
+* 다음 코드에서 `if`문을 제거하고 코드를 좀 더 객체지향적으로 만들어 주시겠어요?
 
 ```java
 public class TheService {
@@ -417,7 +416,7 @@ public class TheService {
 }
 ```
 
-* How to refactor this code?
+* 이 코드를 어떻게 리팩토링 할까요?
 
 ```js
 function()
@@ -458,18 +457,15 @@ function()
 ```
 
 ### [[↑]](#toc) <a name='billgates'>빌게이츠 스타일:</a>
-This section collects some weird questions along the lines of the [Manhole Cover Question](https://en.wikipedia.org/wiki/Microsoft_interview#Manhole_cover_question).
+이 섹션은 [맨홀 뚜껑 질문, Manhole Cover Question](https://en.wikipedia.org/wiki/Microsoft_interview#Manhole_cover_question)에서 좀 이상한 질문들을 모은 것입니다.
 
-* What would happen if you put a mirror in a scanner?
-* Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
-* Interview me
-* Why are Quora's answers better than Yahoo Answers' ones?
-* Let's play a game: defend Cobol against modern languages, and try to find as many reasonable arguments as you can.
-* Where will you be in 10 years?
-* You are my boss and I'm fired. Inform me.
-* I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
-* Your boss asks you to lie to the Company. What's your reaction?
-* If you could travel back in time, which advice would you give to your younger self?
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTMyMDQwOV19
--->
+* 스캐너에 거울을 넣으면 무슨 일이 일어나나요?
+* 귀하의 복제인간이 귀하의 상사라면 그 사람을 위해 즐겁게 일할 수 있나요?
+* 저를 인터뷰 해보세요.
+* 네이버 지식인이 다음 팁의 답변보다 나은 이유는 무엇인가요?(원문은 quora vs yahoo)
+* 현대 언어로 부터 Cobol을 변호해 보세요. 그리고 가능한 많은 합리적인 논쟁거리를 찾아보세요.
+* 10년 후 어디에 있을 것 같나요?
+* 당신이 내 상사이고 난 해고되었습니다. 그 사실을 전해주세요.
+* 저는 레거시 시스템을 리팩토링 하고 싶습니다. 당신은 처음부터 재작성 하고 싶구요. 논쟁해 봅시다. 역할을 바꿔서도 해 봅시다.
+* 당신의 상사가 회사에 거짓말 할 것을 요구했습니다. 어떻게 대응하시겠습니까?
+* 과거로 여행할 수 있다면 젊은 귀하에게 무슨 조언을 해 주시겠습니까?
