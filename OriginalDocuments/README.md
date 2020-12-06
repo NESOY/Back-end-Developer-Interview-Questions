@@ -26,6 +26,22 @@
 ## <a name='toc'>목차</a>
 
   * [디자인 패턴](#patterns)
+    * 전역객체는 나쁘다(#전역객체는-나쁘다)
+    * 역제어 패턴 (IoC)(#역제어-패턴-(ioc))
+    * 데메테르 법칙(#데메테르-법칙)
+    * Active-Record(#Active-Record)
+    * Data-Mapper(#Data-Mapper)
+    * 억만금짜리 실수(#억만금짜리-실수)
+    * 상속 vs 컴포지션(#상속-vs-컴포지션)
+    * 손상 방지 레이어 (Anti-corruption Layer)(#손상-방지-레이어-(anti-corruption-layer))
+    * 싱글톤 (Singleton)(#싱글톤-(singleton))
+    * 데이터 추상화(#데이터-추상화)
+    * DRY (Don't Repeat Yourself)(#dry-(don't-repeat-yourself))
+    * 의존성 지옥 (Dependency Hell)(#의존성-지옥-(dependency-hell))
+    * Goto는 나쁘다(#goto는-나쁘다)
+    * 견고함의 원칙 (Robustness principle)(#견고함의-원칙-(robustness-principle))
+    * 관심사 분리 (Seperation of Concerns)(#관심사-분리-(seperation-of-concerns))
+    
   * [코드 설계](#design)
   * [언어](#languages)
   * [Web](#web)
@@ -69,7 +85,7 @@ Null의 도입이 억만금짜리 실수로 불리우는 이유는 무엇일까�
 #### 상속 vs 컴포지션
 많은 사람들이 OOP에서 상속보다 컴포지션이 낫다고들 합니다. 당신의 의견은 어떻습니까?
 
-#### 손상 방지 레이어(Anti-corruption Layer)
+#### 손상 방지 레이어 (Anti-corruption Layer)
 손상 방지 레이어(Anti-corruption Layer) 패턴이 무엇입니까?
 
 #### 싱글톤 (Singleton)
