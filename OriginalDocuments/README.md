@@ -260,42 +260,54 @@
 
 #### 전역객체는 나쁘다
 전역 static 객체가 나쁜 이유는 무엇인가요? 코딩으로 예를 들어 설명해 주세요.
+[Resources](design-patterns/globals-are-evil.md)
 
 #### 역제어 패턴 (IoC)
 역제어 패턴(IoC)에 대해, 특히 설계 측면에서 설명해 주세요.
+[Resources](design-patterns/inversion-of-control.md)
 
 #### 데메테르 법칙
 데메테르 법칙LoD(최소한의 지식 규칙)에 의하면 객체간의 정보가 제한되어야 하며 오직 직접 호출한 객체와 통신해야 한다고 합니다(낯선 객체와 통신하지 말라고 하기도 함). 이 원칙을 위반하는 코드를 작성해 보세요. 그리고 왜 나쁜 디자인인지 설명하고 수정해 보세요.
+[Resources](design-patterns/law-of-demeter.md)
 
 #### Active-Record
 ActiveRecord 는 insert, update, delete 등의 함수와 DB table의 열을 속성으로 갖는 객체를 생성하는 디자인 패턴입니다. 이 패턴의 한계와 함정이 무엇인지 귀하의 경험에 비추어 의견을 이야기 해주세요.
+[Resources](design-patterns/active-record.md)
 
 #### Data-Mapper
 Data-Mapper 는 객체와 DB 간 데이터 이동 중에 각각을 독립적으로 유지하기 위해 mapper를 사용하는 디자인 패턴입니다. 반면에, ActiveRecode 객체는 객체와 DB 간의 연결을 지속하기 위한 작업과 기본 DB 속성값을 직접 통합합니다. 이런 패턴에 대한 의견이 있으신가요? 각각 언제 사용하는게 좋을까요?
+[Resources](design-patterns/data-mapper.md)
 
 #### 억만금짜리 실수
 Null의 도입이 억만금짜리 실수로 불리우는 이유는 무엇일까요? 또, Null문제를 해결하기 위한 Null 객체 패턴(GOF)이나 옵션 자료형에 대해 이야기해 봅시다.
+[Resources](design-patterns/billion-dollar-mistake.md)
 
 #### 상속 vs 컴포지션
 많은 사람들이 OOP에서 상속보다 컴포지션이 낫다고들 합니다. 당신의 의견은 어떻습니까?
+[Resources](design-patterns/inheritance-vs-composition.md)
 
 #### 손상 방지 레이어 (Anti-corruption Layer)
 손상 방지 레이어(Anti-corruption Layer) 패턴이 무엇입니까?
+[Resources](design-patterns/anti-corruption-layer.md)
 
 #### 싱글톤 (Singleton)
 싱글톤(Singleton) 디자인 패턴은 객체의 생성자를 하나로 제한합니다. 하지만 쓰레드에 안전한 싱클톤 클래스를 작성하기는 단순하지 않은데요, 한번 작성해 주시겠습니까?
 
 #### 데이터 추상화
 클라이언트에 영향 없이 구현부를 변경하는 기능을 데이터 추상화라고 합니다. 이 속성에 반하는 예제를 작성해 주시고, 수정하는 과정을 보여주세요.
+[Resources](design-patterns/data-abstraction.md)
 
 #### DRY (Don't Repeat Yourself)
 DRY(Don't Repeat Yourself) 원칙을 위반하는 코드를 작성하시고, 수정하는 과정을 보여주세요.
+[Resources](design-patterns/dont-repeat-yourself.md)
 
 #### 의존성 지옥 (Dependency Hell)
 의존성 지옥(Dependency Hell)은 어떻게 해결하는게 좋을까요?
+[Resources](design-patterns/dependency-hell.md)
 
 #### Goto는 나쁘다
 `goto` 문에 대해 어떻게 생각하시나요? `goto` 문의 사용을 비판하고 대신 구조화된 프로그래밍을 주창한 Edsger Dijkstra의 유명한 논문 "Go To Statement Considered Harmful"에 대해 들어보셨을 겁니다. `goto` 문은 항상 논란거리었는데요, 심지어 Dijkstra가 'goto가 유해한 것 같다'고 한 말조차 비판받기도 했습니다. 이 `goto` 문에 대해 어떻게 생각하시나요?
+[Resources](design-patterns/goto-is-evil.md)
 
 #### 견고함의 원칙 (Robustness principle)
 견고함의 원칙(The robustness principle)은 "*보내기는 더디하고 받기는 쉬이하라*"는 일반적인 소프트웨어 설계의 가이드라인입니다. 때때로 "*관용적인 독자와 신중한 작가가 되라*"로 불리기도 합니다. 이 원칙에 대해 이론적인 해석을 해 봅시다.
@@ -438,30 +450,39 @@ REST 와 SOAP: 각각 어떤 상황에서 선택해야 하나요?
 
 #### DB 마이그레이션
 서로 다른 DB간 마이그레이션을 어떻게 진행하시나요?(예: MySQL에서 PostgreSQL로) 마이그레이션 프로젝트의 관리자라면 어떤 이슈가 예상되나요?
+[Resources](databases/db-migrations.md)
 
 #### 특별한 Null
 DB가 null을 특수 케이스로 보는 이유가 무엇인가요? 예를 들면, 다음 SQL문 ```SELECT FROM table WHERE field = null```이 널을 포함하는 ``field``를 가져오지 못하는 이유가 무엇인가요?
+[Resources](databases/null-is-special.md)
 
 #### ACID
 ACID는 대부분의 DB가 지원하는 트랜잭션이 보장하는 원자성(Atomicity), 일관성(Consistency), 고립성(Isolation), 지속성(Durability)의 네 가지 속성을 말하는 약자입니다. 이 ACID에 대해 알고 계시나요? 구체적으로 얘기해 봅시다.
+[Resources](databases/acid.md)
 
 #### 스키마 마이그레이션
 DB 스키마를 어떻게 마이그레이션 하시나요? 다시말해, 응용프로그램의 버전이 올라감에 따라 변경된 DB 스키마를 자동화하여 적용하는 방법은 무엇인가요?
+[Resources](databases/schema-migrations.md)
 
 #### Lazy loading
 Lazy loading을 어떻게 만들어 낼까요? 언제 유용하고, 이 설계방식의 함정은 무엇인가요?
+[Resources](databases/lazy-loading.md)
 
 #### N+1 문제
 "N + 1 문제"는 lazy-loading이 활성화된 부모-자식 관계로 설정된 ORM객체가 하나의 쿼리로 각각의 자식을 읽어올 때 발생하는 문제입니다. 이 문제를 어떻게 수정하시겠습니까?
+[Resources](databases/n1-problem.md)
 
 #### 가장 느린 쿼리
 프로그램에서 가장 비용이 많이드는 쿼리를 어떻게 찾으시겠습니까?
+[Resources](databases/slowest-queries.md)
 
 #### 정규화
 항상 DB를 정규화해야 한다고 생각하시나요? 언제 DB를 정규화하지 않고 쓸 수 있나요?
+[Resources](databases/normalization.md)
 
 #### Blue/Green Deployment
 Blue-Green Deployment라 불리우는 CI 기술은 동일한 두 개의 프로덕션 환경에서 한 쪽이 작동중일 때 다른 쪽에 배포하고 간단한 테스트 후 다른 쪽 환경으로 안전하게 트래픽을 전환하는 기술입니다. 이 기술은 배포시 DB 구조나 내용이 변경될 때 더욱 복잡해집니다. 이 주제에 대해 토론해 봅시다.
+[Resources](databases/bluegreen-deployment.md)
 
 
 ### [[↑]](#toc) <a name='nosql'>NoSQL:</a>
