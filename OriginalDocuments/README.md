@@ -1071,6 +1071,7 @@ function()
     return error;
 }
 ```
+[Resources](snippets/kill-the-if-chain.md)
 
 ### [[↑]](#toc) <a name='billgates'>빌게이츠 스타일:</a>
 이 섹션은 [맨홀 뚜껑 질문, Manhole Cover Question](https://en.wikipedia.org/wiki/Microsoft_interview#Manhole_cover_question)에서 좀 이상한 질문들을 모은 것입니다.
