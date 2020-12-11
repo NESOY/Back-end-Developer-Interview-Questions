@@ -1,8 +1,8 @@
-# Don't Repeat Yourself
+# DRY (Don't Repeat Yourself)
 
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-Code violating the DRY principle:
+DRY 원칙을 위반하는 코드
 ```javascript
 class Employee {
     calculateSalaryNet() {
@@ -15,7 +15,7 @@ class Employee {
 }
 ```
 
-Fixed code:
+수정된 코드
 ```javascript
 class Employee {
     calculateSalaryNet() {

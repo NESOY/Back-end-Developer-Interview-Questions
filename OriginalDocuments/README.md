@@ -285,6 +285,7 @@ Data-Mapper 는 객체와 DB 간 데이터 이동 중에 각각을 독립적으�
 
 #### 억만금짜리 실수
 Null의 도입이 억만금짜리 실수로 불리우는 이유는 무엇일까요? 또, Null문제를 해결하기 위한 Null 객체 패턴(GOF)이나 옵션 자료형에 대해 이야기해 봅시다.
+
 [Resources](design-patterns/billion-dollar-mistake.md)
 
 #### 상속 vs 컴포지션

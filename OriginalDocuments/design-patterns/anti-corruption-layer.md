@@ -1,6 +1,6 @@
-# What is an Anti-corruption Layer?
+# 손상 방지 레이어 (Anti-corruption Layer)란?
   
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-It's a layer in the system which is responsible for communication between subsystems (most likely with the external or legacy system) which don't operate on the same models.
-Its purpose is to create an isolating layer which provides clients with functionality in terms of their own domain model.
+동일한 모델에서 작동하지 않는 하위 시스템 (대부분 외부 또는 레거시 시스템과 함께) 간의 통신을 담당하는 시스템의 계층입니다.
+손상 방지 레이어의 목적은 클라이언트에게 고유한 도메인 모델의 기능을 제공하는 고립된 계층을 생성하기 위함입니다.

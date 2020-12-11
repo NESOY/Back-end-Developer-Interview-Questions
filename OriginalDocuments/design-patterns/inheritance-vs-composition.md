@@ -1,7 +1,7 @@
-# Inheritance vs Composition
+# 상속 vs 컴포지션
 
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-It depends on the case. The issue with inheritance is that it breaks encapsulation and creates a tight coupling between the parent class and subclasses.<br/>
-We might end up also with a single big class. On the other hand, with the composition, we might end up with a lot of small classes. If the relation between the object is `is a` and we.</br>
-want to have slightly different behavior, I would choose inheritance. In other cases, I would choose a composition.
+경우에 따라 다릅니다. 상속의 문제점은 캡슐화를 깨고 상위 클래스와 하위 클래스 간에 긴밀한 결합을 만든다는 것입니다.<br/>
+객체와 우리의 관계가 `is a`라면 우리는 하나의 큰 클래스로 끝날 수 있습니다. 반면, 컴포지션의 경우 많은 작은 클래스들로 끝날 수 있습니다. <br>
+약간 다른 동작을 원한다면 상속을 선택하고 반대의 경우에는 컴포지션을 선택합니다.

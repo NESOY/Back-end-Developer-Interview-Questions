@@ -1,9 +1,9 @@
-# Billion Dollar Mistake
+# 억만금짜리 실수
 
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-The presence of null and its assignability to any type makes programs error-prone. Since any variable can be "null", we never know when we may want to call e.g. some method on null instead of the real object.
+null의 존재와 모든 유형에 대한 할당 가능성은 프로그램을 에러가 잘 발생하게 만듭니다. 모든 변수가 "null"이 될 수 있기 때문에 우리는 언제 호출할 지 알 수 없습니다. 예) 실제 객체 대신 null에 대한 메소드
 
-Null object pattern mail lead to silent errors. It may be also tedious in maintenance, because we have to update it often when original class changes. It would be helpful when we really want to apply default behavior for some cases.
+Null 객체 패턴 메일은 조용히 에러를 유발합니다. 이것은 종종 원본 객체가 변했을 때 이것을 업데이트 해야하기 때문에 보수하기 지루합니다. 일부 경우에 기본 동작을 실제로 적용하고 싶을 때 유용합니다.
 
-Option types are awesome, because they are completely safe. However, they might create some overhead with a lot of additional code.
+옵션 타입들은 완전히 안전하기 때문에 휼륭합니다. 하지만 추가된 많은 코드들로 인해 약간의 오버헤드가 발생하게 됩니다.

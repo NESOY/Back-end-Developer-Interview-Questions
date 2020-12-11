@@ -1,4 +1,4 @@
-# Data Abstraction
+# 데이터 추상화
 
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 

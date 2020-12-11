@@ -1,7 +1,7 @@
-# Goto is Evil
+# Goto는 나쁘다
 
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-I wouldn't be so radical in either direction. I think that structured programming won the debate because it's the right thing to do. It's easier to reason about a program written in this manner.<br/>
-On the other hand, even writing this kind of programs we often use the `goto` like style (early returns, exception handling) and it doesn't do any harm.<br/>
-In my opinion the same applies to the `goto` statements - function-scoped `goto` statements here and there might really make our program simpler and easier to understand.<br/>
+나는 어느 쪽이든 그렇게 나쁘다 생각하지 않습니다. 구조적 프로그래밍이 옳은 일이기 때문에 논쟁에서 이겼다고 생각합니다. 구조적 프로그래밍 방식으로 작성된 프로그램에 대해 추론하는 것이 더 쉽습니다.<br/>
+반면, 이런 종류의 프로그램을 작성하더라도 우리는 종종 `goto`와 같은 스타일을 사용하고 이는 아무런 해를 끼치지 않습니다.<br/>
+제 생각에는 `goto`문에도 똑같이 적용됩니다. 함수의 범위의 `goto`문은 여기저기서 프로그램을 더 간단하고 이해하기 쉽게 만들 수 있습니다.<br/>

@@ -1,8 +1,8 @@
-# violate DRY
+# DRY 위반
 
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-Code violating the DRY principle:
+DRY 원칙을 위반한 코드
 
 ```javascript
 class Employee {
@@ -14,7 +14,7 @@ class Employee {
         return this.hoursWorked * this.hourlyWage + TAX;
 ```
 
-Fixed code:
+수정된 코드
 
 ```javascript
 class Employee {
