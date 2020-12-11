@@ -1,6 +1,6 @@
-# Kill the if-chain
+# if-chain 제거
 
-The nested structure could be unrolled, as suggested by [Vahid Najafi](https://github.com/vahidvdn)
+중첩된 구조는 [Vahid Najafi](https://github.com/vahidvdn)가 제안한대로 펼쳐질 수 있습니다.
 
 ```js
 function()
@@ -16,26 +16,26 @@ function()
 }
 ```
 
-Actually, I feel there is way more space for refactoring, but it all depends on the economic of the projects.
+사실, 리팩토링할 공간이 더 많다고 생각하지만, 모두 프로젝트의 경제성에 달려있습니다.
 
-It is worth to discuss the smells and design flaws of that code, to set up the refactoring goals.
+리팩토링 목표를 설정하기 위해서는 코드의 냄새와 디자인 결함을 논의하는 것이 좋습니다.
 
-## Smells
-I see these problems:
+## 냄새
+다음과 같은 문제가 있습니다.
 
-* The code violates some of the [SOLID principles][2]. It surely violates the [Open Closed Principle][3], as it is not possible to extend it without changing its code. E.g., adding a new operation would require adding a new `if`/`else` branch;
-* It also violate the [Single Responsibility Principle][4]. It just does too much. It performs error checks, it's responsible to execute all the 4 operations, it contains their implementations, it's responsible to check their results and to chain their execution in the right order;
-* It violates the [Dependency Inversion Principle][5], because there are dependencies between high-level and low-level components;
-* It has a horrible [Cyclomatic complexity][6]
-* It exhibits high coupling and low cohesion, which is exactly the opposite of [what is recommended][7];
-* It contains a lot of code duplication: the function `Succeeded()` is repeated in each branch; the structure of `if`/`else`s is replicated over and over; the assignment of `error` is duplicated.
-* It could have a pure functional nature, but it relies instead on state mutation, which makes reasoning about it not easy.
-* There's an empty `if` statement body, which might be confusing.
+* 이 코드는 [SOLID 원칙][2]의 일부분을 위반합니다. 코드의 변경 없이는 확장을 할 수 없기 때문에 [Open Closed Principle][3]에 위배됩니다. 예를 들어 새로운 연산을 추가하려면 새로운 `if`/`else` 구문을 추가해야합니다.
+* 이것은 또한 [Single Responsibility Principle][4]도 위반합니다. 너무 많은 일을 합니다. 오류 검사를 수행하고 4개의 작업을 모두 실행하고, 그것들의 구현도 포함하고 결과를 확인하고 올바른 순서로 실행을 연결해야합니다.
+* 이것은 [Dependency Inversion Principle][5]를 위반합니다. 높은 수준과 낮은 수준의 구성 요소간에 종속성이 있기 때문입니다.
+* 또한 끔찍한 [Cyclomatic complexity][6]를 가집니다.
+* 높은 결합과 낮은 응집력을 가지며 [권장 사항][7]과 정반대입니다.
+* 이것은 많은 코드 중복을 포함합니다; 함수 `Succeeded()`는 각 구문에 반복됩니다; `if`/`else`의 구조가 겹쳐있습니다; `error`의 할당이 중복되었습니다. 
+* 순수한 기능적 특성을 가질 수 있지만 대신 상태 변이에 의존하므로 추론이 쉽지 않습니다.
+* 혼란을 일으키는 비어있는 `if` 문이 있습니다.
 
-## Refactoring
-Let's see what could be done.<br/>
-Here I'm using a C# implementation, but similar steps can be performed with whatever language.<br/>
-I renamed some of the elements, as I believe honoring a naming convention is part of the refactoring.
+## 리팩토링
+무엇을 할 수 있을지 살펴봅시다.<br/>
+여기서는 C#으로 구현했지만 어떤 언어로든 유사한 단계를 수행할 수 있습니다.<br/>
+명명 규칙을 준수하는 것이 리팩토링의 일부라고 믿기 때문에 일부 요소의 이름을 변경했습니다.
 
 ```csharp
   internal class TestClass
@@ -112,10 +112,10 @@ v            {
 }
 ```
 
-For the sake of simplicity, I supposed each operation returns a string, and that the success or failure is based on an equality check on the string, but of course it could be whatever. In the next steps, it would be nice if the code is independent from the result validation logic.
+단순성을 위해 각 작업이 문자열을 반환하고 성공 또는 실패는 문자열에 대한 동등성 검사를 기반으로한다고 가정했습니다.( 물론 그럴 수도 있습니다) 다음 단계에서 코드가 결과 유효성 검사 논리와 독립적이면 좋을 것입니다.
 
-### Step 1
-It would be nice to start the refactoring with the support of some test harness.
+### 1 단계
+일부 테스트 장치를 사용해서 리팩토링을 시작하는 것이 좋습니다.
 
 ```csharp
 public class TestCase
@@ -137,11 +137,11 @@ public class TestCase
 }
 ```
 
-Our case is a trivial one, but being the quiz supposed to be a job interview question, I would not ignore it.
+우리의 경우는 사소한 문제이지만 면접 질문이어야하는 퀴즈이므로 무시하지 않을 것입니다.
 
 
-### Step 2
-The first refactoring could be getting rid of the mutable state: each if branch could just return the value, instead of mutating the variable `error`. Also, the name `error` is misleading, as it includes the success case. Let's just get rid of it:
+### 2 단계
+첫 번째 리팩토링은 변경 가능한 상태를 제거하는 것입니다. 각 if 분기는 변수 'error'를 변경하는 대신 값을 반환 할 수 있습니다. 또한 'error' 라는 이름은 성공 사례를 포함하므로 오해의 소지가 있습니다. 그냥 제거합시다.
 
 ```csharp
 HResult SomeFunction()
@@ -168,10 +168,10 @@ HResult SomeFunction()
 }
 ```
 
-We got rid of the empty `if` body, making in the meanwhile the code slightly easier to reason about.
+비어있는 `if` 문을 제거하여 코드를 추론하기가 약간 더 쉬워졌습니다.
 
-### Step 3
-If now we invert each `if` statement (the step suggested by Sergio)
+### 3 단계
+이제 각 `if` 문을 뒤집습니다. (Sergio가 제안한 단계)
 
 ```csharp
 internal HResult SomeFunction()
@@ -192,10 +192,10 @@ internal HResult SomeFunction()
 }
 ```
 
-we make it apparent that the code performs a chain of executions: if an operation succeeds, the next operation is invoked; otherwise, the chain is interrupted, with an error. The GOF [Chain of Responsibility Pattern][8] comes to mind. 
+코드가 일련의 실행을 수행함을 명백하게 합니다. 작업이 성공하면 다음 작업이 호출됩니다. 그렇지 않다면 체인은 중단되고 오류가 발생합니다. GOF [Chain of Responsibility Pattern][8]가 떠오릅니다.
 
-### Step 4
-We could move each operation to a separate class, and let our function receive a chain of operations to execute in a single shot. Each class would deal with its specific operation logic (honoring the Single Responsibility Principle).
+### 4 단계
+각 작업을 별도의 클래스로 이동하고 함수가 일련의 작업을 수신하여 한 번에 실행할 수 있습니다. 각 클래스는 특정 작업 로직을 다룹니다 (the Single Responsibility Principle 준수).
 
 ```csharp
 internal HResult SomeFunction()
@@ -218,13 +218,13 @@ internal HResult SomeFunction()
 }
 ```
 
-We got rid of the `if`s altogether (but one).
+우리는 'if'를 모두 제거했습니다.
 
 Notice how:
 
-* The interface `IOperation` has been introduced, which is a preliminary move to decouple the function from the operations, complying the with the Dependency Inversion Principle;
-* The list of operations can easily be injected into the class, using the [Dependency Injection][9].
-* The result validation logic has been moved to a separate class `Check`, injected into the main class (Dependency Inversion and Single Responsibility are satisfied).
+* 인터페이스 `IOperation`이 도입되었습니다. 이는 Dependency Inversion 원칙을 준수하여 작업에서 함수를 분리하기위한 예비 조치입니다.
+* 오퍼레이션 목록은 [Dependency Injection] [9]을 사용하여 클래스에 쉽게 삽입 할 수 있습니다.
+* 결과 검증 로직은 별도의 클래스 `Check`로 이동하여 메인 클래스에 삽입되었습니다 (Dependency Inversion and Single Responsibility 충족).
 
 ```csharp
 internal class SimpleStringCheck : IResultCheck
@@ -242,9 +242,9 @@ internal class SimpleStringCheck : IResultCheck
 
 ```
 
-We gained the ability to switch the check logic without modifying the main class (Open-Closed Principle).
+우리는 메인 클래스를 수정하지 않고 체크 로직을 전환 할 수있는 능력을 얻었습니다 (Open-Closed Principle).
 
-Each operation has been moved to a separate class, like:
+각 작업은 다음과 같은 별도의 클래스로 이동되었습니다.
 
 ```csharp
 internal class Operation1 : IOperation {
@@ -257,10 +257,10 @@ internal class Operation1 : IOperation {
 }
 ```
 
-Each operation knows its own error code. The function itself became independent from it.
+각 작업은 자체 오류 코드를 알고 있습니다. 기능 자체는 그것으로부터 독립되었습니다.
 
-### Step 5
-There is something more to refactor on the code
+### 5 단계
+코드를 리팩토링해야 할 것이 더 있습니다.
 
 ```csharp
 foreach (var operation in operations)
@@ -273,22 +273,22 @@ foreach (var operation in operations)
 }
 ```
 
-* First, it's not clear why the case `return HResult.Ok;` is handled as a special case: the chain could contain a terminating operation never failing and returning that value. This would allow us to get rid of that last `if`.
+* 첫째, `return HResult.Ok;`케이스가 특수한 경우로 처리되는 이유가 명확하지 않습니다. 체인에는 실패하지 않고 해당 값을 반환하는 종료 작업이 포함될 수 있습니다. 이렇게하면 마지막 `if`를 제거 할 수 있습니다.
 
-* Second, our function still has 2 responsibility: to visit the chain, and to check the result.
+* 둘째, 우리의 기능에는 여전히 두 가지 책임이 있습니다. 체인을 방문하고 결과를 확인하는 것입니다.
 
-An idea could be to encapsulate the operations into a real chain, so our function could reduce to something like:
+작업을 실제 체인으로 캡슐화하여 함수를 다음과 같이 줄일 수 있습니다.
 
 ```
 return operations.ChainTogether(_check).Execute();
 ```
 
-We have 2 options:
+2 가지 옵션이 있습니다.
 
-* Each operation knows the next operation, so starting from operation1 we could execute the whole chain with a single call;
-* Operations are kept unaware of being part of a chain; a separate, encapsulating structure adds to operations the ability to be executed in sequence.
+* 각 작업은 다음 작업을 알고 있으므로 operation1부터 시작하여 단일 호출로 전체 체인을 실행할 수 있습니다.
+* 운영은 체인의 일부임을 인식하지 못합니다. 별도의 캡슐화 구조는 작업에 순서대로 실행되는 기능을 추가합니다.
 
-I'm going on with the latter, but that's absolutely debatable. I'm introducing a class modelling a ring in a chain, moving the code away from our class:
+나는 후자에 대해 계속하고 있지만 그것은 절대적으로 논쟁의 여지가 있습니다. 체인에서 링을 모델링하는 클래스를 소개하고 코드를 클래스에서 멀리 이동합니다.
 
 ```csharp
 internal class OperationRing : IRing
@@ -315,9 +315,9 @@ internal class OperationRing : IRing
 }
 ```
 
-This class is responsible to execute an operation and to handle the execution to the next ring if it succeeded, or to interrupt the chain returning the right error code.
+이 클래스는 작업을 실행하고 성공한 경우 다음 링으로의 실행을 처리하거나 올바른 오류 코드를 반환하는 체인을 중단합니다.
 
-The chain will be terminated by a never-failing element:
+체인은 실패하지 않는 요소에 의해 종료됩니다.
 
 ```csharp
 internal class AlwaysSucceeds : IRing
@@ -326,7 +326,7 @@ internal class AlwaysSucceeds : IRing
 }
 ```
 
-Our original class reduces to:
+원본 클래스는 다음과 같이 줄었습니다.
 
 ```csharp
 internal class SomeClass
@@ -347,18 +347,18 @@ internal class SomeClass
 }
 ```
 
-In this case, `ChainTogether()` is a function implemented as an extension of `List<IOperation>`, as I don't believe that the chaining logic is responsibility of our class.
+이 경우`ChainTogether ()`는`List <IOperation>`의 확장으로 구현 된 함수입니다. 체인 로직이 우리 클래스의 책임이라고 생각하지 않기 때문입니다.
 
 
-## That's not the *right* answer
+## 이것은 *정답*이 아닙니다
 
-It's absolutely debatable that the responsibilities have been separated to the most appropriate classes. For example: 
+책임이 가장 적절한 클래스로 분리되었다는 것은 절대적으로 논쟁의 여지가 있습니다. 예로,
 
-* is chaining operations a task of our function? Or should it directly receive the chained structure? 
-* why the use of an enumerable? As Robert Martin wrote in "Refactoring: Improving the Design of Existing Code": enums are code smells and should be refactored to polymorphic classes;
-* how much is too much? Is the resulting design too complex? Does the complexity of the whole application need this level of modularisation?
+* 체인 작업이 우리 기능의 작업입니까? 아니면 체인 구조를 직접 받아야합니까?
+* 왜 열거형을 사용합니까? Robert Martin이 "Refactoring : Improving the Design of Existing Code"에서 썼듯이 : 열거 형은 코드의 냄새이며 다형성 클래스로 리팩토링되어야합니다.
+* 너무 많지 않나요? 결과 디자인이 왜 이리 복잡합니까? 전체 애플리케이션의 복잡성에 이러한 수준의 모듈화가 필요합니까?
 
-Therefore, I'm sure there are several other ways to refactor the original function.
+따라서 원래 함수를 리팩토링하는 다른 여러 방법이 있다고 확신합니다.
 
 
   [1]: https://stackoverflow.com/users/125816

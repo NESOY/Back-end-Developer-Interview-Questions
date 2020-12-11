@@ -2,15 +2,15 @@
 
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-1. Atomicity specifies that if any query in a single transaction fails, the whole transaction also fails and the database is left unchanged. By "fail" we mean not only application errors, but also external factors, like a power outage.
-2. Consistency specifies that each transaction has to lead the database from one valid state to another valid state. It has to maintain its invariants.
-3. Isolation specifies that each transaction has to be performed in isolation of each other. There are different levels of isolation:
-    * "read uncommitted" - no isolation - we can read uncommitted data from another transaction
-    * "read committed" - better isolation - we can read only committed data from other transactions. It leads to inconsistencies if a concurrent transaction has been started during another transaction, but has been finished earlier.
-    * "repeatable read" - usually "good enough" isolation - each query in the transaction sees only committed updates at the beginning of the transaction. It might be implemented with locks or versioning. Phantom reads might occur.
-    * "serializable" - the highest level of isolation - transactions are not executed concurrently, they are executed consecutively.
+1. 원자성은 단일 트랜잭션의 쿼리가 실패 할 경우 전체 트랜잭션도 실패하고 데이터베이스가 변경되지 않은 상태로 유지되도록 지정합니다. "실패"란 애플리케이션 오류뿐만 아니라 정전과 같은 외부 요인도 의미합니다.
+2. 일관성은 각 트랜잭션이 하나의 유효한 상태에서 다른 유효한 상태로 데이터베이스를 유도해야 함을 지정합니다. 불변성을 유지해야합니다.
+3. 격리는 각 트랜잭션이 서로 격리되어 수행되어야 함을 지정합니다. 다양한 수준의 격리가 있습니다.
+    * "read uncommitted" - 격리 없음 - 다른 트랜잭션에서 커밋되지 않은 데이터를 읽을 수 있습니다.
+    * "read committed" - 더 나은 격리 - 다른 트랜잭션에서 커밋된 데이터 만 읽을 수 있습니다. 다른 트랜잭션 중에 동시 트랜잭션이 시작되었지만 더 일찍 완료된 경우 불일치가 발생합니다.
+    * "repeatable read" - 일반적으로 "충분히 좋은" 격리 - 트랜잭션의 각 쿼리는 트랜잭션 시작시 커밋된 업데이트만 확인합니다. Lock 또는 버전 관리로 구현 될 수 있습니다. 가상 읽기가 발생할 수 있습니다.
+    * "serializable" - 최고 수준의 격리 - 트랜잭션이 동시에 실행되지 않고 연속적으로 실행됩니다.
     
-    The performance goes down with the level of isolation. That's why "repeatable read" is used most often.
-    Also, presented model is often more complicated in some db engines implementation. You can find the details here https://github.com/ept/hermitage
-4. Durability specifies that after a transaction has been committed, the data will remain even after power outage or crash.
+    격리의 수준에 따라 성능이 저하됩니다. 이것이 "repeatable read"가 자주 사용되는 이유입니다.
+    또한, 제시된 모델은 db 엔진 구현에 따라 종종 더 복잡해집니다. 자세한 내용은 [여기](https://github.com/ept/hermitage)서 찾을 수 있습니다.
+4. 내구성은 트랜잭션이 커밋 된 후 정전이나 충돌 후에도 데이터가 유지되도록 지정합니다.
 

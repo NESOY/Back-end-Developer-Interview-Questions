@@ -1,6 +1,6 @@
-# Schema Migrations
+# 스키마 마이그레이션
 
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-I would use migration scripts which would be tracked in the version control system. Each change to database schema would be a script ordered chronologically, e.g. they would be named `1_add_age_to_user`, `2_add_price_to_order`.<br/>
-I would also track in database which migration scripts were executed already. With setup like this, it would be easy to execute migration scripts automatically - in development environment on application start, and in CI - before deployment. 
+버전 제어 시스템에서 추적되는 마이그레이션 스크립트를 사용합니다. 데이터베이스 스키마에 대한 각 변경 사항은 시간순으로 정렬된 스크립트입니다. (예 : `1_add_age_to_user`, `2_add_price_to_order`로 이름이 지정됩니다. ) <br/>
+또한 마이그레이션 스크립트가 이미 실행된 데이터베이스를 추적합니다. 이와 같은 설정을 이용하면 마이그레이션 스크립트를 자동으로 실행하기 쉽습니다 - 응용 프로그램 시작 시 개발 환경 및 배포 전 CI

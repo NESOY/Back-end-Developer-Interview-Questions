@@ -1,6 +1,6 @@
-# Normalization
+# 정규화
 
 ## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-I think that database denormalization is needed only if we need to improve the performance of our queries, and the other optimizations (indexing, sql views) are not enough.
-We need to remember that the cost of database denormalization is to build and maintain tools for keeping our data consistent (e.g. crons).
+나는 데이터베이스 비정규화는 오직 우리의 쿼리의 성능을 향상시켜야하고 다른 최적화들(인덱싱, sql 뷰)로는 충분하지 않을 경우에만 필요하다고 생각합니다.
+우리는 데이터베이스의 비정규화의 비용은 데이터를 일관되게 유지하기 위한 도구를 구축하고 유지하는 것임을 기억해야한다.
